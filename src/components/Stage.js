@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import FilterList from './FilterList'
-
 const StyledStage = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -12,16 +10,16 @@ const StyledStage = styled.div`
     padding: 10px;
   }
   .BossType {
-    padding: 7px;
+    padding: 5px;
   }
   .MaterialFarm {
-    padding: 7px;
+    padding: 5px;
   }
   .EvoFarm {
-    padding: 7px;
+    padding: 5px;
   }
   .SUnitFarm {
-    padding: 7px;
+    padding: 5px;
   }
   .Title {
     font-weight: 500;
