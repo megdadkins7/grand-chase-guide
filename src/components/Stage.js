@@ -9,19 +9,19 @@ const StyledStage = styled.div`
   margin: 5px;
   padding: 5px;
   .StageNumber {
-    padding: 5px;
+    padding: 10px;
   }
   .BossType {
-    padding: 5px;
+    padding: 7px;
   }
   .MaterialFarm {
-    padding: 5px;
+    padding: 7px;
   }
   .EvoFarm {
-    padding: 5px;
+    padding: 7px;
   }
   .SUnitFarm {
-    padding: 5px;
+    padding: 7px;
   }
   .Title {
     font-weight: 500;
