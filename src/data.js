@@ -76,6 +76,17 @@ export const grandChaseData = [
   {stage: 'Challenge 22-9', boss: 'Assault', mats: 'enchant, runes, AOT', evos: 'mage', SUnit: 'none'}
 ]
 
-export const filterData = [
- 
+export const classData = [
+  {type: 'Assault'},
+  {type: 'Tank'},
+  {type: 'Ranger'},
+  {type: 'Mage'},
+  {type: 'Healer'},
+]
+
+export const matData = [
+  {mat: 'BOV'},
+  {mat: 'Enchants'},
+  {mat: 'Runes'},
+  {mat: 'AOT'}
 ]

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const StyledFilter = styled.div`
+const StyledMatFilter = styled.div`
   .Info {
     margin: 5px;
     color: #7D7D7D;
@@ -12,19 +12,19 @@ const StyledFilter = styled.div`
   }
 `;
 
-function Filter({ type }) {
+function matFilter({ material }) {
   return (
-    <StyledFilter>
-      <div className='Filters'>
+    <StyledMatFilter>
+      <div className='MatFilters'>
         <div className='FilterData'>
           <div className='Block'>
             <input type='checkbox' />
-            <label className='Info'>{type.type}</label>
+            <label className='Info'>{material.mat}</label>
           </div>
         </div>
       </div>
-    </StyledFilter>
+    </StyledMatFilter>
   )
 }
 
-export default Filter
+export default matFilter
