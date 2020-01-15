@@ -2,6 +2,7 @@ import React from 'react';
 
 import StageList from './components/StageList'
 import HeroList from './components/HeroList'
+import HeroBuild from './components/HeroBuild'
 
 import GlobalStyles from './styles/GlobalStyles'
 
@@ -11,6 +12,7 @@ function App() {
       <GlobalStyles />
       <StageList />
       <HeroList />
+      <HeroBuild />
     </>
   );
 }

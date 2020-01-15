@@ -119,3 +119,32 @@ export const heroes = [
   {name: "Dark Gaian", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/0/0f/Grand_Chase_for_kakao_Dark_Gaian_02.png/revision/latest?cb=20190823115505"},
   {name: "Arsad", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/aa/Grand_Chase_for_kakao_Arsad_02.png/revision/latest?cb=20190823104047"}
 ]
+
+export const heroBuilds= {
+  Elesis: {id:'elesis', name: 'Elesis', type: 'Assault', set: 'Power of Anger (blue)', limitBreak: 'S2 & Passive', accessories: 'Solar Ring, Chasm Necklace, Earrings of Order', traits:'Crit, CDR, SDI (4 points in each)', sockets:'Physical Attack, Crit, SDI', chaser05:'5/5 Elevated Power', chaser10:'5/5 Divine Protection', chaser15: '5/5 Fate', chaser20:'5/5 Long Life', chaser25:'3/3 Chaotic Judgement Part 1 & 2/2 Chaotic Judgement Part 2'},
+  Lire: {id:'lire', name: 'Lire', set: 'Vows of Violence (green)', limitBreak: 'S2 & Passive', accessories: '', traits:'', sockets:'', chaser:''},
+  Arme: {id:'arme', name: 'Arme', set: 'Dagger of Passion (orange)', limitBreak: 'Passive & S2', accessories: '', traits:'', sockets:'', chaser:''},
+  Lass: {id:'lass', name: 'Lass', set: 'Dagger of Passion (orange)', limitBreak: '?', accessories: '', traits:'', sockets:'', chaser:''},
+  Ryan: {id:'ryan', name: 'Ryan', set: 'Power of Anger (blue)', limitBreak: 'S1 & Passive', accessories: '', traits:'', sockets:'', chaser:''},
+  Ronan: {id:'ronan', name: 'Ronan', set: 'Power of Anger (blue)', limitBreak: 'S2 & Passive', accessories: '', traits:'', sockets:'', chaser:''},
+  Amy:{id:'amy', name: 'Amy', set: 'Vows of Violence (green)', limitBreak: 'S1 & Passive', accessories: '', traits:'', sockets:'', chaser:''},
+  Jin: {id:'jin', name: 'Jin', set: 'Dagger of Passion (orange)', limitBreak: 'S1 & S2', accessories: '', traits:'', sockets:'', chaser:''},
+  Sieghart: {id:'sieghart', name: 'Sieghart', set: 'Power of Anger (blue)', limitBreak: 'Passive & S1', accessories: '', traits:'', sockets:'', chaser:''},
+  Mari: {id:'mari', name: 'Mari', set: 'Vows of Violence (green)', limitBreak: '?', accessories: '', traits:'', sockets:'', chaser:''},
+  Dio: {id:'dio', name: 'Dio', set: 'Power of Anger (blue)', limitBreak: 'S1 & Passive', accessories: '', traits:'', sockets:'', chaser:''},
+  Zero: {id:'zero', name: 'Zero', set: 'Dagger of Passion (orange)', limitBreak: 'S1 & Passive', accessories: '', traits:'', sockets:'', chaser:''},
+  Ley: {id:'ley', name: 'Ley', set: 'Vows of Violence (green)', limitBreak: 'S2 & Passive', accessories: '', traits:'', sockets:'', chaser:''},
+  Rufus: {id:'rufus', name: 'Rufus', set: 'Vows of Violence (green)', limitBreak: 'Passive & S1', accessories: '', traits:'', sockets:'', chaser:''},
+  Rin: {id:'rin', name: 'Rin', set: 'Power of Anger (blue)', limitBreak: 'S1 & S2', accessories: '', traits:'', sockets:'', chaser:''},
+  Asin: {id:'asin', name: 'Asin', set: 'Power of Anger (blue)', limitBreak: 'S1 & S2', accessories: '', traits:'', sockets:'', chaser:''},
+  Lime: {id:'lime', name: 'Lime', set: 'Power of Anger (blue)', limitBreak: 'Passive & S2', accessories: '', traits:'', sockets:'', chaser:''},
+  Edel: {id:'edel', name: 'Edel', set: 'Vows of Violence (green)', limitBreak: 'S2 & Passive', accessories: '', traits:'', sockets:'', chaser:''},
+  Veigas: {id:'veigas', name: 'Veigas', set: 'Dagger of Passion (orange)', limitBreak: 'S1 & Passive', accessories: '', traits:'', sockets:'', chaser:''},
+  Serdin: {id:'serdin', name: 'Serdin', set: 'Vows of Violence (green)', limitBreak: 'S1 & S2', accessories: '', traits:'', sockets:'', chaser:''},
+  Kanavan: {id:'kanavan', name: 'Kanavan', set: 'Vows of Violence (green) or Dagger of Passion (orange)', limitBreak: 'S2 & S1', accessories: '', traits:'', sockets:'', chaser:''},
+  Werner: {id:'werner', name: 'Werner', set: 'Spirit of Luck (pink)', limitBreak: 'Passive & S2', accessories: '', traits:'', sockets:'', chaser:''},
+  Grandiel: {id:'grandiel', name: 'Grandiel', set: 'Power of Anger (blue)', limitBreak: 'S2 & S1', accessories: '', traits:'', sockets:'', chaser:''},
+  Nelia: {id:'nelia', name: 'Nelia', set: 'Dagger of Passion (orange)', limitBreak: 'S2 & Passive', accessories: '', traits:'', sockets:'', chaser:''},
+  Gaian: {id:'darkGaian', name: 'Dark Gaian', set: 'Dagger of Passion (orange)', limitBreak: '?', accessories: '', traits:'', sockets:'', chaser:''},
+  Arsad: {id:'arsad', name: 'Arsad', set: 'Power of Anger (blue)', limitBreak: '?', accessories: '', traits:'', sockets:'', chaser:''},
+}
