@@ -38,11 +38,11 @@ function HeroBuild() {
         <span className='Title'>Enchants:</span><span className='Info'>{heroBuilds.Elesis.sockets}</span>
       </div>
       <div className='HeroChaser'>
-        <div><span className='Title'>CL05:</span><span className='Info'>{heroBuilds.Elesis.chaser05}</span></div>
-        <div><span className='Title'>CL10:</span><span className='Info'>{heroBuilds.Elesis.chaser10}</span></div>
-        <div><span className='Title'>CL15:</span><span className='Info'>{heroBuilds.Elesis.chaser15}</span></div>
-        <div><span className='Title'>CL20:</span><span className='Info'>{heroBuilds.Elesis.chaser20}</span></div>
-        <div><span className='Title'>CL25:</span><span className='Info'>{heroBuilds.Elesis.chaser25}</span></div>
+        <div><span className='Title'>Chaser Level 05:</span><span className='Info'>{heroBuilds.Elesis.chaser05}</span></div>
+        <div><span className='Title'>Chaser Level 10:</span><span className='Info'>{heroBuilds.Elesis.chaser10}</span></div>
+        <div><span className='Title'>Chaser Level 15:</span><span className='Info'>{heroBuilds.Elesis.chaser15}</span></div>
+        <div><span className='Title'>Chaser Level 20:</span><span className='Info'>{heroBuilds.Elesis.chaser20}</span></div>
+        <div><span className='Title'>Chaser Level 25:</span><span className='Info'>{heroBuilds.Elesis.chaser25}</span></div>
       </div>
     </StyledHeroBuild>
   )
