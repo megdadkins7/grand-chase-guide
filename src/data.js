@@ -495,7 +495,7 @@ export const heroBuilds= {
     chaser10: '',
     chaser15: '',
     chaser20: '',
-    chaser25: '',
+    chaser25: '3/3 Punisher Part 1 & 2/2 Punisher Part 2',
   },
   Gaian: {
     id:'darkGaian', 
