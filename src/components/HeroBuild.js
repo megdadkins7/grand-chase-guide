@@ -14,6 +14,11 @@ const StyledHeroBuild = styled.div`
     color: #7D7D7D;
     padding-left: 5px;
   }
+  img {
+    margin: 10px;
+    height: 400px;
+    width: auto;
+  }
 `;
 
 function HeroBuild() {
@@ -25,6 +30,9 @@ function HeroBuild() {
 
   return (
     <StyledHeroBuild>
+      <div className='HeroPic'>
+        <img src={build.pic} alt='' />
+      </div>
       <div className='HeroName'>
         <span className='Title'>Hero:</span><span className='Info'>{build.name}</span>
       </div>

@@ -11,7 +11,7 @@ const StyledHero = styled.div`
     justify-content: center;
     flex-direction: column;
   }
-  a {
+  span {
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -28,8 +28,8 @@ function Hero({ name, pic }) {
   return (
     <StyledHero>
       <div className='HeroImage'>
-        <img src={pic}/>
-        <a href='/'>{name}</a>
+        <img src={pic} alt='' />
+        <span>{name}</span>
       </div>  
     </StyledHero>
   )

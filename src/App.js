@@ -7,9 +7,6 @@ import {
   Link
 } from "react-router-dom";
 
-// data
-import { heroIds } from './data';
-
 // components
 import StageList from './components/StageList'
 import HeroList from './components/HeroList'
@@ -24,6 +21,7 @@ const StyledNav = styled.div`
     font-size: 1.7rem;
     margin: 3px;
     padding-right: 7px;
+    color: #232323;
   }
   margin-bottom: 10px;
 `
@@ -35,7 +33,7 @@ function App() {
       <StyledNav>
         <nav>
           <Link className='Nav' to='/'>Home</Link>
-          <Link className='Nav' to='/stages'>Stages</Link>
+          <Link className='Nav' to='/stages'>Boss Stages</Link>
         </nav>
       </StyledNav>
       <Switch>
