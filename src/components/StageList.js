@@ -1,10 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
+//data
+import { grandChaseData } from '../data'
+
+//components
 import Stage from './Stage'
 import FilterList from './FilterList'
-
-import { grandChaseData } from '../data'
 
 const StyledStageList = styled.div`
   display: flex;

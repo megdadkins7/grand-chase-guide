@@ -92,37 +92,39 @@ export const matData = [
 ]
 
 export const heroes = [
-  {name: "Elesis", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/5/5f/Grand_Chase_for_kakao_Elesis_03.png/revision/latest?cb=20190907013422"},
-  {name: "Lire", type: "ranger", pic: "https://vignette.wikia.nocookie.net/grandchase/images/6/64/Grand_Chase_for_kakao_Lire_Eryuell_03.png/revision/latest?cb=20190902125444"},
-  {name: "Arme", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/9b/Grand_Chase_for_kakao_Arme_03.png/revision/latest?cb=20190914124519"},
-  {name: "Lass", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/3/3b/Grand_Chase_for_kakao_Lass_03.png/revision/latest?cb=20190319062942"},
-  {name: "Ryan", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/ac/Grand_Chase_for_kakao_Ryan_03.png/revision/latest?cb=20181211081423"},
-  {name: "Ronan", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/b/b6/Grand_Chase_for_kakao_Ronan_03.png/revision/latest?cb=20190914143527"},
-  {name: "Amy", type: "healer", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a6/Grand_Chase_for_kakao_Amy_03.png/revision/latest?cb=20181106062520"},
-  {name: "Jin", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/f/f2/Grand_Chase_for_kakao_Jin_03.png/revision/latest?cb=20190718025204"},
-  {name: "Sieghart", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/3/3e/Grand_Chase_for_kakao_Sieghart_03.png/revision/latest?cb=20190319063051"},
-  {name: "Mari", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a1/Grand_Chase_for_kakao_Mari_03.png/revision/latest?cb=20190914144435"},
-  {name: "Dio", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/c/cb/Grand_Chase_for_kakao_Dio_03.png/revision/latest?cb=20190718025258"},
-  {name: "Zero", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/98/Grand_Chase_for_kakao_Zero_03.png/revision/latest?cb=20190718025348"},
-  {name: "Ley", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/4/4a/Grand_Chase_for_kakao_Ley_03.png/revision/latest?cb=20190409071206"},
-  {name: "Rufus", type: "ranger", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/90/Grand_Chase_for_kakao_Rufus_03.png/revision/latest?cb=20181211081231"},
-  {name: "Rin", type: "healer", pic: "https://vignette.wikia.nocookie.net/grandchase/images/0/00/Grand_Chase_for_kakao_Rin_03.png/revision/latest?cb=20190115024445"},
-  {name: "Asin", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/2/27/Grand_Chase_for_kakao_Asin_03.png/revision/latest?cb=20190813110551"},
-  {name: "Lime", type: "healer", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/94/Grand_Chase_for_kakao_Lime_03.png/revision/latest?cb=20190806100745"},
-  {name: "Edel", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/ee/Grand_Chase_for_kakao_Edel_03.png/revision/latest?cb=20190718025428"},
-  {name: "Veigas", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/e9/Grand_Chase_for_kakao_Veigas_03.png/revision/latest?cb=20190707043615"},
-  {name: "Serdin", type: "healer", pic: "https://vignette.wikia.nocookie.net/grandchase/images/f/f0/Grand_Chase_for_kakao_Scarde_03.png/revision/latest?cb=20190416040937"},
-  {name: "Kanavan", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/3/3c/Grand_Chase_for_kakao_Esnar_03.png/revision/latest?cb=20190521121207"},
-  {name: "Werner", type: "ranger", pic: "https://vignette.wikia.nocookie.net/grandchase/images/4/48/Grand_Chase_for_kakao_Werner_03.png/revision/latest?cb=20190718025510"},
-  {name: "Grandiel", type: "healer", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a8/Grand_Chase_for_kakao_Kassias_Grandiel_03.png/revision/latest?cb=20190718042310"},
-  {name: "Nelia", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/ed/Grand_Chase_for_kakao_Nellia_03.png/revision/latest?cb=20190910164429"},
-  {name: "Io", type: "ranger", pic: "https://vignette.wikia.nocookie.net/grandchase/images/c/cc/Grand_Chase_for_kakao_Io_02.png/revision/latest/scale-to-width-down/620?cb=20200110065117"},
-  {name: "Dark Gaian", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/0/0f/Grand_Chase_for_kakao_Dark_Gaian_02.png/revision/latest?cb=20190823115505"},
-  {name: "Arsad", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/aa/Grand_Chase_for_kakao_Arsad_02.png/revision/latest?cb=20190823104047"}
+  { id: "elesis", name: "Elesis", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/5/5f/Grand_Chase_for_kakao_Elesis_03.png/revision/latest?cb=20190907013422"},
+  { id: "lire", name: "Lire", type: "ranger", pic: "https://vignette.wikia.nocookie.net/grandchase/images/6/64/Grand_Chase_for_kakao_Lire_Eryuell_03.png/revision/latest?cb=20190902125444"},
+  { id: "arme", name: "Arme", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/9b/Grand_Chase_for_kakao_Arme_03.png/revision/latest?cb=20190914124519"},
+  { id: "lass", name: "Lass", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/3/3b/Grand_Chase_for_kakao_Lass_03.png/revision/latest?cb=20190319062942"},
+  { id: "ryan", name: "Ryan", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/ac/Grand_Chase_for_kakao_Ryan_03.png/revision/latest?cb=20181211081423"},
+  { id: "ronan", name: "Ronan", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/b/b6/Grand_Chase_for_kakao_Ronan_03.png/revision/latest?cb=20190914143527"},
+  { id: "amy", name: "Amy", type: "healer", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a6/Grand_Chase_for_kakao_Amy_03.png/revision/latest?cb=20181106062520"},
+  { id: "jin", name: "Jin", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/f/f2/Grand_Chase_for_kakao_Jin_03.png/revision/latest?cb=20190718025204"},
+  { id: "sieghart", name: "Sieghart", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/3/3e/Grand_Chase_for_kakao_Sieghart_03.png/revision/latest?cb=20190319063051"},
+  { id: "mari", name: "Mari", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a1/Grand_Chase_for_kakao_Mari_03.png/revision/latest?cb=20190914144435"},
+  { id: "dio", name: "Dio", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/c/cb/Grand_Chase_for_kakao_Dio_03.png/revision/latest?cb=20190718025258"},
+  { id: "zero", name: "Zero", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/98/Grand_Chase_for_kakao_Zero_03.png/revision/latest?cb=20190718025348"},
+  { id: "ley", name: "Ley", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/4/4a/Grand_Chase_for_kakao_Ley_03.png/revision/latest?cb=20190409071206"},
+  { id: "rufus", name: "Rufus", type: "ranger", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/90/Grand_Chase_for_kakao_Rufus_03.png/revision/latest?cb=20181211081231"},
+  { id: "rin", name: "Rin", type: "healer", pic: "https://vignette.wikia.nocookie.net/grandchase/images/0/00/Grand_Chase_for_kakao_Rin_03.png/revision/latest?cb=20190115024445"},
+  { id: "asin", name: "Asin", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/2/27/Grand_Chase_for_kakao_Asin_03.png/revision/latest?cb=20190813110551"},
+  { id: "lime", name: "Lime", type: "healer", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/94/Grand_Chase_for_kakao_Lime_03.png/revision/latest?cb=20190806100745"},
+  { id: "edel", name: "Edel", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/ee/Grand_Chase_for_kakao_Edel_03.png/revision/latest?cb=20190718025428"},
+  { id: "veigas", name: "Veigas", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/e9/Grand_Chase_for_kakao_Veigas_03.png/revision/latest?cb=20190707043615"},
+  { id: "serdin", name: "Serdin", type: "healer", pic: "https://vignette.wikia.nocookie.net/grandchase/images/f/f0/Grand_Chase_for_kakao_Scarde_03.png/revision/latest?cb=20190416040937"},
+  { id: "kanavan", name: "Kanavan", type: "assault", pic: "https://vignette.wikia.nocookie.net/grandchase/images/3/3c/Grand_Chase_for_kakao_Esnar_03.png/revision/latest?cb=20190521121207"},
+  { id: "werner", name: "Werner", type: "ranger", pic: "https://vignette.wikia.nocookie.net/grandchase/images/4/48/Grand_Chase_for_kakao_Werner_03.png/revision/latest?cb=20190718025510"},
+  { id: "grandiel", name: "Grandiel", type: "healer", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a8/Grand_Chase_for_kakao_Kassias_Grandiel_03.png/revision/latest?cb=20190718042310"},
+  { id: "nelia", name: "Nelia", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/ed/Grand_Chase_for_kakao_Nellia_03.png/revision/latest?cb=20190910164429"},
+  { id: "io", name: "Io", type: "ranger", pic: "https://vignette.wikia.nocookie.net/grandchase/images/c/cc/Grand_Chase_for_kakao_Io_02.png/revision/latest/scale-to-width-down/620?cb=20200110065117"},
+  { id: "gaian", name: "Dark Gaian", type: "mage", pic: "https://vignette.wikia.nocookie.net/grandchase/images/0/0f/Grand_Chase_for_kakao_Dark_Gaian_02.png/revision/latest?cb=20190823115505"},
+  { id: "arsad", name: "Arsad", type: "tank", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/aa/Grand_Chase_for_kakao_Arsad_02.png/revision/latest?cb=20190823104047"}
 ]
 
+
+
 export const heroBuilds= {
-  Elesis: {
+  elesis: {
     id:'elesis', 
     name: 'Elesis', 
     type: 'Assault', 
@@ -130,14 +132,14 @@ export const heroBuilds= {
     limitBreak: 'S2 & Passive', 
     accessories: 'Solar Ring, Chasm Necklace, Earrings of Order', 
     traits:'Crit, CDR, SDI (4 points in each)', 
-    sockets:'Physical Attack, Crit, SDI', 
+    sockets:'Physical Attack, Crit, SADI', 
     chaser05:'5/5 Elevated Power', 
     chaser10:'5/5 Divine Protection', 
     chaser15: '5/5 Fate', 
     chaser20:'5/5 Long Life', 
     chaser25:'3/3 Chaotic Judgement Part 1 & 2/2 Chaotic Judgement Part 2'
   },
-  Lire: {
+  lire: {
     id:'lire', 
     name: 'Lire', 
     type: 'Ranger',
@@ -152,7 +154,7 @@ export const heroBuilds= {
     chaser20: '5/5 Impulse',
     chaser25: '3/3 Storm Arrow Part 1 & 2/2 Storm Arrow Part 2',
   },
-  Arme: {
+  arme: {
     id:'arme', 
     name: 'Arme', 
     type: 'Mage',
@@ -160,14 +162,14 @@ export const heroBuilds= {
     limitBreak: 'Passive & S2', 
     accessories: 'Solar Ring, Lava Necklace, Earrings of Order', 
     traits:'Crit, CDR, SDI (4 points in each)', 
-    sockets:'Magic attack, Crit/CDR, SADI', 
+    sockets:'Magic Attack, Crit/CDR, SADI', 
     chaser05:'?',
     chaser10: '?',
     chaser15: '?',
     chaser20: '?',
     chaser25: '3/3 Lightning Bolt Part 1 & 2/2 Lightning Bolt Part 2',
   },
-  Lass: {
+  lass: {
     id:'lass', 
     name: 'Lass', 
     type: 'Assault',
@@ -182,7 +184,7 @@ export const heroBuilds= {
     chaser20: '?',
     chaser25: '3/3 Shadow Stranger Part 1 & 2/2 Shadow Stranger Part 2',
   },
-  Ryan: {
+  ryan: {
     id:'ryan', 
     name: 'Ryan', 
     type: 'Tank',
@@ -197,7 +199,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Ronan: {
+  ronan: {
     id:'ronan', 
     name: 'Ronan', 
     type: 'Tank',
@@ -212,7 +214,7 @@ export const heroBuilds= {
     chaser20: '?',
     chaser25: '3/3 Erudons Sword Part 1 & 2/2 Erudons Sword Part 2',
   },
-  Amy:{
+  amy:{
     id:'amy', 
     name: 'Amy', 
     type: 'Healer',
@@ -227,7 +229,7 @@ export const heroBuilds= {
     chaser20: '?',
     chaser25: '3/3 Fan Service Part 1 & 2/2 Fan Service Part 2',
   },
-  Jin: {
+  jin: {
     id:'jin', 
     name: 'Jin', 
     type: 'Tank',
@@ -242,7 +244,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Sieghart: {
+  sieghart: {
     id:'sieghart', 
     name: 'Sieghart', 
     type: 'Assault',
@@ -257,7 +259,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Mari: {
+  mari: {
     id:'mari', 
     name: 'Mari', 
     type: 'Mage',
@@ -266,13 +268,13 @@ export const heroBuilds= {
     accessories: 'Gale Ring, Lava Necklace, Earrings of Gust', 
     traits:'Crit, BASI, BADI (4 points in each)', 
     sockets:'Magic Attack, BASI, SADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Prayer of Blessing',
-    chaser15: '5/5 Fate',
-    chaser20: '5/5 Impulse',
+    chaser05:'',
+    chaser10: '',
+    chaser15: '',
+    chaser20: '',
     chaser25: '3/3 Deadly Test Part 1 & 2/2 Deadly Test Part 2',
   },
-  Dio: {
+  dio: {
     id:'dio', 
     name: 'Dio',
     type: 'Assault', 
@@ -287,7 +289,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Zero: {
+  zero: {
     id:'zero', 
     name: 'Zero', 
     type: 'Tank',
@@ -302,7 +304,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Ley: {
+  ley: {
     id:'ley', 
     name: 'Ley', 
     type: 'Mage',
@@ -317,12 +319,12 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Rufus: {
+  rufus: {
     id:'rufus', 
     name: 'Rufus',
     type: 'Ranger', 
     set: 'Vows of Violence (green)', 
-    limitBreak: 'Passive & S1', 
+    limitBreak: 'S1 & S2', 
     accessories: 'Gale Ring, Lava Necklace, Earrings of Gust', 
     traits:'Crit, BASI, BADI (4 points in each)', 
     sockets:'Physical Attack, BASI/Crit, BADI', 
@@ -332,7 +334,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Rin: {
+  rin: {
     id:'rin', 
     name: 'Rin', 
     type: 'Healer',
@@ -341,13 +343,13 @@ export const heroBuilds= {
     accessories: 'Solar Ring, Chasm Necklace, Earrings of Order', 
     traits:'Crit, CDR, SADI (4 points in each)', 
     sockets:'Max Health, CDR/Crit, SADR/BADR', 
-    chaser05:'5/5 Long Life',
-    chaser10: '5/5 Breath of Life',
-    chaser15: '5/5 Impulse',
-    chaser20: '5/5 Soul Healer',
+    chaser05:'',
+    chaser10: '',
+    chaser15: '',
+    chaser20: '',
     chaser25: '3/3 Chaotic Wind Part 1 & 2/2 Chaotic Wind Part 2',
   },
-  Asin: {
+  asin: {
     id:'asin', 
     name: 'Asin', 
     type: 'Tank',
@@ -362,7 +364,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Lime: {
+  lime: {
     id:'lime', 
     name: 'Lime', 
     type: 'Healer',
@@ -377,7 +379,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Edel: {
+  edel: {
     id:'edel', 
     name: 'Edel', 
     type: 'Assault',
@@ -392,22 +394,22 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Veigas: {
+  veigas: {
     id:'veigas', 
     name: 'Veigas', 
     type: 'Mage',
     set: 'Dagger of Passion (orange)', 
     limitBreak: 'S1 & Passive', 
     accessories: 'Solar Ring, Lava Necklace, Earrings of Order', 
-    traits:'Crit, CDR, SADI', 
-    sockets:'Crit, CDR, SADI (4 points in each)', 
+    traits:'Crit, CDR, SADI (4 points in each)', 
+    sockets:'Magic Attack, Crit/CDR, SADI', 
     chaser05:'',
     chaser10: '',
     chaser15: '',
     chaser20: '',
     chaser25: '',
   },
-  Serdin: {
+  serdin: {
     id:'serdin', 
     name: 'Serdin', 
     type: 'Healer',
@@ -422,7 +424,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Kanavan: {
+  kanavan: {
     id:'kanavan', 
     name: 'Kanavan', 
     type: 'Assault',
@@ -437,7 +439,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Werner: {
+  werner: {
     id:'werner', 
     name: 'Werner', 
     type: 'Ranger',
@@ -452,7 +454,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Grandiel: {
+  grandiel: {
     id:'grandiel', 
     name: 'Grandiel', 
     type: 'Healer',
@@ -467,7 +469,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Nelia: {
+  nelia: {
     id:'nelia', 
     name: 'Nelia', 
     type: 'Mage',
@@ -482,7 +484,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Io: {
+  io: {
     id:'io',
     name:'Io',
     type: 'Ranger',
@@ -497,7 +499,7 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '3/3 Punisher Part 1 & 2/2 Punisher Part 2',
   },
-  Gaian: {
+  gaian: {
     id:'darkGaian', 
     name: 'Dark Gaian', 
     type: 'Mage',
@@ -512,14 +514,14 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
   },
-  Arsad: {
+  arsad: {
     id:'arsad', 
     name: 'Arsad', 
     type: 'Tank',
     set: 'Power of Anger (blue)', 
     limitBreak: 'N/A', 
     accessories: 'Glacial Ring, Chasm Necklace, Earrings of Order', 
-    traits:'CDR, BADR, SADR', 
+    traits:'CDR, BADR, SADR (4 points in each)', 
     sockets:'Max Health, CDR, SADR', 
     chaser05:'',
     chaser10: '',

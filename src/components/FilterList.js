@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
+//data
 import { classData, matData } from '../data'
 
+//components
 import Filter from './Filter'
 import MatFilter from './MatFilter'
 
