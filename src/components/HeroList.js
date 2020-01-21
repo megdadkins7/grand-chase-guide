@@ -1,8 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
+//data
 import { heroes } from '../data'
 
+//components
 import Hero from './Hero'
 
 const StyledHeroList = styled.div`
@@ -20,8 +23,11 @@ function HeroList() {
   return (
     <StyledHeroList>
       <div className='HeroContainer'>
-        {heroes.map((hero, i) => (
-          <Hero key={`${heroes.name}${i}`} {...hero} />
+        {heroes.map(hero => (
+          <Link key={hero.id} to={`/hero/${hero.id}`}>
+            <Hero {...hero} />
+          </Link>
+
         ))}
       </div>
     </StyledHeroList>
