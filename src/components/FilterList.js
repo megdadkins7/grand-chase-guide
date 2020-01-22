@@ -71,3 +71,31 @@ function FilterList() {
 }
 
 export default FilterList
+
+/*
+{products.filter(
+  ({ category }) =>
+    displayCategory === category || displayCategory === "all"
+  )
+  .map(({ category, name }) => (
+  <ProductItem
+    key={`ProductItems-${name}`}
+    category={category}
+    name={name}
+  />
+))}
+constructor(props) {
+  super(props);
+  this.state = {
+    displayCategory: "all",
+    products: props.products,
+    productCategories: props.productCategories
+  };
+  this.setCategory = this.setCategory.bind(this);
+}
+setCategory(category) {
+  this.setState({
+    displayCategory: category
+  });
+}
+*/
