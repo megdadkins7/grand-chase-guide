@@ -98,4 +98,8 @@ setCategory(category) {
     displayCategory: category
   });
 }
+
+const [category, setCategory] = useState({
+  ...
+})
 */

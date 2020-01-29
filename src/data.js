@@ -116,7 +116,7 @@ export const heroes = [
   { id: "werner", name: "Werner", pic: "https://vignette.wikia.nocookie.net/grandchase/images/4/48/Grand_Chase_for_kakao_Werner_03.png/revision/latest?cb=20190718025510"},
   { id: "grandiel", name: "Grandiel", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a8/Grand_Chase_for_kakao_Kassias_Grandiel_03.png/revision/latest?cb=20190718042310"},
   { id: "nelia", name: "Nelia", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/ed/Grand_Chase_for_kakao_Nellia_03.png/revision/latest?cb=20190910164429"},
-  { id: "io", name: "Io", pic: "https://vignette.wikia.nocookie.net/grandchase/images/2/24/LB_heavenly_judge.png"},
+  { id: "io", name: "Io", pic: "https://vignette.wikia.nocookie.net/grandchase/images/2/2a/Grand_Chase_for_kakao_Io_03.png/revision/latest/scale-to-width-down/620?cb=20200123225610"},
   { id: "gaian", name: "Dark Gaian", pic: "https://vignette.wikia.nocookie.net/grandchase/images/0/0f/Grand_Chase_for_kakao_Dark_Gaian_02.png/revision/latest?cb=20190823115505"},
   { id: "arsad", name: "Arsad", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/aa/Grand_Chase_for_kakao_Arsad_02.png/revision/latest?cb=20190823104047"}
 ]
@@ -512,8 +512,8 @@ export const heroBuilds= {
     id:'io',
     name:'Io',
     type: 'Ranger',
-    set: 'Vows of Violence (green)',
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/2/24/LB_heavenly_judge.png",
+    set: 'Power of Anger (blue) or Vows of Violence (green)',
+    pic: "https://vignette.wikia.nocookie.net/grandchase/images/2/2a/Grand_Chase_for_kakao_Io_03.png/revision/latest/scale-to-width-down/620?cb=20200123225610",
     limitBreak: 'S1 & S2', 
     accessories: 'Gale Ring, Chasm Necklace, Earrings of Gust', 
     traits:'BASI, BADI, CDR (4 points in each)', 
