@@ -15,6 +15,8 @@ const StyledFilterList = styled.div`
   }
 `;
 
+//use filter on list of grandChaseData.boss or .mats or .evos or .sUnit and show only what is checked === true
+
 function FilterList() {
   return (
     <StyledFilterList>
@@ -73,33 +75,28 @@ function FilterList() {
 export default FilterList
 
 /*
-{products.filter(
-  ({ category }) =>
-    displayCategory === category || displayCategory === "all"
-  )
-  .map(({ category, name }) => (
-  <ProductItem
-    key={`ProductItems-${name}`}
-    category={category}
-    name={name}
-  />
-))}
-constructor(props) {
-  super(props);
-  this.state = {
-    displayCategory: "all",
-    products: props.products,
-    productCategories: props.productCategories
-  };
-  this.setCategory = this.setCategory.bind(this);
-}
-setCategory(category) {
-  this.setState({
-    displayCategory: category
+const toggleToDo = toDoId => {
+  const newToDos = toDos.map(toDo => {
+    if (toDo.id !== toDoId) return toDo;
+    return {
+      ...toDo,
+      done: !toDo.done,
+    };
   });
-}
+  setToDos(newToDos);
+};
 
-const [category, setCategory] = useState({
-  ...
-})
+<Checkbox
+  id={toDo.id}
+  isOn={toDo.done}
+  handleToggle={() => toggleToDo(toDo.id)}
+/>
+
+<input
+  type="checkbox"
+  style={{ backgroundColor: isOn && '#51E3A4' }}
+  checked={isOn}
+  onChange={handleToggle}
+  className="ToDoComplete"
+/>
 */
