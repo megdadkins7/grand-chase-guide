@@ -16,7 +16,9 @@ function Filter({ type }) {
   return (
     <StyledFilter>
       <div className='Block'>
-        <input type='checkbox' />
+        <input 
+          type='checkbox'
+        />
         <label className='Info'>{type.type}</label>
       </div>
     </StyledFilter>

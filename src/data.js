@@ -77,11 +77,11 @@ export const grandChaseData = [
 ]
 
 export const classData = [
-  {type: 'Assault'},
-  {type: 'Tank'},
-  {type: 'Ranger'},
-  {type: 'Mage'},
-  {type: 'Healer'},
+  {type: 'Assault'}, 
+  {type: 'Tank'}, 
+  {type: 'Ranger'}, 
+  {type: 'Mage'}, 
+  {type: 'Healer'}
 ]
 
 export const matData = [

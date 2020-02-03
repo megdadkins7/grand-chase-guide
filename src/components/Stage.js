@@ -45,7 +45,7 @@ function Stage({ stage }) {
         <span className='Title'>Evo Stones: </span><span className='Info'>{stage.evos}</span>
       </div>
       <div className='SUnitFarm'>
-        <span className='Title'>S Units: </span><span className='Info'>{stage.SUnit}</span>
+        <span className='Title'>S Units: </span><span className='Info'>{stage.sUnit}</span>
       </div>
     </StyledStage>
   )

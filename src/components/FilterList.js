@@ -15,9 +15,8 @@ const StyledFilterList = styled.div`
   }
 `;
 
-//use filter on list of grandChaseData.boss or .mats or .evos or .sUnit and show only what is checked === true
+function FilterList({ data, filters, onFiltersChange }) {
 
-function FilterList() {
   return (
     <StyledFilterList>
       <div className='Title'>Evos:</div>
@@ -73,30 +72,3 @@ function FilterList() {
 }
 
 export default FilterList
-
-/*
-const toggleToDo = toDoId => {
-  const newToDos = toDos.map(toDo => {
-    if (toDo.id !== toDoId) return toDo;
-    return {
-      ...toDo,
-      done: !toDo.done,
-    };
-  });
-  setToDos(newToDos);
-};
-
-<Checkbox
-  id={toDo.id}
-  isOn={toDo.done}
-  handleToggle={() => toggleToDo(toDo.id)}
-/>
-
-<input
-  type="checkbox"
-  style={{ backgroundColor: isOn && '#51E3A4' }}
-  checked={isOn}
-  onChange={handleToggle}
-  className="ToDoComplete"
-/>
-*/
