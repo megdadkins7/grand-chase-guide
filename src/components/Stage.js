@@ -32,7 +32,7 @@ const StyledStage = styled.div`
 `;
 
 function Stage({ data, filters }) {
-  
+
   const filteredData = data.filter(stage => {
     if (filters.evos.length > 0) {
       return filters.evos.includes(stage.evos)
@@ -62,7 +62,7 @@ function Stage({ data, filters }) {
                 <span className='Title'>Boss: </span><span className='Info'>{stage.boss}</span>
               </div>
               <div className='MaterialFarm'>
-                <span className='Title'>Material: </span><span className='Info'>{stage.mats}</span>
+                <span className='Title'>Material: </span><span className='Info'>{stage.mats.join(", ")}</span>
               </div>
               <div className='EvoFarm'>
                 <span className='Title'>Evo Stones: </span><span className='Info'>{stage.evos}</span>

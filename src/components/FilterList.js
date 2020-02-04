@@ -91,7 +91,7 @@ function FilterList({ onFiltersChange }) {
                   checked={evoFilter.includes(evo)}
                   onChange={handleOnEvoChange}
                 />
-                <label className='Info'>{evo}</label>
+                <label className='Info'>{evo.charAt(0).toUpperCase() + evo.slice(1)}</label>
               </li>
             )
           ) 
@@ -143,7 +143,7 @@ function FilterList({ onFiltersChange }) {
               <label className='Info'>{material}</label>
             </li>
             )
-          ) 
+          )
         }
       </ul>
     </StyledFilterList>
