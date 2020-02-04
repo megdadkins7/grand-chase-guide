@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled from 'styled-components'
 import {
   BrowserRouter as Router,
@@ -11,9 +11,6 @@ import {
 import StageList from './components/StageList'
 import HeroList from './components/HeroList'
 import HeroBuild from './components/HeroBuild'
-
-//data
-import { grandChaseData } from './data';
 
 //styles
 import GlobalStyles from './styles/GlobalStyles'
@@ -29,19 +26,6 @@ const StyledNav = styled.div`
 `
 
 function App() {
-  const [activeFilters, setActiveFilters] = useState({
-    evos: [],
-    boss: [],
-    sUnit: [],
-    mats: [],
-  })
-
-  const handleOnFiltersChange = partialFilters => {
-    setActiveFilters(state => ({
-      ...state,
-      ...partialFilters
-    }));
-  };
   return (
     <Router>
       <GlobalStyles />
@@ -53,7 +37,7 @@ function App() {
       </StyledNav>
       <Switch>
         <Route path="/hero/:name" children={<HeroBuild />} />
-        <Route path="/stages" children={<StageList data={grandChaseData} filters={activeFilters} onFiltersChange={handleOnFiltersChange} />} />
+        <Route path="/stages" children={<StageList />} />
         <Route path="/" children={<HeroList />} />
       </Switch>
     </Router>

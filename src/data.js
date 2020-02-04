@@ -76,20 +76,10 @@ export const grandChaseData = [
   {stage: 'Challenge 22-9', boss: 'Assault', mats: 'enchants, runes, AOT', evos: 'mage', sUnit: 'Mage'}
 ]
 
-export const classData = [
-  {type: 'Assault'}, 
-  {type: 'Tank'}, 
-  {type: 'Ranger'}, 
-  {type: 'Mage'}, 
-  {type: 'Healer'}
-]
-
-export const matData = [
-  {mat: 'BOV'},
-  {mat: 'Enchants'},
-  {mat: 'Runes'},
-  {mat: 'AOT'}
-]
+export const evos = ['assault', 'tank', 'ranger', 'mage', 'healer'];
+export const boss = ['Assault', 'Tank', 'Ranger', 'Mage', 'Healer'];
+export const sUnit = ['Assault', 'Tank', 'Ranger', 'Mage', 'Healer'];
+export const mats = ['BOV', 'enchants', 'runes', 'AOT']
 
 export const heroes = [
   { id: "elesis", name: "Elesis", pic: "https://vignette.wikia.nocookie.net/grandchase/images/5/5f/Grand_Chase_for_kakao_Elesis_03.png/revision/latest?cb=20190907013422"},

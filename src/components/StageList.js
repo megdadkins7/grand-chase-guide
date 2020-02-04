@@ -1,5 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
+
+//data
+import { grandChaseData } from '../data'
 
 //components
 import Stage from './Stage'
@@ -9,29 +12,29 @@ const StyledStageList = styled.div`
   display: flex;
 `;
 
-function StageList({data, filters, onFiltersChange}) {
-  const filteredData = data.filter(stage => {
-    if (filters.evos.length > 0) {
-      return filters.evos.includes(stage.evos)
-    }
-    return stage
+function StageList() {
+  const [activeFilters, setActiveFilters] = useState({
+    evos: [],
+    boss: [],
+    sUnit: [],
+    mats: []
   })
+
+  const handleOnFiltersChange = partialFilters => {
+    setActiveFilters(state => ({
+      ...state,
+      ...partialFilters
+    }));
+  };
+
   return (
     <StyledStageList>
       <div className='FilterList'>
-        <FilterList data={data} filters={filters} onFiltersChange={onFiltersChange} />
+        <FilterList onFiltersChange={handleOnFiltersChange} />
       </div>
-      <ul>
-        { 
-          filteredData.map((stage, i) => (
-              <Stage
-                stage={stage}
-                key={`${stage.stage}${i}`}
-              />
-            )
-          ) 
-        }
-      </ul>
+      <div className='StageList'>
+        <Stage data={grandChaseData} filters={activeFilters} />
+      </div>
     </StyledStageList>
   )
 }
