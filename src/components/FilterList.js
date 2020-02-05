@@ -161,7 +161,7 @@ function FilterList({ onFiltersChange }) {
                 checked={matFilter.includes(material)}
                 onChange={handleOnMatChange}
               />
-              <label className='Info'>{material}</label>
+              <label className='Info'>{displayUpperCase(material)}</label>
             </li>
             )
           )

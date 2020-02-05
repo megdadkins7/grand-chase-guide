@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const StyledStage = styled.div`
+  const StyledStage = styled.div`
   .Wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

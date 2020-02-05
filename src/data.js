@@ -1,9 +1,15 @@
-export function nullToNone(word) {
-  if (word === null) {
-    return 'none'
+export const nullToNone = word => null ? word : 'none'
+
+export const displayUpperCase = word => {
+  if (word === 'bov') {
+    return 'B.O.V.'
+  }
+  if (word === 'aot') {
+    return 'A.O.T.'
   }
   return word
 }
+
 
 export const grandChaseData = [
   {stage: '1-3', boss: 'tank', mats: ['enchants'], evos: null, sUnit: null},
