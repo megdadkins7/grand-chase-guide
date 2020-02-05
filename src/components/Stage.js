@@ -25,9 +25,11 @@ const StyledStage = styled.div`
   }
   .Title {
     font-weight: 500;
+    text-transform: capitalize;
   }
   .Info {
     color: #7D7D7D;
+    text-transform: capitalize;
   }
 `;
 
@@ -44,7 +46,7 @@ function Stage({ data, filters }) {
       return filters.sUnit.includes(stage.sUnit)
     }
     if (filters.mats.length > 0) {
-      return filters.mats.includes(stage.mats)
+      return filters.mats.some(mat => stage.mats.includes(mat))
     }
     return stage;
   });

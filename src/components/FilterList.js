@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import styled from 'styled-components'
 
 //data
-import { evos, boss, sUnit, mats } from '../data'
+import { evos, boss, sUnit, mats, displayUpperCase } from '../data'
 
 const StyledFilterList = styled.div`
   .Title {
@@ -17,6 +17,9 @@ const StyledFilterList = styled.div`
   .Info {
     margin: 5px;
     color: #7D7D7D;
+  }
+  label {
+    text-transform: capitalize;
   }
 `;
 
@@ -78,6 +81,22 @@ function FilterList({ onFiltersChange }) {
     });
   };
 
+  const handleOnMatChange = e => {
+    const nextMatFilter = e.target.value;
+
+    setMatFilter(state => {
+      const currentFilterLoc = state.indexOf(nextMatFilter);
+      if (currentFilterLoc === -1) {
+        return [...matFilter, nextMatFilter];
+      } else {
+        return [
+          ...state.slice(0, currentFilterLoc),
+          ...state.slice(currentFilterLoc + 1, state.length),
+        ];
+      }
+    });
+  };
+
   return (
     <StyledFilterList>
       <div className='Title'>Evos:</div>
@@ -91,7 +110,7 @@ function FilterList({ onFiltersChange }) {
                   checked={evoFilter.includes(evo)}
                   onChange={handleOnEvoChange}
                 />
-                <label className='Info'>{evo.charAt(0).toUpperCase() + evo.slice(1)}</label>
+                <label className='Info'>{evo}</label>
               </li>
             )
           ) 
@@ -139,6 +158,8 @@ function FilterList({ onFiltersChange }) {
               <input 
                 type='checkbox' 
                 value={material}
+                checked={matFilter.includes(material)}
+                onChange={handleOnMatChange}
               />
               <label className='Info'>{material}</label>
             </li>
