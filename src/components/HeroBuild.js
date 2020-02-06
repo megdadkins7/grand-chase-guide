@@ -5,8 +5,6 @@ import { useParams } from 'react-router-dom'
 //data
 import { heroBuilds } from '../data'
 
-//assets
-
 const StyledHeroBuild = styled.div`
   display: flex;
   justify-content: center;
