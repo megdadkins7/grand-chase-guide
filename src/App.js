@@ -15,7 +15,6 @@ import HeroBuild from './components/HeroBuild'
 //styles
 import GlobalStyles from './styles/GlobalStyles'
 
-
 const StyledNav = styled.div`
   .Nav {
     font-size: 1.7rem;
@@ -38,7 +37,7 @@ function App() {
       </StyledNav>
       <Switch>
         <Route path="/hero/:name" children={<HeroBuild />} />
-        <Route path="/stages" children={<StageList/>} />
+        <Route path="/stages" children={<StageList />} />
         <Route path="/" children={<HeroList />} />
       </Switch>
     </Router>

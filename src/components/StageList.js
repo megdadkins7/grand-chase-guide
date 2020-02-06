@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 
 //data
@@ -13,22 +13,28 @@ const StyledStageList = styled.div`
 `;
 
 function StageList() {
+  const [activeFilters, setActiveFilters] = useState({
+    evos: [],
+    boss: [],
+    sUnit: [],
+    mats: []
+  })
+
+  const handleOnFiltersChange = partialFilters => {
+    setActiveFilters(state => ({
+      ...state,
+      ...partialFilters
+    }));
+  };
+
   return (
     <StyledStageList>
       <div className='FilterList'>
-        <FilterList />
+        <FilterList onFiltersChange={handleOnFiltersChange} />
       </div>
-      <ul>
-        { 
-          grandChaseData.map((stage, i) => (
-              <Stage
-                stage={stage}
-                key={`${stage.stage}${i}`}
-              />
-            )
-          ) 
-        }
-      </ul>
+      <div className='StageList'>
+        <Stage data={grandChaseData} filters={activeFilters} />
+      </div>
     </StyledStageList>
   )
 }
