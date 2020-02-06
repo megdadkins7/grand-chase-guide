@@ -18,10 +18,11 @@ import GlobalStyles from './styles/GlobalStyles'
 const StyledNav = styled.div`
   .Nav {
     font-size: 1.7rem;
-    margin: 3px;
+    margin: 0 0 0 5px;
     padding-right: 7px;
     color: #232323;
   }
+  margin-top: 5px;
   margin-bottom: 10px;
 `
 
