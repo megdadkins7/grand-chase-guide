@@ -21,6 +21,34 @@ import healer from './assets/class/healer.png'
 import mage from './assets/class/mage.png'
 import ranger from './assets/class/ranger.png'
 
+import amy from './assets/heroes/amy.png'
+import arme from './assets/heroes/arme.png'
+import arsad from './assets/heroes/arsad.png'
+import asin from './assets/heroes/asin.png'
+import dio from './assets/heroes/dio.png'
+import edel from './assets/heroes/edel.png'
+import elesis from './assets/heroes/elesis.png'
+import gaian from './assets/heroes/gaian.png'
+import grandiel from './assets/heroes/grandiel.png'
+import io from './assets/heroes/io.png'
+import jin from './assets/heroes/jin.png'
+import kanavan from './assets/heroes/kanavan.png'
+import lass from './assets/heroes/lass.png'
+import ley from './assets/heroes/ley.png'
+import lime from './assets/heroes/lime.png'
+import lire from './assets/heroes/lire.png'
+import mari from './assets/heroes/mari.png'
+import nelia from './assets/heroes/nelia.png'
+import rin from './assets/heroes/rin.png'
+import ronan from './assets/heroes/ronan.png'
+import rufus from './assets/heroes/rufus.png'
+import ryan from './assets/heroes/ryan.png'
+import serdin from './assets/heroes/serdin.png'
+import sieghart from './assets/heroes/sieghart.png'
+import veigas from './assets/heroes/veigas.png'
+import werner from './assets/heroes/werner.png'
+import zero from './assets/heroes/zero.png'
+
 export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
@@ -117,33 +145,33 @@ export const sUnit = ['assault', 'tank', 'ranger', 'mage', 'healer'];
 export const mats = ['bov', 'enchants', 'runes', 'aot']
 
 export const heroes = [
-  { id: "elesis", name: "Elesis", pic: "https://vignette.wikia.nocookie.net/grandchase/images/5/5f/Grand_Chase_for_kakao_Elesis_03.png/revision/latest?cb=20190907013422"},
-  { id: "lire", name: "Lire", pic: "https://vignette.wikia.nocookie.net/grandchase/images/6/64/Grand_Chase_for_kakao_Lire_Eryuell_03.png/revision/latest?cb=20190902125444"},
-  { id: "arme", name: "Arme", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/9b/Grand_Chase_for_kakao_Arme_03.png/revision/latest?cb=20190914124519"},
-  { id: "lass", name: "Lass", pic: "https://vignette.wikia.nocookie.net/grandchase/images/3/3b/Grand_Chase_for_kakao_Lass_03.png/revision/latest?cb=20190319062942"},
-  { id: "ryan", name: "Ryan", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/ac/Grand_Chase_for_kakao_Ryan_03.png/revision/latest?cb=20181211081423"},
-  { id: "ronan", name: "Ronan", pic: "https://vignette.wikia.nocookie.net/grandchase/images/b/b6/Grand_Chase_for_kakao_Ronan_03.png/revision/latest?cb=20190914143527"},
-  { id: "amy", name: "Amy", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a6/Grand_Chase_for_kakao_Amy_03.png/revision/latest?cb=20181106062520"},
-  { id: "jin", name: "Jin", pic: "https://vignette.wikia.nocookie.net/grandchase/images/f/f2/Grand_Chase_for_kakao_Jin_03.png/revision/latest?cb=20190718025204"},
-  { id: "sieghart", name: "Sieghart", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/e2/SieghartGladiator.png/revision/latest?cb=20190401075339"},
-  { id: "mari", name: "Mari", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a1/Grand_Chase_for_kakao_Mari_03.png/revision/latest?cb=20190914144435"},
-  { id: "dio", name: "Dio", pic: "https://vignette.wikia.nocookie.net/grandchase/images/c/cb/Grand_Chase_for_kakao_Dio_03.png/revision/latest?cb=20190718025258"},
-  { id: "zero", name: "Zero", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/98/Grand_Chase_for_kakao_Zero_03.png/revision/latest?cb=20190718025348"},
-  { id: "ley", name: "Ley", pic: "https://vignette.wikia.nocookie.net/grandchase/images/4/4a/Grand_Chase_for_kakao_Ley_03.png/revision/latest?cb=20190409071206"},
-  { id: "rufus", name: "Rufus", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/90/Grand_Chase_for_kakao_Rufus_03.png/revision/latest?cb=20181211081231"},
-  { id: "rin", name: "Rin", pic: "https://vignette.wikia.nocookie.net/grandchase/images/0/00/Grand_Chase_for_kakao_Rin_03.png/revision/latest?cb=20190115024445"},
-  { id: "asin", name: "Asin", pic: "https://vignette.wikia.nocookie.net/grandchase/images/2/27/Grand_Chase_for_kakao_Asin_03.png/revision/latest?cb=20190813110551"},
-  { id: "lime", name: "Lime", pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/94/Grand_Chase_for_kakao_Lime_03.png/revision/latest?cb=20190806100745"},
-  { id: "edel", name: "Edel", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/ee/Grand_Chase_for_kakao_Edel_03.png/revision/latest?cb=20190718025428"},
-  { id: "veigas", name: "Veigas", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/e9/Grand_Chase_for_kakao_Veigas_03.png/revision/latest?cb=20190707043615"},
-  { id: "serdin", name: "Serdin", pic: "https://vignette.wikia.nocookie.net/grandchase/images/f/f0/Grand_Chase_for_kakao_Scarde_03.png/revision/latest?cb=20190416040937"},
-  { id: "kanavan", name: "Kanavan", pic: "https://vignette.wikia.nocookie.net/grandchase/images/3/3c/Grand_Chase_for_kakao_Esnar_03.png/revision/latest?cb=20190521121207"},
-  { id: "werner", name: "Werner", pic: "https://vignette.wikia.nocookie.net/grandchase/images/4/48/Grand_Chase_for_kakao_Werner_03.png/revision/latest?cb=20190718025510"},
-  { id: "grandiel", name: "Grandiel", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a8/Grand_Chase_for_kakao_Kassias_Grandiel_03.png/revision/latest?cb=20190718042310"},
-  { id: "nelia", name: "Nelia", pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/ed/Grand_Chase_for_kakao_Nellia_03.png/revision/latest?cb=20190910164429"},
-  { id: "io", name: "Io", pic: "https://vignette.wikia.nocookie.net/grandchase/images/2/2a/Grand_Chase_for_kakao_Io_03.png/revision/latest/scale-to-width-down/620?cb=20200123225610"},
-  { id: "gaian", name: "Dark Gaian", pic: "https://vignette.wikia.nocookie.net/grandchase/images/0/0f/Grand_Chase_for_kakao_Dark_Gaian_02.png/revision/latest?cb=20190823115505"},
-  { id: "arsad", name: "Arsad", pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/aa/Grand_Chase_for_kakao_Arsad_02.png/revision/latest?cb=20190823104047"}
+  { id: "elesis", name: "Elesis", pic: elesis},
+  { id: "lire", name: "Lire", pic: lire},
+  { id: "arme", name: "Arme", pic: arme},
+  { id: "lass", name: "Lass", pic: lass},
+  { id: "ryan", name: "Ryan", pic: ryan},
+  { id: "ronan", name: "Ronan", pic: ronan},
+  { id: "amy", name: "Amy", pic: amy},
+  { id: "jin", name: "Jin", pic: jin},
+  { id: "sieghart", name: "Sieghart", pic: sieghart},
+  { id: "mari", name: "Mari", pic: mari},
+  { id: "dio", name: "Dio", pic: dio},
+  { id: "zero", name: "Zero", pic: zero},
+  { id: "ley", name: "Ley", pic: ley},
+  { id: "rufus", name: "Rufus", pic: rufus},
+  { id: "rin", name: "Rin", pic: rin},
+  { id: "asin", name: "Asin", pic: asin},
+  { id: "lime", name: "Lime", pic: lime},
+  { id: "edel", name: "Edel", pic: edel},
+  { id: "veigas", name: "Veigas", pic: veigas},
+  { id: "serdin", name: "Serdin", pic: serdin},
+  { id: "kanavan", name: "Kanavan", pic: kanavan},
+  { id: "werner", name: "Werner", pic: werner},
+  { id: "grandiel", name: "Grandiel", pic: grandiel},
+  { id: "nelia", name: "Nelia", pic: nelia},
+  { id: "io", name: "Io", pic: io},
+  { id: "gaian", name: "Dark Gaian", pic: gaian},
+  { id: "arsad", name: "Arsad", pic: arsad}
 ]
 
 
@@ -156,7 +184,7 @@ export const heroBuilds= {
     classPic: assault,
     set: 'Power of Anger (blue)', 
     setPic: blue,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/5/5f/Grand_Chase_for_kakao_Elesis_03.png/revision/latest?cb=20190907013422",
+    pic: elesis,
     limitBreak: 'S2 & Passive', 
     accessories: 'solar Ring, chasm Necklace, Earrings of order', 
     ring: solar,
@@ -177,7 +205,7 @@ export const heroBuilds= {
     classPic: ranger,
     set: 'Vows of Violence (green)', 
     setPic: green,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/6/64/Grand_Chase_for_kakao_Lire_Eryuell_03.png/revision/latest?cb=20190902125444",
+    pic: lire,
     limitBreak: 'S2 & Passive', 
     accessories: 'gale Ring, lava Necklace, Earrings of gust', 
     ring: gale,
@@ -198,7 +226,7 @@ export const heroBuilds= {
     classPic: mage,
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/9b/Grand_Chase_for_kakao_Arme_03.png/revision/latest?cb=20190914124519",
+    pic: arme,
     limitBreak: 'Passive & S2', 
     accessories: 'solar Ring, lava Necklace, Earrings of order', 
     ring: solar,
@@ -219,7 +247,7 @@ export const heroBuilds= {
     classPic: assault,
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/3/3b/Grand_Chase_for_kakao_Lass_03.png/revision/latest?cb=20190319062942",
+    pic: lass,
     limitBreak: '?', 
     accessories: 'solar Ring, lava Necklace, Earrings of order', 
     ring: solar,
@@ -240,7 +268,7 @@ export const heroBuilds= {
     classPic: tank,
     set: 'Power of Anger (blue)', 
     setPic: blue,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/ac/Grand_Chase_for_kakao_Ryan_03.png/revision/latest?cb=20181211081423",
+    pic: ryan,
     limitBreak: 'S1 & Passive', 
     accessories: 'glacial Ring, chasm Necklace, Earrings of order',
     ring: glacial,
@@ -261,7 +289,7 @@ export const heroBuilds= {
     classPic: tank,
     set: 'Power of Anger (blue)', 
     setPic: blue,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/b/b6/Grand_Chase_for_kakao_Ronan_03.png/revision/latest?cb=20190914143527",
+    pic: ronan,
     limitBreak: 'S2 & Passive', 
     accessories: 'solar Ring, chasm Necklace, Earrings of order', 
     ring: solar,
@@ -282,7 +310,7 @@ export const heroBuilds= {
     classPic: healer,
     set: 'Vows of Violence (green)', 
     setPic: green,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a6/Grand_Chase_for_kakao_Amy_03.png/revision/latest?cb=20181106062520",
+    pic: amy,
     limitBreak: 'S1 & Passive', 
     accessories: 'gale Ring, chasm Necklace, Earrings of order', 
     ring: gale,
@@ -303,7 +331,7 @@ export const heroBuilds= {
     classPic: tank,
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/f/f2/Grand_Chase_for_kakao_Jin_03.png/revision/latest?cb=20190718025204",
+    pic: jin,
     limitBreak: 'S1 & S2', 
     accessories: 'solar Ring, lava Necklace, Earrings of gust', 
     ring: solar,
@@ -324,7 +352,7 @@ export const heroBuilds= {
     classPic: assault,
     set: 'Power of Anger (blue)', 
     setPic: blue,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/e2/SieghartGladiator.png/revision/latest?cb=20190401075339",
+    pic: sieghart,
     limitBreak: 'Passive & S1', 
     accessories: 'solar Ring, chasm Necklace, Earrings of order', 
     ring: solar,
@@ -345,7 +373,7 @@ export const heroBuilds= {
     classPic: mage,
     set: 'Vows of Violence (green)', 
     setPic: green,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a1/Grand_Chase_for_kakao_Mari_03.png/revision/latest?cb=20190914144435",
+    pic: mari,
     limitBreak: '?', 
     accessories: 'gale Ring, lava Necklace, Earrings of gust', 
     ring: gale,
@@ -366,7 +394,7 @@ export const heroBuilds= {
     classPic: assault,
     set: 'Power of Anger (blue)', 
     setPic: blue,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/c/cb/Grand_Chase_for_kakao_Dio_03.png/revision/latest?cb=20190718025258",
+    pic: dio,
     limitBreak: 'S1 & Passive', 
     accessories: 'gale Ring, chasm Necklace, Earrings of order', 
     ring: gale,
@@ -387,7 +415,7 @@ export const heroBuilds= {
     classPic: tank,
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/98/Grand_Chase_for_kakao_Zero_03.png/revision/latest?cb=20190718025348",
+    pic: zero,
     limitBreak: 'S1 & Passive', 
     accessories: 'solar Ring, lava Necklace, Earrings of order', 
     ring: solar,
@@ -408,7 +436,7 @@ export const heroBuilds= {
     classPic: mage,
     set: 'Vows of Violence (green)', 
     setPic: green,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/4/4a/Grand_Chase_for_kakao_Ley_03.png/revision/latest?cb=20190409071206",
+    pic: ley,
     limitBreak: 'S2 & Passive', 
     accessories: 'gale Ring, chasm Necklace, Earrings of gust', 
     ring: gale,
@@ -429,7 +457,7 @@ export const heroBuilds= {
     classPic: ranger,
     set: 'Vows of Violence (green)', 
     setPic: green,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/90/Grand_Chase_for_kakao_Rufus_03.png/revision/latest?cb=20181211081231",
+    pic: rufus,
     limitBreak: 'S1 & S2', 
     accessories: 'gale Ring, lava Necklace, Earrings of gust', 
     ring: gale,
@@ -450,7 +478,7 @@ export const heroBuilds= {
     classPic: healer,
     set: 'Power of Anger (blue)', 
     setPic: blue,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/0/00/Grand_Chase_for_kakao_Rin_03.png/revision/latest?cb=20190115024445",
+    pic: rin,
     limitBreak: 'S1 & S2', 
     accessories: 'solar Ring, chasm Necklace, Earrings of order', 
     ring: solar,
@@ -471,7 +499,7 @@ export const heroBuilds= {
     classPic: tank,
     set: 'Power of Anger (blue)', 
     setPic: blue,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/2/27/Grand_Chase_for_kakao_Asin_03.png/revision/latest?cb=20190813110551",
+    pic: asin,
     limitBreak: 'S1 & S2', 
     accessories: 'gale Ring, chasm Necklace, Earrings of order', 
     ring: gale,
@@ -492,7 +520,7 @@ export const heroBuilds= {
     classPic: healer,
     set: 'Power of Anger (blue)', 
     setPic: blue,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/9/94/Grand_Chase_for_kakao_Lime_03.png/revision/latest?cb=20190806100745",
+    pic: lime,
     limitBreak: 'Passive & S2', 
     accessories: 'solar Ring, chasm Necklace, Earrings of order', 
     ring: solar,
@@ -513,7 +541,7 @@ export const heroBuilds= {
     classPic: assault,
     set: 'Vows of Violence (green)', 
     setPic: green,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/ee/Grand_Chase_for_kakao_Edel_03.png/revision/latest?cb=20190718025428",
+    pic: edel,
     limitBreak: 'S2 & Passive', 
     accessories: 'gale Ring, lava Necklace, Earrings of gust', 
     ring: gale,
@@ -534,7 +562,7 @@ export const heroBuilds= {
     classPic: mage,
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/e9/Grand_Chase_for_kakao_Veigas_03.png/revision/latest?cb=20190707043615",
+    pic: veigas,
     limitBreak: 'S1 & Passive', 
     accessories: 'solar Ring, lava Necklace, Earrings of order', 
     ring: solar,
@@ -555,7 +583,7 @@ export const heroBuilds= {
     classPic: healer,
     set: 'Vows of Violence (green)', 
     setPic: green,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/f/f0/Grand_Chase_for_kakao_Scarde_03.png/revision/latest?cb=20190416040937",
+    pic: serdin,
     limitBreak: 'S1 & S2', 
     accessories: 'gale Ring, lava Necklace, Earrings of gust', 
     ring: gale,
@@ -577,7 +605,7 @@ export const heroBuilds= {
     set: 'Vows of Violence (green) or Dagger of Passion (orange)', 
     setPic: green,
     setPicB: orange,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/3/3c/Grand_Chase_for_kakao_Esnar_03.png/revision/latest?cb=20190521121207",
+    pic: kanavan,
     limitBreak: 'S2 & S1', 
     accessories: 'solar Ring, lava Necklace, Earrings of order', 
     ring: solar,
@@ -598,7 +626,7 @@ export const heroBuilds= {
     classPic: ranger,
     set: 'Spirit of Luck (pink)', 
     setPic: pink,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/4/48/Grand_Chase_for_kakao_Werner_03.png/revision/latest?cb=20190718025510",
+    pic: werner,
     limitBreak: 'Passive & S2', 
     accessories: 'solar Ring, chasm Necklace, Earrings of order', 
     ring: solar,
@@ -619,7 +647,7 @@ export const heroBuilds= {
     classPic: healer,
     set: 'Power of Anger (blue)', 
     setPic: blue,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/a8/Grand_Chase_for_kakao_Kassias_Grandiel_03.png/revision/latest?cb=20190718042310",
+    pic: grandiel,
     limitBreak: 'S2 & S1', 
     accessories: 'glacial Ring, chasm Necklace, Earrings of order', 
     ring: glacial,
@@ -640,7 +668,7 @@ export const heroBuilds= {
     classPic: mage,
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/e/ed/Grand_Chase_for_kakao_Nellia_03.png/revision/latest?cb=20190910164429",
+    pic: nelia,
     limitBreak: 'S2 & Passive', 
     accessories: 'solar Ring, chasm Necklace, Earrings of order', 
     ring: solar,
@@ -662,7 +690,7 @@ export const heroBuilds= {
     set: 'Power of Anger (blue) or Vows of Violence (green)',
     setPic: blue,
     setPicB: green,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/2/2a/Grand_Chase_for_kakao_Io_03.png/revision/latest/scale-to-width-down/620?cb=20200123225610",
+    pic: io,
     limitBreak: 'S1 & S2', 
     accessories: 'gale Ring, chasm Necklace, Earrings of gust', 
     ring: gale,
@@ -683,7 +711,7 @@ export const heroBuilds= {
     classPic: mage,
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/0/0f/Grand_Chase_for_kakao_Dark_Gaian_02.png/revision/latest?cb=20190823115505",
+    pic: gaian,
     limitBreak: 'N/A', 
     accessories: 'sapling Ring, lifeblood Necklace, Earrings of order', 
     ring: sapling,
@@ -704,7 +732,7 @@ export const heroBuilds= {
     classPic: tank,
     set: 'Power of Anger (blue)', 
     setPic: blue,
-    pic: "https://vignette.wikia.nocookie.net/grandchase/images/a/aa/Grand_Chase_for_kakao_Arsad_02.png/revision/latest?cb=20190823104047",
+    pic: arsad,
     limitBreak: 'N/A', 
     accessories: 'glacial Ring, chasm Necklace, Earrings of order',
     ring: glacial,
