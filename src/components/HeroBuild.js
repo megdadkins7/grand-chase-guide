@@ -15,7 +15,7 @@ const StyledHeroBuild = styled.div`
   .HeroInfoWrapper {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
-    grid-gap: 20px 20px
+    grid-gap: 20px 20px;
     align-items: center;
     margin: 10px;
     padding: 20px;
@@ -64,7 +64,7 @@ function HeroBuild() {
         </div>
         <div className='HeroType'>
           <span className='Title'>Class:</span><span className='Info'>{build.type}</span>
-          <img className='ClassPic' src={build.classPic} />
+          <img className='ClassPic' src={build.classPic} alt='heroType' />
         </div>
         <div className='HeroLB'>
           <span className='Title'>Limit Break:</span><span className='Info'>{build.limitBreak}</span>
@@ -72,16 +72,16 @@ function HeroBuild() {
         <div className='HeroSet'>
           <span className='Title'>Armor:</span><span className='Info'>{build.set}</span>
           <div className='ArmorWrapper'>
-            <img className='BuildPics' src={build.setPic} />
-            <img className='BuildPics' src={build.setPicB} />
+            <img className='BuildPics' src={build.setPic} alt='armorSet' />
+            <img className='BuildPics' src={build.setPicB} alt='' />
           </div>
         </div>
         <div className='HeroAccessories'>
           <span className='Title'>Accessories:</span><span className='Info'>{build.accessories}</span>
           <div className='AccessoryWrapper'>
-            <img className='BuildPics' src={build.ring} />
-            <img className='BuildPics' src={build.necklace} />
-            <img className='BuildPics' src={build.earrings} />
+            <img className='BuildPics' src={build.ring} alt='ring' />
+            <img className='BuildPics' src={build.necklace} alt='necklace' />
+            <img className='BuildPics' src={build.earrings} alt='earrings' />
           </div>
         </div>
         <div className='HeroChaser'>

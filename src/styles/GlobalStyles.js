@@ -16,9 +16,9 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         font-weight: 400;
-        background: #fff;
-        -webkit-font-smoothing: antialiased; /* trick for smoother fonts */
-        -moz-osx-font-smoothing: grayscale; /* trick for smoother fonts */
+        background:  url("https://i.ya-webdesign.com/images/website-background-patterns-png-4.png") no-repeat center center fixed;
+        -webkit-font-smoothing: antialiased; 
+        -moz-osx-font-smoothing: grayscale; 
     }
     a {
         text-decoration: none;

@@ -21,6 +21,7 @@ const StyledNav = styled.div`
     margin: 0 0 0 5px;
     padding-right: 7px;
     color: #232323;
+    background-color: transparent;
   }
   margin-top: 5px;
   margin-bottom: 10px;
