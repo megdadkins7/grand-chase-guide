@@ -194,8 +194,8 @@ export const heroBuilds= {
     chaser05:'5/5 Elevated Power', 
     chaser10:'5/5 Divine Protection', 
     chaser15: '5/5 Fate', 
-    chaser20:'5/5 Long Life', 
-    chaser25:'3/3 Chaotic Judgement Part 1 & 2/2 Chaotic Judgement Part 2'
+    chaser20:'5/5 Chaotic Judgement', 
+    chaser25:'5/5 Long Life'
   },
   lire: {
     id:'lire', 
@@ -216,8 +216,8 @@ export const heroBuilds= {
     chaser05:'5/5 Elevated Power',
     chaser10: '5/5 Invisible Hand',
     chaser15: '5/5 Fate',
-    chaser20: '5/5 Impulse',
-    chaser25: '3/3 Storm Arrow Part 1 & 2/2 Storm Arrow Part 2',
+    chaser20: '5/5 Storm Arrow',
+    chaser25: '5/5 Impulse',
   },
   arme: {
     id:'arme', 
@@ -238,8 +238,8 @@ export const heroBuilds= {
     chaser05:'?',
     chaser10: '?',
     chaser15: '?',
-    chaser20: '?',
-    chaser25: '3/3 Lightning Bolt Part 1 & 2/2 Lightning Bolt Part 2',
+    chaser20: '5/5 Lightning Bolt',
+    chaser25: '?',
   },
   lass: {
     id:'lass', 
@@ -260,8 +260,8 @@ export const heroBuilds= {
     chaser05:'?',
     chaser10: '?',
     chaser15: '?',
-    chaser20: '?',
-    chaser25: '3/3 Shadow Stranger Part 1 & 2/2 Shadow Stranger Part 2',
+    chaser20: '5/5 Shadow Stranger',
+    chaser25: '?',
   },
   ryan: {
     id:'ryan', 
@@ -282,8 +282,8 @@ export const heroBuilds= {
     chaser05:'?',
     chaser10: '?',
     chaser15: '?',
-    chaser20: '?',
-    chaser25: '3/3 Totem of Forest God Part 1 & 2/2 Totem of Forest God Part 2',
+    chaser20: '5/5 Totem of Forest God',
+    chaser25: '?',
   },
   ronan: {
     id:'ronan', 
@@ -304,8 +304,8 @@ export const heroBuilds= {
     chaser05:'?',
     chaser10: '?',
     chaser15: '?',
-    chaser20: '?',
-    chaser25: '3/3 Erudons Sword Part 1 & 2/2 Erudons Sword Part 2',
+    chaser20: '5/5 Erudons Sword',
+    chaser25: '?',
   },
   amy:{
     id:'amy', 
@@ -326,8 +326,8 @@ export const heroBuilds= {
     chaser05:'?',
     chaser10: '?',
     chaser15: '?',
-    chaser20: '?',
-    chaser25: '3/3 Fan Service Part 1 & 2/2 Fan Service Part 2',
+    chaser20: '5/5 Fan Service',
+    chaser25: '?',
   },
   jin: {
     id:'jin', 
@@ -392,8 +392,8 @@ export const heroBuilds= {
     chaser05:'?',
     chaser10: '?',
     chaser15: '?',
-    chaser20: '?',
-    chaser25: '3/3 Deadly Test Part 1 & 2/2 Deadly Test Part 2',
+    chaser20: '5/5 Deadly Test',
+    chaser25: '?',
   },
   dio: {
     id:'dio', 
@@ -502,8 +502,8 @@ export const heroBuilds= {
     chaser05:'?',
     chaser10: '?',
     chaser15: '?',
-    chaser20: '?',
-    chaser25: '3/3 Chaotic Wind Part 1 & 2/2 Chaotic Wind Part 2',
+    chaser20: '5/5 Chaotic Wind',
+    chaser25: '?',
   },
   asin: {
     id:'asin', 
@@ -724,8 +724,8 @@ export const heroBuilds= {
     chaser05:'?',
     chaser10: '?',
     chaser15: '?',
-    chaser20: '?',
-    chaser25: '3/3 Punisher Part 1 & 2/2 Punisher Part 2',
+    chaser20: '5/5 Punisher',
+    chaser25: '?',
   },
   gaian: {
     id:'darkGaian', 

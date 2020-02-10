@@ -53,12 +53,18 @@ function HeroBuild() {
   
   const build = heroBuilds[name];
 
+  const heroColor = build.color;
+  
+  const boxShadowStyle = {
+    boxShadow: `inset 0 0 3px 1px ${heroColor}`
+  }
+
   return (
     <StyledHeroBuild>
       <div className='HeroPic'>
         <img src={build.pic} alt='' />
       </div>
-      <div className='HeroInfoWrapper'>
+      <div className='HeroInfoWrapper' style={boxShadowStyle}>
         <div className='HeroName'>
           <span className='Title'>Hero:</span><span className='Info'>{build.name}</span>
         </div>
