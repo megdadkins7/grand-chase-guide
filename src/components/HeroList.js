@@ -15,7 +15,7 @@ const StyledHeroList = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 100%;
+    margin: 20px 170px;
   }
 `;
 

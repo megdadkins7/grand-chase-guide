@@ -49,6 +49,34 @@ import veigas from './assets/heroes/veigas.png'
 import werner from './assets/heroes/werner.png'
 import zero from './assets/heroes/zero.png'
 
+import io2 from './assets/landinghero/io2.png'
+import zero2 from './assets/landinghero/zero2.png'
+import werner2 from './assets/landinghero/werner2.png'
+import veigas2 from './assets/landinghero/veigas2.png'
+import sieghart2 from './assets/landinghero/sieghart2.png'
+import serdin2 from './assets/landinghero/serdin2.png'
+import ryan2 from './assets/landinghero/ryan2.png'
+import elesis2 from './assets/landinghero/elesis2.png'
+import lire2 from './assets/landinghero/lire2.png'
+import arme2 from './assets/landinghero/arme2.png'
+import lass2 from './assets/landinghero/lass2.png'
+import ronan2 from './assets/landinghero/ronan2.png'
+import amy2 from './assets/landinghero/amy2.png'
+import jin2 from './assets/landinghero/jin2.png'
+import mari2 from './assets/landinghero/mari2.png'
+import dio2 from './assets/landinghero/dio2.png'
+import ley2 from './assets/landinghero/ley2.png'
+import rufus2 from './assets/landinghero/rufus2.png'
+import rin2 from './assets/landinghero/rin2.png'
+import asin2 from './assets/landinghero/asin2.png'
+import lime2 from './assets/landinghero/lime2.png'
+import edel2 from './assets/landinghero/edel2.png'
+import kanavan2 from './assets/landinghero/kanavan2.png'
+import grandiel2 from './assets/landinghero/grandiel2.png'
+import nelia2 from './assets/landinghero/nelia2.png'
+import gaian2 from './assets/landinghero/gaian2.png'
+import arsad2 from './assets/landinghero/arsad2.png'
+
 export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
@@ -145,33 +173,33 @@ export const sUnit = ['assault', 'tank', 'ranger', 'mage', 'healer'];
 export const mats = ['bov', 'enchants', 'runes', 'aot']
 
 export const heroes = [
-  { id: "elesis", name: "Elesis", pic: elesis},
-  { id: "lire", name: "Lire", pic: lire},
-  { id: "arme", name: "Arme", pic: arme},
-  { id: "lass", name: "Lass", pic: lass},
-  { id: "ryan", name: "Ryan", pic: ryan},
-  { id: "ronan", name: "Ronan", pic: ronan},
-  { id: "amy", name: "Amy", pic: amy},
-  { id: "jin", name: "Jin", pic: jin},
-  { id: "sieghart", name: "Sieghart", pic: sieghart},
-  { id: "mari", name: "Mari", pic: mari},
-  { id: "dio", name: "Dio", pic: dio},
-  { id: "zero", name: "Zero", pic: zero},
-  { id: "ley", name: "Ley", pic: ley},
-  { id: "rufus", name: "Rufus", pic: rufus},
-  { id: "rin", name: "Rin", pic: rin},
-  { id: "asin", name: "Asin", pic: asin},
-  { id: "lime", name: "Lime", pic: lime},
-  { id: "edel", name: "Edel", pic: edel},
-  { id: "veigas", name: "Veigas", pic: veigas},
-  { id: "serdin", name: "Serdin", pic: serdin},
-  { id: "kanavan", name: "Kanavan", pic: kanavan},
-  { id: "werner", name: "Werner", pic: werner},
-  { id: "grandiel", name: "Grandiel", pic: grandiel},
-  { id: "nelia", name: "Nelia", pic: nelia},
-  { id: "io", name: "Io", pic: io},
-  { id: "gaian", name: "Dark Gaian", pic: gaian},
-  { id: "arsad", name: "Arsad", pic: arsad}
+  { id: "elesis", name: "Elesis", pic: elesis2, heroColor: '#FDB9B7'},
+  { id: "lire", name: "Lire", pic: lire2, heroColor: '#BBFBB1'},
+  { id: "arme", name: "Arme", pic: arme2, heroColor: '#FCB8F1',},
+  { id: "lass", name: "Lass", pic: lass2, heroColor: '#B7F3F9'},
+  { id: "ryan", name: "Ryan", pic: ryan2, heroColor: '#FDE2B7'},
+  { id: "ronan", name: "Ronan", pic: ronan2, heroColor: '#B9B3F6'},
+  { id: "amy", name: "Amy", pic: amy2, heroColor: '#FBBDDB'},
+  { id: "jin", name: "Jin", pic: jin2, heroColor: '#C53019'},
+  { id: "sieghart", name: "Sieghart", pic: sieghart2, heroColor: '#212121'},
+  { id: "mari", name: "Mari", pic: mari2, heroColor: '#5188E9'},
+  { id: "dio", name: "Dio", pic: dio2, heroColor: '#D75ED1'},
+  { id: "zero", name: "Zero", pic: zero2, heroColor: '#D8E4A9'},
+  { id: "ley", name: "Ley", pic: ley2, heroColor: '#BC77DC'},
+  { id: "rufus", name: "Rufus", pic: rufus2, heroColor: '#B14953'},
+  { id: "rin", name: "Rin", pic: rin2, heroColor: '#30D1ED'},
+  { id: "asin", name: "Asin", pic: asin2, heroColor: '#BFDADA'},
+  { id: "lime", name: "Lime", pic: lime2, heroColor: '#B7EEA3'},
+  { id: "edel", name: "Edel", pic: edel2, heroColor: '#5181B8'},
+  { id: "veigas", name: "Veigas", pic: veigas2, heroColor: '#E7C8E9'},
+  { id: "serdin", name: "Serdin", pic: serdin2, heroColor: '#C7EADE'},
+  { id: "kanavan", name: "Kanavan", pic: kanavan2, heroColor: '#F69AD6'},
+  { id: "werner", name: "Werner", pic: werner2, heroColor: '#CB9CE8'},
+  { id: "grandiel", name: "Grandiel", pic: grandiel2, heroColor: '#A0D6E8'},
+  { id: "nelia", name: "Nelia", pic: nelia2, heroColor: '#E38699'},
+  { id: "io", name: "Io", pic: io2, heroColor: '#4CCFFF'},
+  { id: "gaian", name: "Dark Gaian", pic: gaian2, heroColor: '#E3DFF4'},
+  { id: "arsad", name: "Arsad", pic: arsad2, heroColor: '#FFEE9D'}
 ]
 
 export const heroBuilds= {
