@@ -11,21 +11,27 @@ import {
 import StageList from './components/StageList'
 import HeroList from './components/HeroList'
 import HeroBuild from './components/HeroBuild'
+import NameList from './components/NameList'
 
 //styles
 import GlobalStyles from './styles/GlobalStyles'
 
 const StyledNav = styled.div`
+  margin: 10px;
   .Nav {
-    font-size: 1.7rem;
     margin: 0 0 0 5px;
     padding-right: 7px;
-    color: #232323;
     background-color: transparent;
+    color: #ACACAC;
+    font-weight: 500;
+    font-size: 1.7rem;
   }
-  margin-top: 5px;
-  margin-bottom: 10px;
 `
+
+const StyledGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 5fr
+`;
 
 function App() {
   return (
@@ -40,7 +46,7 @@ function App() {
       <Switch>
         <Route path="/hero/:name" children={<HeroBuild />} />
         <Route path="/stages" children={<StageList />} />
-        <Route path="/" children={<HeroList />} />
+        <Route path="/" children={<StyledGrid><NameList /><HeroList /></StyledGrid>} />
       </Switch>
     </Router>
   );

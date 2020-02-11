@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const StyledHero = styled.div`
   display: flex;
   justify-content: center;
+  margin: 2px;
   .HeroImageWrapper {
     display: flex;
     justify-content: center;
@@ -46,7 +47,6 @@ function Hero({ name, pic, heroColor }) {
         <div className='HeroImage' style={backgroundStyle}>
           <img src={pic} alt='hero' />
         </div>
-        <span>{name}</span>
       </div>  
     </StyledHero>
   )

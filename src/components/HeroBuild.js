@@ -21,6 +21,7 @@ const StyledHeroBuild = styled.div`
     padding: 20px;
   }
   .Title {
+    color: #ACACAC;
     font-weight: 500;
   }
   .Info {

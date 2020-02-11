@@ -181,7 +181,7 @@ export const heroes = [
   { id: "ronan", name: "Ronan", pic: ronan2, heroColor: '#B9B3F6'},
   { id: "amy", name: "Amy", pic: amy2, heroColor: '#FBBDDB'},
   { id: "jin", name: "Jin", pic: jin2, heroColor: '#C53019'},
-  { id: "sieghart", name: "Sieghart", pic: sieghart2, heroColor: '#212121'},
+  { id: "sieghart", name: "Sieghart", pic: sieghart2, heroColor: '#48384F'},
   { id: "mari", name: "Mari", pic: mari2, heroColor: '#5188E9'},
   { id: "dio", name: "Dio", pic: dio2, heroColor: '#D75ED1'},
   { id: "zero", name: "Zero", pic: zero2, heroColor: '#D8E4A9'},
@@ -198,7 +198,7 @@ export const heroes = [
   { id: "grandiel", name: "Grandiel", pic: grandiel2, heroColor: '#A0D6E8'},
   { id: "nelia", name: "Nelia", pic: nelia2, heroColor: '#E38699'},
   { id: "io", name: "Io", pic: io2, heroColor: '#4CCFFF'},
-  { id: "gaian", name: "Dark Gaian", pic: gaian2, heroColor: '#E3DFF4'},
+  { id: "gaian", name: "Gaian", pic: gaian2, heroColor: '#E3DFF4'},
   { id: "arsad", name: "Arsad", pic: arsad2, heroColor: '#FFEE9D'}
 ]
 

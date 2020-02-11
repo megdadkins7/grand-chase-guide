@@ -25,6 +25,7 @@ import styled from 'styled-components'
     padding: 5px;
   }
   .Title {
+    color: #ACACAC;
     font-weight: 500;
     text-transform: capitalize;
   }
