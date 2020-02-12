@@ -17,7 +17,12 @@ import NameList from './components/NameList'
 import GlobalStyles from './styles/GlobalStyles'
 
 const StyledNav = styled.div`
-  margin: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(255,255,255,0) 100%);
   .Nav {
     margin: 0 0 0 5px;
     padding-right: 7px;
@@ -30,7 +35,7 @@ const StyledNav = styled.div`
 
 const StyledGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 5fr
+  grid-template-columns: 1fr 6fr
 `;
 
 function App() {
@@ -44,9 +49,9 @@ function App() {
         </nav>
       </StyledNav>
       <Switch>
-        <Route path="/hero/:name" children={<HeroBuild />} />
+        <Route path="/hero/:name" children={<StyledGrid><NameList /><HeroBuild /></StyledGrid>} />
         <Route path="/stages" children={<StageList />} />
-        <Route path="/" children={<StyledGrid><NameList /><HeroList /></StyledGrid>} />
+        <Route path="/" children={<HeroList />} />
       </Switch>
     </Router>
   );

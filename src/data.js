@@ -77,6 +77,36 @@ import nelia2 from './assets/landinghero/nelia2.png'
 import gaian2 from './assets/landinghero/gaian2.png'
 import arsad2 from './assets/landinghero/arsad2.png'
 
+import sr from './assets/diamond/sr.png'
+
+import elesisv from'./assets/profiles/elesisv.png'
+import lirev from'./assets/profiles/lirev.png'
+import armev from'./assets/profiles/armev.png'
+import lassv from'./assets/profiles/lassv.png'
+import ryanv from'./assets/profiles/ryanv.png'
+import ronanv from'./assets/profiles/ronanv.png'
+import amyv from'./assets/profiles/amyv.png'
+import jinv from'./assets/profiles/jinv.png'
+import sieghartv from'./assets/profiles/sieghartv.png'
+import mariv from'./assets/profiles/mariv.png'
+import diov from'./assets/profiles/diov.png'
+import zerov from'./assets/profiles/zerov.png'
+import leyv from'./assets/profiles/leyv.png'
+import rufusv from'./assets/profiles/rufusv.png'
+import rinv from'./assets/profiles/rinv.png'
+import asinv from'./assets/profiles/asinv.png'
+import limev from'./assets/profiles/limev.png'
+import edelv from'./assets/profiles/edelv.png'
+import veigasv from'./assets/profiles/veigasv.png'
+import serdinv from'./assets/profiles/serdinv.png'
+import kanavanv from'./assets/profiles/kanavanv.png'
+import wernerv from'./assets/profiles/wernerv.png'
+import grandielv from'./assets/profiles/grandielv.png'
+import neliav from'./assets/profiles/neliav.png'
+import iov from'./assets/profiles/iov.png'
+import gaianv from'./assets/profiles/gaianv.png'
+import arsadv from'./assets/profiles/arsadv.png'
+
 export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
@@ -173,39 +203,40 @@ export const sUnit = ['assault', 'tank', 'ranger', 'mage', 'healer'];
 export const mats = ['bov', 'enchants', 'runes', 'aot']
 
 export const heroes = [
-  { id: "elesis", name: "Elesis", pic: elesis2, heroColor: '#FDB9B7'},
-  { id: "lire", name: "Lire", pic: lire2, heroColor: '#BBFBB1'},
-  { id: "arme", name: "Arme", pic: arme2, heroColor: '#FCB8F1',},
-  { id: "lass", name: "Lass", pic: lass2, heroColor: '#B7F3F9'},
-  { id: "ryan", name: "Ryan", pic: ryan2, heroColor: '#FDE2B7'},
-  { id: "ronan", name: "Ronan", pic: ronan2, heroColor: '#B9B3F6'},
-  { id: "amy", name: "Amy", pic: amy2, heroColor: '#FBBDDB'},
-  { id: "jin", name: "Jin", pic: jin2, heroColor: '#C53019'},
-  { id: "sieghart", name: "Sieghart", pic: sieghart2, heroColor: '#48384F'},
-  { id: "mari", name: "Mari", pic: mari2, heroColor: '#5188E9'},
-  { id: "dio", name: "Dio", pic: dio2, heroColor: '#D75ED1'},
-  { id: "zero", name: "Zero", pic: zero2, heroColor: '#D8E4A9'},
-  { id: "ley", name: "Ley", pic: ley2, heroColor: '#BC77DC'},
-  { id: "rufus", name: "Rufus", pic: rufus2, heroColor: '#B14953'},
-  { id: "rin", name: "Rin", pic: rin2, heroColor: '#30D1ED'},
-  { id: "asin", name: "Asin", pic: asin2, heroColor: '#BFDADA'},
-  { id: "lime", name: "Lime", pic: lime2, heroColor: '#B7EEA3'},
-  { id: "edel", name: "Edel", pic: edel2, heroColor: '#5181B8'},
-  { id: "veigas", name: "Veigas", pic: veigas2, heroColor: '#E7C8E9'},
-  { id: "serdin", name: "Serdin", pic: serdin2, heroColor: '#C7EADE'},
-  { id: "kanavan", name: "Kanavan", pic: kanavan2, heroColor: '#F69AD6'},
-  { id: "werner", name: "Werner", pic: werner2, heroColor: '#CB9CE8'},
-  { id: "grandiel", name: "Grandiel", pic: grandiel2, heroColor: '#A0D6E8'},
-  { id: "nelia", name: "Nelia", pic: nelia2, heroColor: '#E38699'},
-  { id: "io", name: "Io", pic: io2, heroColor: '#4CCFFF'},
-  { id: "gaian", name: "Gaian", pic: gaian2, heroColor: '#E3DFF4'},
-  { id: "arsad", name: "Arsad", pic: arsad2, heroColor: '#FFEE9D'}
+  { id: "elesis", name: "Elesis", pic: elesis2, heroColor: '#FDB9B7', profilePic: elesisv},
+  { id: "lire", name: "Lire", pic: lire2, heroColor: '#BBFBB1', profilePic: lirev},
+  { id: "arme", name: "Arme", pic: arme2, heroColor: '#FCB8F1', profilePic: armev},
+  { id: "lass", name: "Lass", pic: lass2, heroColor: '#B7F3F9', profilePic: lassv},
+  { id: "ryan", name: "Ryan", pic: ryan2, heroColor: '#FDE2B7', profilePic: ryanv},
+  { id: "ronan", name: "Ronan", pic: ronan2, heroColor: '#B9B3F6', profilePic: ronanv},
+  { id: "amy", name: "Amy", pic: amy2, heroColor: '#FBBDDB', profilePic: amyv},
+  { id: "jin", name: "Jin", pic: jin2, heroColor: '#C53019', profilePic: jinv},
+  { id: "sieghart", name: "Sieghart", pic: sieghart2, heroColor: '#48384F', profilePic: sieghartv},
+  { id: "mari", name: "Mari", pic: mari2, heroColor: '#5188E9', profilePic: mariv},
+  { id: "dio", name: "Dio", pic: dio2, heroColor: '#D75ED1', profilePic: diov},
+  { id: "zero", name: "Zero", pic: zero2, heroColor: '#D8E4A9', profilePic: zerov},
+  { id: "ley", name: "Ley", pic: ley2, heroColor: '#BC77DC', profilePic: leyv},
+  { id: "rufus", name: "Rufus", pic: rufus2, heroColor: '#B14953', profilePic: rufusv},
+  { id: "rin", name: "Rin", pic: rin2, heroColor: '#30D1ED', profilePic: rinv},
+  { id: "asin", name: "Asin", pic: asin2, heroColor: '#BFDADA', profilePic: asinv},
+  { id: "lime", name: "Lime", pic: lime2, heroColor: '#B7EEA3', profilePic: limev},
+  { id: "edel", name: "Edel", pic: edel2, heroColor: '#5181B8', profilePic: edelv},
+  { id: "veigas", name: "Veigas", pic: veigas2, heroColor: '#E7C8E9', profilePic: veigasv},
+  { id: "serdin", name: "Serdin", pic: serdin2, heroColor: '#C7EADE', profilePic: serdinv},
+  { id: "kanavan", name: "Kanavan", pic: kanavan2, heroColor: '#F69AD6', profilePic: kanavanv},
+  { id: "werner", name: "Werner", pic: werner2, heroColor: '#CB9CE8', profilePic: wernerv},
+  { id: "grandiel", name: "Grandiel", pic: grandiel2, heroColor: '#A0D6E8', profilePic: grandielv},
+  { id: "nelia", name: "Nelia", pic: nelia2, heroColor: '#E38699', profilePic: neliav},
+  { id: "io", name: "Io", pic: io2, heroColor: '#4CCFFF', profilePic: iov},
+  { id: "gaian", name: "Gaian", pic: gaian2, heroColor: '#E3DFF4', profilePic: gaianv},
+  { id: "arsad", name: "Arsad", pic: arsad2, heroColor: '#FFEE9D', profilePic: arsadv}
 ]
 
 export const heroBuilds= {
   elesis: {
     id:'elesis', 
     name: 'Elesis', 
+    rank: sr,
     type: 'assault',
     color: '#C12119',
     classPic: assault,
@@ -228,6 +259,7 @@ export const heroBuilds= {
   lire: {
     id:'lire', 
     name: 'Lire', 
+    rank: sr,
     type: 'ranger',
     color: '#5EDB51',
     classPic: ranger,
@@ -250,6 +282,7 @@ export const heroBuilds= {
   arme: {
     id:'arme', 
     name: 'Arme', 
+    rank: sr,
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
@@ -272,6 +305,7 @@ export const heroBuilds= {
   lass: {
     id:'lass', 
     name: 'Lass', 
+    rank: sr,
     type: 'assault',
     color: '#C12119',
     classPic: assault,
@@ -294,6 +328,7 @@ export const heroBuilds= {
   ryan: {
     id:'ryan', 
     name: 'Ryan', 
+    rank: sr,
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
@@ -316,6 +351,7 @@ export const heroBuilds= {
   ronan: {
     id:'ronan', 
     name: 'Ronan', 
+    rank: sr,
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
@@ -338,6 +374,7 @@ export const heroBuilds= {
   amy:{
     id:'amy', 
     name: 'Amy', 
+    rank: sr,
     type: 'healer',
     color: '#FFE228',
     classPic: healer,
@@ -360,6 +397,7 @@ export const heroBuilds= {
   jin: {
     id:'jin', 
     name: 'Jin', 
+    rank: sr,
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
@@ -382,6 +420,7 @@ export const heroBuilds= {
   sieghart: {
     id:'sieghart', 
     name: 'Sieghart', 
+    rank: sr,
     type: 'assault',
     color: '#C12119',
     classPic: assault,
@@ -404,6 +443,7 @@ export const heroBuilds= {
   mari: {
     id:'mari', 
     name: 'Mari', 
+    rank: sr,
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
@@ -426,6 +466,7 @@ export const heroBuilds= {
   dio: {
     id:'dio', 
     name: 'Dio',
+    rank: sr,
     type: 'assault',
     color: '#C12119', 
     classPic: assault,
@@ -448,6 +489,7 @@ export const heroBuilds= {
   zero: {
     id:'zero', 
     name: 'Zero', 
+    rank: sr,
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
@@ -470,6 +512,7 @@ export const heroBuilds= {
   ley: {
     id:'ley', 
     name: 'Ley', 
+    rank: sr,
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
@@ -492,6 +535,7 @@ export const heroBuilds= {
   rufus: {
     id:'rufus', 
     name: 'Rufus',
+    rank: sr,
     type: 'ranger', 
     color: '#5EDB51',
     classPic: ranger,
@@ -514,6 +558,7 @@ export const heroBuilds= {
   rin: {
     id:'rin', 
     name: 'Rin', 
+    rank: sr,
     type: 'healer',
     color: '#FFE228',
     classPic: healer,
@@ -536,6 +581,7 @@ export const heroBuilds= {
   asin: {
     id:'asin', 
     name: 'Asin', 
+    rank: sr,
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
@@ -558,6 +604,7 @@ export const heroBuilds= {
   lime: {
     id:'lime', 
     name: 'Lime', 
+    rank: sr,
     type: 'healer',
     color: '#FFE228',
     classPic: healer,
@@ -580,6 +627,7 @@ export const heroBuilds= {
   edel: {
     id:'edel', 
     name: 'Edel', 
+    rank: sr,
     type: 'assault',
     color: '#C12119',
     classPic: assault,
@@ -602,6 +650,7 @@ export const heroBuilds= {
   veigas: {
     id:'veigas', 
     name: 'Veigas', 
+    rank: sr,
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
@@ -624,6 +673,7 @@ export const heroBuilds= {
   serdin: {
     id:'serdin', 
     name: 'Serdin', 
+    rank: sr,
     type: 'healer',
     color: '#FFE228',
     classPic: healer,
@@ -646,6 +696,7 @@ export const heroBuilds= {
   kanavan: {
     id:'kanavan', 
     name: 'Kanavan', 
+    rank: sr,
     type: 'assault',
     color: '#C12119',
     classPic: assault,
@@ -669,6 +720,7 @@ export const heroBuilds= {
   werner: {
     id:'werner', 
     name: 'Werner', 
+    rank: sr,
     type: 'ranger',
     color: '#5EDB51',
     classPic: ranger,
@@ -691,6 +743,7 @@ export const heroBuilds= {
   grandiel: {
     id:'grandiel', 
     name: 'Grandiel', 
+    rank: sr,
     type: 'healer',
     color: '#FFE228',
     classPic: healer,
@@ -713,6 +766,7 @@ export const heroBuilds= {
   nelia: {
     id:'nelia', 
     name: 'Nelia', 
+    rank: sr,
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
@@ -735,6 +789,7 @@ export const heroBuilds= {
   io: {
     id:'io',
     name:'Io',
+    rank: sr,
     type: 'ranger',
     color: '#5EDB51',
     classPic: ranger,
@@ -758,6 +813,7 @@ export const heroBuilds= {
   gaian: {
     id:'darkGaian', 
     name: 'Dark Gaian', 
+    rank: sr,
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
@@ -780,6 +836,7 @@ export const heroBuilds= {
   arsad: {
     id:'arsad', 
     name: 'Arsad', 
+    rank: sr,
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,

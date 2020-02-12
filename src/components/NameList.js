@@ -27,7 +27,6 @@ function NameList() {
             <Link key={hero.id} to={`/hero/${hero.id}`}>
               <Name {...hero} />
             </Link>
-  
           ))}
         </div>
       </StyledNameList>

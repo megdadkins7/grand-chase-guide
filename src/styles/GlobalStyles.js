@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         font-weight: 400;
-        background: #212121;
+        background: #262626;
         -webkit-font-smoothing: antialiased; 
         -moz-osx-font-smoothing: grayscale; 
     }

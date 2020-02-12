@@ -8,14 +8,13 @@ import { heroBuilds } from '../data'
 const StyledHeroBuild = styled.div`
   display: flex;
   justify-content: center;
-  margin: 50px 10px 0 10px;
+  margin: 10px;
   .HeroPic {
     margin: 10px;
   }
   .HeroInfoWrapper {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr;
-    grid-gap: 20px 20px;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     margin: 10px;
     padding: 20px;
@@ -35,15 +34,27 @@ const StyledHeroBuild = styled.div`
     width: auto;
   }
   .BuildPics {
-    height: auto;
-    width: auto;
+    height: 50px;
   }
-  .ClassPic {
-    height: 25px;
-    width: 25px;
+  .RankPic {
+    height: 70px;
+    z-index: 1;
   }
-  .HeroType {
+  .TypePic {
+    height: 50px;
+    z-index: 1;
+  }
+  .Name {
+    z-index: 1;
+    text-transform: uppercase;
+    color: #ACACAC
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .HeroInfo {
     display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
     align-items: center;
   }
 `;
@@ -56,26 +67,21 @@ function HeroBuild() {
 
   const heroColor = build.color;
   
-  const boxShadowStyle = {
-    boxShadow: `inset 0 0 3px 1px ${heroColor}`
-  }
+  // const boxShadowStyle = {
+  //   boxShadow: `inset 0 0 3px 1px ${heroColor}`
+  // }
 
   return (
     <StyledHeroBuild>
       <div className='HeroPic'>
         <img src={build.pic} alt='' />
+        <div className='HeroInfo'>
+          <img className='RankPic' src={build.rank} alt='SR' />
+          <img className='TypePic' src={build.classPic} alt='class' />
+          <span className='Name'>{build.name}</span>
+        </div>
       </div>
-      <div className='HeroInfoWrapper' style={boxShadowStyle}>
-        <div className='HeroName'>
-          <span className='Title'>Hero:</span><span className='Info'>{build.name}</span>
-        </div>
-        <div className='HeroType'>
-          <span className='Title'>Class:</span><span className='Info'>{build.type}</span>
-          <img className='ClassPic' src={build.classPic} alt='heroType' />
-        </div>
-        <div className='HeroLB'>
-          <span className='Title'>Limit Break:</span><span className='Info'>{build.limitBreak}</span>
-        </div>
+      <div className='HeroInfoWrapper'>
         <div className='HeroSet'>
           <span className='Title'>Armor:</span><span className='Info'>{build.set}</span>
           <div className='ArmorWrapper'>
@@ -97,6 +103,9 @@ function HeroBuild() {
           <div><span className='Title'>Chaser Level 15:</span><span className='Info'>{build.chaser15}</span></div>
           <div><span className='Title'>Chaser Level 20:</span><span className='Info'>{build.chaser20}</span></div>
           <div><span className='Title'>Chaser Level 25:</span><span className='Info'>{build.chaser25}</span></div>
+        </div>
+        <div className='HeroLB'>
+          <span className='Title'>Limit Break:</span><span className='Info'>{build.limitBreak}</span>
         </div>
         <div className='HeroTraits'>
           <span className='Title'>Traits:</span><span className='Info'>{build.traits}</span>
