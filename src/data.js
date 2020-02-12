@@ -107,6 +107,32 @@ import iov from'./assets/profiles/iov.png'
 import gaianv from'./assets/profiles/gaianv.png'
 import arsadv from'./assets/profiles/arsadv.png'
 
+import almong from './assets/pets/almong.png'
+import crocell from './assets/pets/crocell.png'
+import dangel from './assets/pets/dangel.png'
+import diamond from './assets/pets/diamond.png'
+import elion from './assets/pets/elion.png'
+import gnar from './assets/pets/gnar.png'
+import goldporkcard from './assets/pets/goldporkcard.png'
+import holy from './assets/pets/holy.png'
+import hoya from './assets/pets/hoya.png'
+import luri from './assets/pets/luri.png'
+import manbo from './assets/pets/manbo.png'
+import montero from './assets/pets/montero.png'
+import muse from './assets/pets/muse.png'
+import nelion from './assets/pets/nelion.png'
+import niah from './assets/pets/niah.png'
+import raul from './assets/pets/raul.png'
+import reruby from './assets/pets/reruby.png'
+import res from './assets/pets/res.png'
+import rupe from './assets/pets/rupe.png'
+import sally from './assets/pets/sally.png'
+import sebastian from './assets/pets/sebastian.png'
+import shin from './assets/pets/shin.png'
+import tcon from './assets/pets/tcon.png'
+import temphy from './assets/pets/temphy.png'
+import zeta from './assets/pets/zeta.png'
+
 export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
@@ -240,6 +266,8 @@ export const heroBuilds= {
     type: 'assault',
     color: '#C12119',
     classPic: assault,
+    pet: elion,
+    petName: 'Elion',
     set: 'Power of Anger (blue)', 
     setPic: blue,
     pic: elesis,
@@ -263,6 +291,8 @@ export const heroBuilds= {
     type: 'ranger',
     color: '#5EDB51',
     classPic: ranger,
+    pet: reruby,
+    petName: 'Reruby',
     set: 'Vows of Violence (green)', 
     setPic: green,
     pic: lire,
@@ -286,6 +316,8 @@ export const heroBuilds= {
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
+    pet: almong,
+    petName: 'Almong',
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
     pic: arme,
@@ -309,6 +341,8 @@ export const heroBuilds= {
     type: 'assault',
     color: '#C12119',
     classPic: assault,
+    pet: raul,
+    petName: 'Raul',
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
     pic: lass,
@@ -332,6 +366,8 @@ export const heroBuilds= {
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
+    pet: montero,
+    petName: 'Montero',
     set: 'Power of Anger (blue)', 
     setPic: blue,
     pic: ryan,
@@ -355,6 +391,8 @@ export const heroBuilds= {
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
+    pet: temphy,
+    petName: 'Temphy',
     set: 'Power of Anger (blue)', 
     setPic: blue,
     pic: ronan,
@@ -378,6 +416,8 @@ export const heroBuilds= {
     type: 'healer',
     color: '#FFE228',
     classPic: healer,
+    pet: muse,
+    petName: 'Muse',
     set: 'Vows of Violence (green)', 
     setPic: green,
     pic: amy,
@@ -401,6 +441,8 @@ export const heroBuilds= {
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
+    pet: hoya,
+    petName: 'Hoya',
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
     pic: jin,
@@ -424,6 +466,8 @@ export const heroBuilds= {
     type: 'assault',
     color: '#C12119',
     classPic: assault,
+    pet: '',
+    petName: '',
     set: 'Power of Anger (blue)', 
     setPic: blue,
     pic: sieghart,
@@ -447,6 +491,8 @@ export const heroBuilds= {
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
+    pet: tcon,
+    petName: 'T-Con',
     set: 'Vows of Violence (green)', 
     setPic: green,
     pic: mari,
@@ -470,6 +516,8 @@ export const heroBuilds= {
     type: 'assault',
     color: '#C12119', 
     classPic: assault,
+    pet: dangel,
+    petName: 'Dangel',
     set: 'Power of Anger (blue)', 
     setPic: blue,
     pic: dio,
@@ -493,6 +541,8 @@ export const heroBuilds= {
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
+    pet: zeta,
+    petName: 'Zeta',
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
     pic: zero,
@@ -516,6 +566,8 @@ export const heroBuilds= {
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
+    pet: sebastian,
+    petName: 'Sebastian',
     set: 'Vows of Violence (green)', 
     setPic: green,
     pic: ley,
@@ -539,6 +591,8 @@ export const heroBuilds= {
     type: 'ranger', 
     color: '#5EDB51',
     classPic: ranger,
+    pet: rupe,
+    petName: 'Rupe',
     set: 'Vows of Violence (green)', 
     setPic: green,
     pic: rufus,
@@ -562,6 +616,8 @@ export const heroBuilds= {
     type: 'healer',
     color: '#FFE228',
     classPic: healer,
+    pet: niah,
+    petName: 'Niah',
     set: 'Power of Anger (blue)', 
     setPic: blue,
     pic: rin,
@@ -585,6 +641,8 @@ export const heroBuilds= {
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
+    pet: shin,
+    petName: 'Shin',
     set: 'Power of Anger (blue)', 
     setPic: blue,
     pic: asin,
@@ -608,6 +666,8 @@ export const heroBuilds= {
     type: 'healer',
     color: '#FFE228',
     classPic: healer,
+    pet: holy,
+    petName: 'Holy',
     set: 'Power of Anger (blue)', 
     setPic: blue,
     pic: lime,
@@ -631,6 +691,8 @@ export const heroBuilds= {
     type: 'assault',
     color: '#C12119',
     classPic: assault,
+    pet: diamond,
+    petName: 'Diamond',
     set: 'Vows of Violence (green)', 
     setPic: green,
     pic: edel,
@@ -654,6 +716,8 @@ export const heroBuilds= {
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
+    pet: crocell,
+    petName: 'Crocell',
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
     pic: veigas,
@@ -677,6 +741,8 @@ export const heroBuilds= {
     type: 'healer',
     color: '#FFE228',
     classPic: healer,
+    pet: sally,
+    petName: 'Sally',
     set: 'Vows of Violence (green)', 
     setPic: green,
     pic: serdin,
@@ -700,6 +766,8 @@ export const heroBuilds= {
     type: 'assault',
     color: '#C12119',
     classPic: assault,
+    pet: gnar,
+    petName: 'Gnar',
     set: 'Vows of Violence (green) or Dagger of Passion (orange)', 
     setPic: green,
     setPicB: orange,
@@ -724,6 +792,8 @@ export const heroBuilds= {
     type: 'ranger',
     color: '#5EDB51',
     classPic: ranger,
+    pet: goldporkcard,
+    petName: 'Gold Pork',
     set: 'Spirit of Luck (pink)', 
     setPic: pink,
     pic: werner,
@@ -747,6 +817,8 @@ export const heroBuilds= {
     type: 'healer',
     color: '#FFE228',
     classPic: healer,
+    pet: '',
+    petName: '',
     set: 'Power of Anger (blue)', 
     setPic: blue,
     pic: grandiel,
@@ -770,6 +842,8 @@ export const heroBuilds= {
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
+    pet: nelion,
+    petName: 'Nelion',
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
     pic: nelia,
@@ -793,6 +867,8 @@ export const heroBuilds= {
     type: 'ranger',
     color: '#5EDB51',
     classPic: ranger,
+    pet: luri,
+    petName: 'Luri',
     set: 'Power of Anger (blue) or Vows of Violence (green)',
     setPic: blue,
     setPicB: green,
@@ -817,6 +893,8 @@ export const heroBuilds= {
     type: 'mage',
     color: '#8242A5',
     classPic: mage,
+    pet: res,
+    petName: 'Res',
     set: 'Dagger of Passion (orange)', 
     setPic: orange,
     pic: gaian,
@@ -840,6 +918,8 @@ export const heroBuilds= {
     type: 'tank',
     color: '#0C9AFF',
     classPic: tank,
+    pet: manbo,
+    petName: 'Manbo',
     set: 'Power of Anger (blue)', 
     setPic: blue,
     pic: arsad,
@@ -857,3 +937,36 @@ export const heroBuilds= {
     chaser25: '',
   },
 }
+
+export const worldBossTeams = [
+  {
+    slotOne: 'elesis', 
+    slotTwo: 'kanavan', 
+    slotThree: 'lire', 
+    slotFour:'serdin', 
+    pet: 'reruby', 
+    partySkillOne: 'stimulation', 
+    partySkillTwo: 'acceleration', 
+    partySkillThree: 'resurrect'
+  },
+  {
+    slotOne: 'werner', 
+    slotTwo: 'edel', 
+    slotThree: 'arme', 
+    slotFour:'amy', 
+    pet: 'muse', 
+    partySkillOne: 'stimulation', 
+    partySkillTwo: 'acceleration', 
+    partySkillThree: 'resurrect'
+  },
+  {
+    slotOne: 'grandiel', 
+    slotTwo: 'mari', 
+    slotThree: 'nelia', 
+    slotFour:'ley', 
+    pet: 'sebastian', 
+    partySkillOne: 'stimulation', 
+    partySkillTwo: 'acceleration', 
+    partySkillThree: 'resurrect'
+  }
+]

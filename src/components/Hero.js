@@ -35,7 +35,7 @@ const StyledHero = styled.div`
   }
 `;
 
-function Hero({ name, pic, heroColor }) {
+function Hero({ pic, heroColor }) {
   
   const backgroundStyle = {
     backgroundColor: `${heroColor}`

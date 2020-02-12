@@ -12,10 +12,11 @@ const StyledHeroBuild = styled.div`
   .HeroPic {
     margin: 10px;
   }
-  .HeroInfoWrapper {
+  .HeroBuildWrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    justif-content: center;
     margin: 10px;
     padding: 20px;
   }
@@ -47,7 +48,7 @@ const StyledHeroBuild = styled.div`
   .Name {
     z-index: 1;
     text-transform: uppercase;
-    color: #ACACAC
+    color: #e8e8e8
     font-weight: 500;
     font-size: 25px;
   }
@@ -56,6 +57,10 @@ const StyledHeroBuild = styled.div`
     justify-content: flex-start;
     margin-left: 10px;
     align-items: center;
+  }
+  .PetPic {
+    height: 50px;
+    margin-left: 50px;
   }
 `;
 
@@ -67,9 +72,9 @@ function HeroBuild() {
 
   const heroColor = build.color;
   
-  // const boxShadowStyle = {
-  //   boxShadow: `inset 0 0 3px 1px ${heroColor}`
-  // }
+  const boxShadowStyle = {
+    boxShadow: `inset 0 0 3px 1px ${heroColor}`,
+  }
 
   return (
     <StyledHeroBuild>
@@ -81,7 +86,7 @@ function HeroBuild() {
           <span className='Name'>{build.name}</span>
         </div>
       </div>
-      <div className='HeroInfoWrapper'>
+      <div className='HeroBuildWrapper' style={boxShadowStyle}>
         <div className='HeroSet'>
           <span className='Title'>Armor:</span><span className='Info'>{build.set}</span>
           <div className='ArmorWrapper'>
@@ -95,6 +100,13 @@ function HeroBuild() {
             <img className='BuildPics' src={build.ring} alt='ring' />
             <img className='BuildPics' src={build.necklace} alt='necklace' />
             <img className='BuildPics' src={build.earrings} alt='earrings' />
+          </div>
+        </div>
+        <div className='PetWrapper'>
+          <span className='Title'>Pet:</span>
+          <span className='Info'>{build.petName}</span>
+          <div>
+            <img className='PetPic' src={build.pet} />
           </div>
         </div>
         <div className='HeroChaser'>

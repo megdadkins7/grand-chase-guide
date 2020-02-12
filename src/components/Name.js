@@ -5,15 +5,20 @@ import styled from 'styled-components'
 import diamond from '../assets/diamond/diamond.png'
 
 const StyledName = styled.div`
-  width: 100px;
+  width: 120px;
   font-size: 14px;
   border-radius: 10px;
   margin: 7px 0 7px 7px;
   padding: 5px;
   span {
     margin: 10px;
-    color: #FFF;
+    color: #E8E8E8;
     text-transform: uppercase;
+    font-weight: 500;
+  }
+  span:hover {
+    color: #fff;
+    font-size: 17px;
   }
   img {
     height: 10px;
@@ -35,7 +40,7 @@ function Name({ name, profilePic }) {
     padding: `15px`
   }
   return (
-    <div style={{display: 'flex', alignItems: 'center', borderRight: '1px solid black'}}>
+    <div style={{display: 'flex', alignItems: 'center', borderRight: '1px solid rgb(18,18,18)'}}>
       <StyledName style={backColor}>
         <img src={diamond} alt='diamond' />
         <span>{name}</span>
