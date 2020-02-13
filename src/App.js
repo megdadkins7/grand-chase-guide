@@ -13,9 +13,12 @@ import HeroList from './components/HeroList'
 import HeroBuild from './components/HeroBuild'
 import NameList from './components/NameList'
 import WorldBoss from './components/WorldBoss'
+import RaidList from './components/RaidList'
+import DualRaidList from './components/DualRaidList'
 
 //styles
 import GlobalStyles from './styles/GlobalStyles'
+import AltarOfTime from './components/AltarofTime';
 
 const StyledNav = styled.div`
   display: flex;
@@ -62,8 +65,11 @@ function App() {
       </StyledNav>
       <Switch>
         <Route path="/hero/:name" children={<StyledGrid><NameList /><HeroBuild /></StyledGrid>} />
-        <Route path="/worldboss" children={<WorldBoss />} />
         <Route path="/stages" children={<StageList />} />
+        <Route path="/worldboss" children={<WorldBoss />} />
+        <Route path="/aot" children={<AltarOfTime />} />
+        <Route path="/raid" children={<RaidList />} />
+        <Route path="/dualraid" children={<DualRaidList />} />
         <Route path="/" children={<HeroList />} />
       </Switch>
     </Router>

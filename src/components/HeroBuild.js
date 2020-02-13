@@ -106,7 +106,7 @@ function HeroBuild() {
           <span className='Title'>Pet:</span>
           <span className='Info'>{build.petName}</span>
           <div>
-            <img className='PetPic' src={build.pet} />
+            <img className='PetPic' src={build.pet} alt='' />
           </div>
         </div>
         <div className='HeroChaser'>

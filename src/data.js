@@ -133,6 +133,32 @@ import tcon from './assets/pets/tcon.png'
 import temphy from './assets/pets/temphy.png'
 import zeta from './assets/pets/zeta.png'
 
+import acceleration from './assets/partyskill/acceleration.jpg'
+import resurrect from './assets/partyskill/resurrect.jpg'
+import stimulation from './assets/partyskill/stimulation.jpg'
+
+import wbelesis from './assets/worldboss/wbelesis.png'
+import wbkanavan from './assets/worldboss/wbkanavan.png'
+import wblire from './assets/worldboss/wblire.png'
+import wbserdin from './assets/worldboss/wbserdin.png'
+import wbwerner from './assets/worldboss/wbwerner.png'
+import wbedel from './assets/worldboss/wbedel.png'
+import wbarme from './assets/worldboss/wbarme.png'
+import wbamy from './assets/worldboss/wbamy.png'
+import wbgrandiel from './assets/worldboss/wbgrandiel.png'
+import wbmari from './assets/worldboss/wbmari.png'
+import wbnelia from './assets/worldboss/wbnelia.png'
+import wbley from './assets/worldboss/wbley.png'
+import wbrufus from './assets/worldboss/wbrufus.png'
+import wblass from './assets/worldboss/wblass.png'
+import wbzero from './assets/worldboss/wbzero.png'
+import wbryan from './assets/worldboss/wbryan.png'
+import wbrin from './assets/worldboss/wbrin.png'
+import wbasin from './assets/worldboss/wbasin.png'
+import wblime from './assets/worldboss/wblime.png'
+import wbjin from './assets/worldboss/wbjin.png'
+import wbronan from './assets/worldboss/wbronan.png'
+
 export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
@@ -940,33 +966,242 @@ export const heroBuilds= {
 
 export const worldBossTeams = [
   {
-    slotOne: 'elesis', 
-    slotTwo: 'kanavan', 
-    slotThree: 'lire', 
-    slotFour:'serdin', 
-    pet: 'reruby', 
-    partySkillOne: 'stimulation', 
-    partySkillTwo: 'acceleration', 
-    partySkillThree: 'resurrect'
+    name: 'Meeting Harkion',
+    slotOne: wbelesis, 
+    slotTwo: wbkanavan, 
+    slotThree: wblire, 
+    slotFour: wbserdin, 
+    pet: reruby, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
   },
   {
-    slotOne: 'werner', 
-    slotTwo: 'edel', 
-    slotThree: 'arme', 
-    slotFour:'amy', 
-    pet: 'muse', 
-    partySkillOne: 'stimulation', 
-    partySkillTwo: 'acceleration', 
-    partySkillThree: 'resurrect'
+    name: 'Duel With Harkion',
+    slotOne: wbwerner, 
+    slotTwo: wbedel, 
+    slotThree: wbarme, 
+    slotFour: wbamy, 
+    pet: muse, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
   },
   {
-    slotOne: 'grandiel', 
-    slotTwo: 'mari', 
-    slotThree: 'nelia', 
-    slotFour:'ley', 
-    pet: 'sebastian', 
-    partySkillOne: 'stimulation', 
-    partySkillTwo: 'acceleration', 
-    partySkillThree: 'resurrect'
+    name: 'Final Battle With Harkion',
+    slotOne: wbgrandiel, 
+    slotTwo: wbmari, 
+    slotThree: wbnelia, 
+    slotFour: wbley, 
+    pet: sebastian, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  }
+]
+
+export const altarOfTime = [
+  {
+    name: 'Relay',
+    slotOne: wbelesis, 
+    slotTwo: wbrufus, 
+    slotThree: wblass, 
+    slotFour: wbserdin, 
+    pet: sebastian, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Brawl',
+    slotOne: wbamy, 
+    slotTwo: wbnelia, 
+    slotThree: wbarme, 
+    slotFour: wbzero, 
+    pet: nelion, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Elite',
+    slotOne: wbryan, 
+    slotTwo: wbkanavan, 
+    slotThree: wbwerner, 
+    slotFour: wbrin, 
+    pet: muse, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Boss',
+    slotOne: wbasin, 
+    slotTwo: wbley, 
+    slotThree: wblire, 
+    slotFour: wblime, 
+    pet: reruby, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  }
+]
+
+export const currentRaid = 'Tower of Memory';
+
+export const raidTeam = [
+  {
+    name: 'Swaying Ambition',
+    slotOne: wbelesis, 
+    slotTwo: wbzero, 
+    slotThree: wblire, 
+    slotFour: wbserdin, 
+    pet: muse, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Illusion of Memory',
+    slotOne: wbelesis, 
+    slotTwo: wbasin, 
+    slotThree: wbrufus, 
+    slotFour: wbserdin, 
+    pet: muse, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  }, 
+  {
+    name: 'Tower Manager',
+    slotOne: wbelesis, 
+    slotTwo: wbjin, 
+    slotThree: wbkanavan, 
+    slotFour: wbserdin, 
+    pet: muse, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Rulers Rights',
+    slotOne: wbelesis, 
+    slotTwo: wbrufus, 
+    slotThree: wblass, 
+    slotFour: wbserdin, 
+    pet: muse, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Resurrection Ceremony',
+    slotOne: wbelesis, 
+    slotTwo: wbronan, 
+    slotThree: wblire, 
+    slotFour: wbserdin, 
+    pet: muse, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect 
+  },
+  {
+    name: 'Casted Shadow of Greed',
+    slotOne: wbelesis, 
+    slotTwo: wbasin, 
+    slotThree: wblire, 
+    slotFour: wblime, 
+    pet: muse, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Crazy Envoy',
+    slotOne: wbelesis, 
+    slotTwo: wbley, 
+    slotThree: wblire, 
+    slotFour: wbserdin, 
+    pet: muse, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  }
+]
+
+export const dualRaid = 'Rank 6';
+
+export const dualTeams = [
+  {
+    name: 'Fire & Ice',
+    slotOne: wbelesis, 
+    slotTwo: wbnelia, 
+    slotThree: wblire, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    pet2: holy, 
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'The Last Avatar of God',
+    slotOne: wbelesis, 
+    slotTwo: wbnelia, 
+    slotThree: wblire, 
+    slotFour: wblime, 
+    pet: muse, 
+    pet2: holy,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'New World',
+    slotOne: wbelesis, 
+    slotTwo: wbnelia, 
+    slotThree: wbasin, 
+    slotFour: wbserdin, 
+    pet: muse, 
+    pet2: holy,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Between Calm And Passion',
+    slotOne: wbasin, 
+    slotTwo: wbzero, 
+    slotThree: wblire, 
+    slotFour: wbserdin, 
+    pet: muse, 
+    pet2: holy,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Contract Terminated',
+    slotOne: wbzero, 
+    slotTwo: wbasin, 
+    slotThree: wblire, 
+    slotFour: wbgrandiel, 
+    pet: reruby, 
+    pet2: holy,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Crazy Envoy',
+    slotOne: wbelesis, 
+    slotTwo: wbnelia, 
+    slotThree: wblire, 
+    slotFour: wbgrandiel, 
+    pet: muse, 
+    pet2: holy,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
   }
 ]

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const StyledTeam = styled.div`
+const StyledRaid = styled.div`
   display: grid;
   grid-template-columns: 1fr 3fr;
   justify-content: center;
@@ -43,9 +43,9 @@ const StyledTeam = styled.div`
   }
 `;
 
-function Team({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree }) {
+function Raid({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree }) {
   return (
-    <StyledTeam>
+    <StyledRaid>
       <div>
         <span>{name}:</span>
       </div>
@@ -59,8 +59,8 @@ function Team({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne,
       <img className='PartySkill' src={partySkillTwo} alt='party skill' />
       <img className='PartySkillThree' src={partySkillThree} alt='party skill' />
       </div>
-    </StyledTeam>
+    </StyledRaid>
   )
 }
 
-export default Team
+export default Raid
