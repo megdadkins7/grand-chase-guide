@@ -15,6 +15,7 @@ import NameList from './components/NameList'
 import WorldBoss from './components/WorldBoss'
 import RaidList from './components/RaidList'
 import DualRaidList from './components/DualRaidList'
+import DChasmList from './components/DChasmList'
 
 //styles
 import GlobalStyles from './styles/GlobalStyles'
@@ -69,6 +70,7 @@ function App() {
         <Route path="/worldboss" children={<WorldBoss />} />
         <Route path="/aot" children={<AltarOfTime />} />
         <Route path="/raid" children={<RaidList />} />
+        <Route path="/dimensionalchasm" children={<DChasmList />} />
         <Route path="/dualraid" children={<DualRaidList />} />
         <Route path="/" children={<HeroList />} />
       </Switch>

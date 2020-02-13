@@ -158,6 +158,9 @@ import wbasin from './assets/worldboss/wbasin.png'
 import wblime from './assets/worldboss/wblime.png'
 import wbjin from './assets/worldboss/wbjin.png'
 import wbronan from './assets/worldboss/wbronan.png'
+import wbveigas from './assets/worldboss/wbveigas.png'
+import wbdio from './assets/worldboss/wbdio.png'
+import wbsieghart from './assets/worldboss/wbsieghart.png'
 
 export const nullToNone = word => null ? word : 'none'
 
@@ -1200,6 +1203,273 @@ export const dualTeams = [
     slotFour: wbgrandiel, 
     pet: muse, 
     pet2: holy,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  }
+]
+
+export const dChasm = [
+  {
+    name: 'Dark Poseidon',
+    slotOne: wbamy, 
+    slotTwo: wbzero, 
+    slotThree: wbelesis, 
+    slotFour: wbnelia, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Hanout',
+    slotOne: wbarme, 
+    slotTwo: wbelesis, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Rasel',
+    slotOne: wbryan, 
+    slotTwo: wbzero, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Belial',
+    slotOne: wbronan, 
+    slotTwo: wbzero, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Marjoram',
+    slotOne: wblass, 
+    slotTwo: wbzero, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Captain Boar',
+    slotOne: wbmari, 
+    slotTwo: wbzero, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Fennel',
+    slotOne: wbsieghart, 
+    slotTwo: wbzero, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Balzac',
+    slotOne: wbrufus, 
+    slotTwo: wbzero, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Dr. Molly',
+    slotOne: wblire, 
+    slotTwo: wbzero, 
+    slotThree: wbasin, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Agios',
+    slotOne: wbjin, 
+    slotTwo: wbelesis, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Flaune',
+    slotOne: wbelesis, 
+    slotTwo: wbzero, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Charon',
+    slotOne: wbzero, 
+    slotTwo: wbelesis, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Tacoel',
+    slotOne: wbrin, 
+    slotTwo: wbelesis, 
+    slotThree: wbnelia, 
+    slotFour: wbzero, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Nephilim',
+    slotOne: wbley, 
+    slotTwo: wbzero, 
+    slotThree: wbelesis, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Briel',
+    slotOne: wblime, 
+    slotTwo: wbzero, 
+    slotThree: wbelesis, 
+    slotFour: wbnelia, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Dullahan',
+    slotOne: wbveigas, 
+    slotTwo: wbzero, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Fermat',
+    slotOne: wbdio, 
+    slotTwo: wblime, 
+    slotThree: wbzero, 
+    slotFour: wbnelia, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Haggler',
+    slotOne: wbnelia, 
+    slotTwo: wbzero, 
+    slotThree: wbasin, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Altair',
+    slotOne: wbkanavan, 
+    slotTwo: wbelesis, 
+    slotThree: wbzero, 
+    slotFour: wbserdin, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Vega',
+    slotOne: wbedel, 
+    slotTwo: wbelesis, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark BF',
+    slotOne: wbserdin , 
+    slotTwo: wbasin, 
+    slotThree: wbzero, 
+    slotFour: wbnelia, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark ',
+    slotOne: wbwerner, 
+    slotTwo: wbzero, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark Karp',
+    slotOne: wbasin, 
+    slotTwo: wbzero, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
+    pet: muse,
+    partySkillOne: stimulation, 
+    partySkillTwo: acceleration, 
+    partySkillThree: resurrect
+  },
+  {
+    name: 'Dark ',
+    slotOne: wbgrandiel, 
+    slotTwo: wbzero, 
+    slotThree: wbasin, 
+    slotFour: wbnelia, 
+    pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect
