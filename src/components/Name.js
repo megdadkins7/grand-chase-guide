@@ -16,10 +16,6 @@ const StyledName = styled.div`
     text-transform: uppercase;
     font-weight: 500;
   }
-  span:hover {
-    color: #fff;
-    font-size: 17px;
-  }
   img {
     height: 10px;
     width: 10px;
@@ -34,13 +30,23 @@ const StyledProfile = styled.div`{
   }
 }`
 
+const StyledListName = styled.div`
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgb(18,18,18);
+  div:hover {
+    color: #fff
+    font-size: 17px;
+  }
+`;
+
 function Name({ name, profilePic }) {
   const backColor = {
     background: `linear-gradient(90deg, rgba(18,18,18,1) 0%, rgba(0,0,0,0) 100%)`,
     padding: `15px`
   }
   return (
-    <div style={{display: 'flex', alignItems: 'center', borderRight: '1px solid rgb(18,18,18)'}}>
+    <StyledListName>
       <StyledName style={backColor}>
         <img src={diamond} alt='diamond' />
         <span>{name}</span>
@@ -48,7 +54,7 @@ function Name({ name, profilePic }) {
       <StyledProfile>
         <img className='Profile' src={profilePic} alt='profile' />
       </StyledProfile>
-    </div>  
+    </StyledListName>  
   )
 }
 

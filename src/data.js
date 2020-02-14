@@ -110,7 +110,7 @@ import arsadv from'./assets/profiles/arsadv.png'
 import almong from './assets/pets/almong.png'
 import crocell from './assets/pets/crocell.png'
 import dangel from './assets/pets/dangel.png'
-import diamond from './assets/pets/diamond.png'
+import dia from './assets/pets/dia.png'
 import elion from './assets/pets/elion.png'
 import gnar from './assets/pets/gnar.png'
 import goldporkcard from './assets/pets/goldporkcard.png'
@@ -162,7 +162,7 @@ import wbveigas from './assets/worldboss/wbveigas.png'
 import wbdio from './assets/worldboss/wbdio.png'
 import wbsieghart from './assets/worldboss/wbsieghart.png'
 
-export const nullToNone = word => null ? word : 'none'
+//export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
   if (word === 'bov') {
@@ -357,9 +357,9 @@ export const heroBuilds= {
     earrings: order,
     traits:'Crit, CDR, SDI (4 points in each)', 
     sockets:'Magic Attack, Crit/CDR, SADI', 
-    chaser05:'?',
-    chaser10: '?',
-    chaser15: '?',
+    chaser05:'5/5 Elevated Power',
+    chaser10: '5/5 Fate',
+    chaser15: '5/5 Impulse',
     chaser20: '5/5 Lightning Bolt',
     chaser25: '?',
   },
@@ -382,9 +382,9 @@ export const heroBuilds= {
     earrings: order,
     traits:'Crit, CDR, SDI (4 points in each)', 
     sockets:'Physical Attack, Crit, SADI', 
-    chaser05:'?',
-    chaser10: '?',
-    chaser15: '?',
+    chaser05:'5/5 Elevated Power',
+    chaser10: '5/5 Fate',
+    chaser15: '5/5 Impulse',
     chaser20: '5/5 Shadow Stranger',
     chaser25: '?',
   },
@@ -407,9 +407,9 @@ export const heroBuilds= {
     earrings: order, 
     traits:'BADR, SADR, HMRI (4 points in each)', 
     sockets:'Max Health, CDR, BADR', 
-    chaser05:'?',
-    chaser10: '?',
-    chaser15: '?',
+    chaser05:'5/5 Long Life',
+    chaser10: '5/5 Prayer of Blessing',
+    chaser15: '5/5 Impulse',
     chaser20: '5/5 Totem of Forest God',
     chaser25: '?',
   },
@@ -457,9 +457,9 @@ export const heroBuilds= {
     earrings: order,
     traits:'CDR, BASI, SADI (4 points in each)', 
     sockets:'Magic Attack, CDR/BASI, SADI', 
-    chaser05:'?',
-    chaser10: '?',
-    chaser15: '?',
+    chaser05:'5/5 Prayer of Blessing',
+    chaser10: '5/5 Invisible Hand',
+    chaser15: '5/5 Impulse',
     chaser20: '5/5 Fan Service',
     chaser25: '?',
   },
@@ -532,11 +532,11 @@ export const heroBuilds= {
     earrings: gust,
     traits:'Crit, BASI, BADI (4 points in each)', 
     sockets:'Magic Attack, BASI, SADI', 
-    chaser05:'?',
-    chaser10: '?',
-    chaser15: '?',
+    chaser05:'5/5 Elevated Power',
+    chaser10: '5/5 Fate',
+    chaser15: '5/5 Impulse',
     chaser20: '5/5 Deadly Test',
-    chaser25: '?',
+    chaser25: '5/5 Prayer of Blessing',
   },
   dio: {
     id:'dio', 
@@ -657,9 +657,9 @@ export const heroBuilds= {
     earrings: order,
     traits:'Crit, CDR, SADI (4 points in each)', 
     sockets:'Max Health, CDR/Crit, SADR/BADR', 
-    chaser05:'?',
-    chaser10: '?',
-    chaser15: '?',
+    chaser05:'5/5 Long Life',
+    chaser10: '5/5 Breath of Life',
+    chaser15: '5/5 Impulse',
     chaser20: '5/5 Chaotic Wind',
     chaser25: '?',
   },
@@ -720,8 +720,8 @@ export const heroBuilds= {
     type: 'assault',
     color: '#C12119',
     classPic: assault,
-    pet: diamond,
-    petName: 'Diamond',
+    pet: dia,
+    petName: 'Dia',
     set: 'Vows of Violence (green)', 
     setPic: green,
     pic: edel,
@@ -909,9 +909,9 @@ export const heroBuilds= {
     earrings: gust,
     traits:'BASI, BADI, CDR (4 points in each)', 
     sockets:'Physical Attack, BASI, BADI', 
-    chaser05:'?',
-    chaser10: '?',
-    chaser15: '?',
+    chaser05:'5/5 Elevated Power',
+    chaser10: '5/5 Fate',
+    chaser15: '5/5 Impulse',
     chaser20: '5/5 Punisher',
     chaser25: '?',
   },
@@ -1442,7 +1442,7 @@ export const dChasm = [
     partySkillThree: resurrect
   },
   {
-    name: 'Dark ',
+    name: 'Dark Favian',
     slotOne: wbwerner, 
     slotTwo: wbzero, 
     slotThree: wbnelia, 
@@ -1464,7 +1464,7 @@ export const dChasm = [
     partySkillThree: resurrect
   },
   {
-    name: 'Dark ',
+    name: 'Dark Kyle',
     slotOne: wbgrandiel, 
     slotTwo: wbzero, 
     slotThree: wbasin, 

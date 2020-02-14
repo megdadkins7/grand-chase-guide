@@ -6,19 +6,43 @@ import { useParams } from 'react-router-dom'
 import { heroBuilds } from '../data'
 
 const StyledHeroBuild = styled.div`
-  display: flex;
-  justify-content: center;
-  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   .HeroPic {
-    margin: 10px;
+    margin: 50px 10px 10px 120px;
+  }
+  img {
+    z-index: 1;
+    height: 400px;
+    width: auto;
+  }
+  .HeroInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .RankPic {
+    height: 70px;
+    z-index: 1;
+  }
+  .TypePic {
+    z-index: 1;
+    height: 50px;
+    margin: 15px 10px 10px 10px;
+  }
+  .Name {
+    z-index: 1;
+    margin: 20px 10px 10px 10px;
+    text-transform: uppercase;
+    color: #e8e8e8
+    font-weight: 500;
+    font-size: 25px;
   }
   .HeroBuildWrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justif-content: center;
-    margin: 10px;
-    padding: 20px;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    margin-left: 70px;
   }
   .Title {
     color: #ACACAC;
@@ -29,38 +53,17 @@ const StyledHeroBuild = styled.div`
     padding-left: 5px;
     text-transform: capitalize;
   }
-  img {
-    margin: 10px;
-    height: 400px;
-    width: auto;
-  }
   .BuildPics {
     height: 50px;
-  }
-  .RankPic {
-    height: 70px;
-    z-index: 1;
-  }
-  .TypePic {
-    height: 50px;
-    z-index: 1;
-  }
-  .Name {
-    z-index: 1;
-    text-transform: uppercase;
-    color: #e8e8e8
-    font-weight: 500;
-    font-size: 25px;
-  }
-  .HeroInfo {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 10px;
-    align-items: center;
+    margin: 10px
   }
   .PetPic {
     height: 50px;
-    margin-left: 50px;
+    margin: 10px;
+  }
+  .AccessoryPics {
+    height: 50px;
+    margin: 10px;
   }
 `;
 
@@ -70,11 +73,11 @@ function HeroBuild() {
   
   const build = heroBuilds[name];
 
-  const heroColor = build.color;
+  // const heroColor = build.color;
   
-  const boxShadowStyle = {
-    boxShadow: `inset 0 0 3px 1px ${heroColor}`,
-  }
+  // const boxShadowStyle = {
+  //   boxShadow: `inset 0 0 3px 1px ${heroColor}`,
+  // }
 
   return (
     <StyledHeroBuild>
@@ -86,7 +89,7 @@ function HeroBuild() {
           <span className='Name'>{build.name}</span>
         </div>
       </div>
-      <div className='HeroBuildWrapper' style={boxShadowStyle}>
+      <div className='HeroBuildWrapper'>
         <div className='HeroSet'>
           <span className='Title'>Armor:</span><span className='Info'>{build.set}</span>
           <div className='ArmorWrapper'>
@@ -97,9 +100,9 @@ function HeroBuild() {
         <div className='HeroAccessories'>
           <span className='Title'>Accessories:</span><span className='Info'>{build.accessories}</span>
           <div className='AccessoryWrapper'>
-            <img className='BuildPics' src={build.ring} alt='ring' />
-            <img className='BuildPics' src={build.necklace} alt='necklace' />
-            <img className='BuildPics' src={build.earrings} alt='earrings' />
+            <img className='AccessoryPics' src={build.ring} alt='ring' />
+            <img className='AccessoryPics' src={build.necklace} alt='necklace' />
+            <img className='AccessoryPics' src={build.earrings} alt='earrings' />
           </div>
         </div>
         <div className='PetWrapper'>
