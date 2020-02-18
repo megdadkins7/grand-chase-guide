@@ -7,12 +7,9 @@ import { heroBuilds } from '../data'
 
 const StyledHeroBuild = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr;
-  justify-content: center;
-  .HeroPic {
-  }
+  grid-template-columns: 1fr 1fr 1fr;
   .Hero {
-    margin: 20px 20px 0 20px;
+    margin: 10px 10px 0 10px;
     z-index: 1;
     height: 400px;
     width: auto;
