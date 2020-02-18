@@ -143,6 +143,7 @@ const StyledHeroBuild = styled.div`
     color: #ACACAC;
   }
   .ChaserImage {
+    margin-top: 5px;
     height: 60px;
     width: auto;
     border: 1px solid black;
