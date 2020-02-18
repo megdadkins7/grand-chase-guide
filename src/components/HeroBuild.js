@@ -7,18 +7,19 @@ import { heroBuilds } from '../data'
 
 const StyledHeroBuild = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  justify-content: center;
   .HeroPic {
-    margin: 50px 10px 10px 120px;
   }
   .Hero {
+    margin: 20px 20px 0 20px;
     z-index: 1;
     height: 400px;
     width: auto;
   }
   .HeroInfo {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
     margin-left: 10px;
@@ -42,24 +43,155 @@ const StyledHeroBuild = styled.div`
   }
   .LimitBreakWrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    box-shadow: inset 0 0 3px 1px #61FEE6;
+  }
+  .LBTitle {
+    margin: 10px;
+  }
+  .LimitBreakTitle {
+    display: block;
+    font-weight: 500;
+    color: #ACACAC;
+  }
+  .LBSkill {
+    margin: 10px;
+    height: 80px;
+    width: auto;
+    border: 1px solid black;
+  }
+  .LBName {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #ACACAC;
+  }
+  .Arrow {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #ACACAC;
+  }
+  .AccessoryWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .Accessories {
+    margin: 10px;
+    height: 50px;
+    width: auto;
+    border: 1px solid black;
+  }
+  .AccessoryName {
+    margin: 10px;
+  }
+  .EnchantsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
   }
   .Circle1 {
+    display: inline-block;
     background: #AFA6D0;
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    border: 1px solid black;
   }
   .Circle2 {
+    display: inline-block;
     background: #C13071;
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    border: 1px solid black;
   }
   .Circle3 {
+    display: inline-block;
     background: #57A1E9;
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    border: 1px solid black;
+  }
+  .Sockets {
+    margin: 10px;
+    padding: 5px;
+  }
+  .ChaserWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 50px;
+    box-shadow: inset 0 0 3px 1px #AE27CF;
+  }
+  .ChaserTitle {
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+    color: #ACACAC;
+  }
+  .Title {
+    color: #ACACAC;
+  }
+  .ChaserImage {
+    margin: 5px;
+    height: 60px;
+    width: auto;
+    border: 1px solid black;
+  }
+  .TraitsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .PetWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .Pet {
+    height: 80px;
+    width: auto;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  .PetName {
+    margin: 5px;
+    font-weight: 500;
+    color: #ACACAC;
+  }
+  .Traits {
+    text-align: center;
+  }
+  .Points {
+    color: #ACACAC;
+    margin-bottom: 10px;
+  }
+  .TraitTitle {
+    margin: 5px;
+    font-weight: 500;
+    color: #ACACAC;
+  }
+  .TraitName {
+    color: #ACACAC;
+    margin: 5px;
+  }
+  .TraitPic {
+    height: 80px;
+    width: auto;
+    margin: 10px;
+    border: 1px solid black;
   }
 `;
 
@@ -75,13 +207,16 @@ function HeroBuild() {
   
   const boxShadowStyle = {
     boxShadow: `inset 0 0 3px 1px ${heroColor}`,
-    textAlign: 'center',
-    padding: '  20px',
     margin: '40px'
   }
 
   const buildShadow = {
-    boxShadow: `inset 0 0 3px 1px ${setColor}`
+    display: 'flex',
+    flexDirection: 'column',
+    padding: '20px',
+    textAlign: 'center',
+    boxShadow: `inset 0 0 3px 1px ${setColor}`,
+    color: '#ACACAC'
   }
 
   return (
@@ -95,127 +230,80 @@ function HeroBuild() {
         </div>
       </div>
       <div className='HeroBuildWrapper'>
+        <div className='ChaserTitle'>Limit Break:</div>
         <div className='LimitBreakWrapper'>
           <div>
-            <img src={build.limitBreak1} />
-            <span>{build.lb1}</span>
+            <img className='LBSkill' src={build.limitBreak1} />
+            <span className='LBName'>{build.lb1}</span>
           </div>
-          <span>&rarr;</span>
+          <span className='Arrow'>&rarr;</span>
           <div>
-          <img src={build.limitBreak2} />
-          <span>{build.lb2}</span>
+          <img className='LBSkill' src={build.limitBreak2} />
+          <span className='LBName'>{build.lb2}</span>
           </div>
         </div>
+        <div className='ChaserTitle'>Hero Build:</div>
         <div className='BuildWrapper' style={buildShadow}>
-          <div className='ArmorWrapper'>
-            <span>{build.set}</span>
-          </div>
+          <span>{build.set}</span>
           <div className='AccessoryWrapper'>
-            <img src={build.ring} />
-            <span>{build.ringName}</span>
-            <img src={build.necklace} />
-            <span>{build.necklaceName}</span>
-            <img src={build.earrings} />
-            <span>{build.earringsName}</span>
+            <div>
+              <img className='Accessories' src={build.ring} />
+              <div className='AccessoryName'>{build.ringName}</div>
+            </div>
+            <div>
+              <img className='Accessories' src={build.necklace} />
+              <div className='AccessoryName'>{build.necklaceName}</div>
+            </div>
+            <div>
+              <img className='Accessories' src={build.earrings} />
+              <div className='AccessoryName'>{build.earringsName}</div>
+            </div>
           </div>
           <div className='EnchantsWrapper'>
-            <div className='Circle1'></div>
-            <span>{build.socket1}</span>
-            <div className='Circle2'></div>
-            <span>{build.socket2}</span>
-            <div className='Circle3'></div>
-            <span>{build.socket3}</span>
+            <div>
+              <div className='Circle1'></div>
+              <span className='Sockets'>{build.socket1}</span>
+            </div>
+            <div>
+              <div className='Circle2'></div>
+              <span className='Sockets'>{build.socket2}</span>
+            </div>
+            <div>
+              <div className='Circle3'></div>
+              <span className='Sockets'>{build.socket3}</span>
+            </div>
           </div>
         </div>
+        <div className='ChaserTitle'>Chaser:</div>
         <div className='ChaserWrapper'>
-          <div><span className='Title'>Chaser Level 05:</span><span className='Info'>{build.chaser05}</span></div>
-          <div><span className='Title'>Chaser Level 10:</span><span className='Info'>{build.chaser10}</span></div>
-          <div><span className='Title'>Chaser Level 15:</span><span className='Info'>{build.chaser15}</span></div>
-          <div><span className='Title'>Chaser Level 20:</span><img src={build.chaser20} /></div>
-          <div><span className='Title'>Chaser Level 25:</span><span className='Info'>{build.chaser25}</span></div>
+          <div><span className='Title'>CL 05:</span><img className='ChaserImage' src={build.chaser20} /></div>
+          <div><span className='Title'>CL 10:</span><img className='ChaserImage' src={build.chaser20} /></div>
+          <div><span className='Title'>CL 15:</span><img className='ChaserImage' src={build.chaser20} /></div>
+          <div><span className='Title'>CL 20:</span><img className='ChaserImage' src={build.chaser20} /></div>
+          <div><span className='Title'>CL 25:</span><img className='ChaserImage' src={build.chaser20} /></div>
         </div>
       </div>
-      <div className='TraitsWrapper'>
-        <div>
-          <img src={build.pet} />
-          <span>{build.petName}</span>
+      <div className='TraitsWrapper' style={boxShadowStyle}>
+        <div className='PetWrapper'>
+          <div>
+            <span className='PetName'>Pet:</span>
+            <span className='PetName'>{build.petName}</span>
+          </div>
+          <img className='Pet' src={build.pet} />
         </div>
-        <div>
-          <span>{build.traits}</span>
-          <img src={build.trait1} />
-          <span>{build.tn1}</span>
-          <img src={build.trait2} />
-          <span>{build.tn2}</span>
-          <img src={build.trait3} />
-          <span>{build.tn3}</span>
+        <div className='Traits'>
+          <div className='TraitTitle'>Traits:</div>
+          <div className='Points'>{build.traits}</div>
+          <img className='TraitPic' src={build.trait1} />
+          <div className='TraitName'>{build.tn1}</div>
+          <img className='TraitPic' src={build.trait2} />
+          <div className='TraitName'>{build.tn2}</div>
+          <img className='TraitPic' src={build.trait3} />
+          <div className='TraitName'>{build.tn3}</div>
         </div>
-      </div>  
+      </div> 
     </StyledHeroBuild>
   )
 }
 
 export default HeroBuild
-
-/*
-<div className='HeroSet'>
-  <span className='Title'>Armor:</span><span className='Info'>{build.set}</span>
-  <div className='ArmorWrapper'>
-    <img className='BuildPics' src={build.setPic} alt='armorSet' />
-    <img className='BuildPics' src={build.setPicB} alt='' />
-  </div>
-</div>
-<div className='HeroAccessories'>
-  <span className='Title'>Accessories:</span><span className='Info'>{build.accessories}</span>
-  <div className='AccessoryWrapper'>
-    <img className='AccessoryPics' src={build.ring} alt='ring' />
-    <img className='AccessoryPics' src={build.necklace} alt='necklace' />
-    <img className='AccessoryPics' src={build.earrings} alt='earrings' />
-  </div>
-</div>
-<div className='PetWrapper'>
-  <span className='Title'>Pet:</span>
-  <span className='Info'>{build.petName}</span>
-  <div>
-    <img className='PetPic' src={build.pet} alt='' />
-  </div>
-</div>
-<div className='HeroChaser'>
-  <div><span className='Title'>Chaser Level 05:</span><span className='Info'>{build.chaser05}</span></div>
-  <div><span className='Title'>Chaser Level 10:</span><span className='Info'>{build.chaser10}</span></div>
-  <div><span className='Title'>Chaser Level 15:</span><span className='Info'>{build.chaser15}</span></div>
-  <div><span className='Title'>Chaser Level 20:</span><span className='Info'>{build.chaser20}</span></div>
-  <div><span className='Title'>Chaser Level 25:</span><span className='Info'>{build.chaser25}</span></div>
-</div>
-<div className='HeroLB'>
-  <span className='Title'>Limit Break:</span><span className='Info'>{build.limitBreak}</span>
-</div>
-<div className='HeroTraits'>
-  <span className='Title'>Traits:</span><span className='Info'>{build.traits}</span>
-</div>
-<div className='HeroSockets'>
-  <span className='Title'>Enchants:</span><span className='Info'>{build.sockets}</span>
-</div>
-
-
-.Title {
-  color: #ACACAC;
-  font-weight: 500;
-}
-.Info {
-  color: #7D7D7D;
-  padding-left: 5px;
-  text-transform: capitalize;
-}
-.BuildPics {
-  height: 50px;
-  margin: 10px
-}
-.PetPic {
-  height: 50px;
-  margin: 10px;
-}
-.AccessoryPics {
-  height: 50px;
-  margin: 10px;
-}
-*/

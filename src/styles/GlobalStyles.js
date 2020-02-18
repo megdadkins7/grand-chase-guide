@@ -16,7 +16,8 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         font-weight: 400;
-        background: linear-gradient(135deg, rgba(59,58,58,1) 0%, rgba(10,10,10,1) 100%);;
+        background: linear-gradient(135deg, rgba(59,58,58,1) 0%, rgba(10,10,10,1) 100%);
+        background-attachment: fixed;
         -webkit-font-smoothing: antialiased; 
         -moz-osx-font-smoothing: grayscale; 
     }
