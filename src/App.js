@@ -25,12 +25,12 @@ const StyledNav = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  padding: 10px 10px 10px 0;
-  width: 100%;
+  padding: 5px;
+  width: 100%; 
   background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(255,255,255,0) 100%);
   .Nav {
-    margin: 0 0 0 5px;
-    padding-right: 10px;
+    margin: 0 5px;
+    padding-right: 5px;
     background-color: transparent;
     color: #ACACAC;
     font-weight: 500;
