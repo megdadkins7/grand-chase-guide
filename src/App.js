@@ -25,12 +25,11 @@ const StyledNav = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   width: 100%;
   background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(255,255,255,0) 100%);
   .Nav {
     margin: 0 0 0 5px;
-    padding-left: 10px;
     padding-right: 10px;
     background-color: transparent;
     color: #ACACAC;
@@ -45,8 +44,7 @@ const StyledNav = styled.div`
 
 const StyledGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 100%;
+  grid-template-columns: 1fr 5.5fr;
 `;
 
 function App() {

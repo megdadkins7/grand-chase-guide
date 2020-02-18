@@ -7,10 +7,10 @@ import { heroBuilds } from '../data'
 
 const StyledHeroBuild = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 30px;
   .Hero {
-    margin: 10px 10px 0 10px;
-    z-index: 1;
+    margin: 20px 20px 0 20px;
     height: 400px;
     width: auto;
   }
@@ -18,21 +18,17 @@ const StyledHeroBuild = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-left: 10px;
   }
   .RankPic {
     height: 70px;
-    z-index: 1;
+    margin: 70px 5px 0 0;
   }
   .TypePic {
-    z-index: 1;
     height: 50px;
-    margin: 15px 10px 10px 10px;
+    margin: 70px 5px 0 0;
   }
   .Name {
-    z-index: 1;
-    margin: 20px 10px 10px 10px;
+    margin: 70px 5px 0 0; 
     text-transform: uppercase;
     color: #e8e8e8
     font-weight: 500;
@@ -42,11 +38,9 @@ const StyledHeroBuild = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 0;
-    box-shadow: inset 0 0 3px 1px #61FEE6;
-  }
-  .LBTitle {
     margin: 10px;
+    padding: 30px 10px;
+    box-shadow: inset 0 0 3px 1px #61FEE6;
   }
   .LimitBreakTitle {
     display: block;
@@ -54,22 +48,30 @@ const StyledHeroBuild = styled.div`
     color: #ACACAC;
   }
   .LBSkill {
-    margin: 10px;
     height: 80px;
     width: auto;
     border: 1px solid black;
   }
   .LBName {
     display: block;
-    margin-bottom: 10px;
+    margin-top: 10px;
     text-align: center;
     font-weight: 500;
     color: #ACACAC;
   }
   .Arrow {
-    margin-bottom: 15px;
+    margin: 0 10px 25px 10px;
     font-weight: 500;
     font-size: 30px;
+    color: #ACACAC;
+  }
+  .BuildWrapper {
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  .Armor {
+    font-weight: 500;
     color: #ACACAC;
   }
   .AccessoryWrapper {
@@ -77,21 +79,22 @@ const StyledHeroBuild = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
+    margin: 20px;
   }
   .Accessories {
-    margin: 10px;
     height: 50px;
     width: auto;
     border: 1px solid black;
   }
   .AccessoryName {
-    margin: 10px;
+    color: #ACACAC;
   }
   .EnchantsWrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin: 10px;
   }
   .Circle1 {
     display: inline-block;
@@ -119,19 +122,20 @@ const StyledHeroBuild = styled.div`
   }
   .Sockets {
     margin: 10px;
-    padding: 5px;
+    text-align: center;
+    color: #ACACAC;
   }
   .ChaserWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+    padding: 50px 10px;
     text-align: center;
-    padding: 30px 50px;
     box-shadow: inset 0 0 3px 1px #AE27CF;
   }
   .ChaserTitle {
     text-align: center;
-    margin: 10px;
     font-weight: 500;
     color: #ACACAC;
   }
@@ -139,7 +143,6 @@ const StyledHeroBuild = styled.div`
     color: #ACACAC;
   }
   .ChaserImage {
-    margin: 5px;
     height: 60px;
     width: auto;
     border: 1px solid black;
@@ -149,19 +152,24 @@ const StyledHeroBuild = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px;
   }
   .PetWrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    padding-top: 10px;
   }
   .Pet {
+    margin: 10px;
     height: 80px;
     width: auto;
-    margin: 10px;
     border: 1px solid black;
+  }
+  .PetTitle {
+    font-weight: 500;
+    color: #ACACAC;
   }
   .PetName {
     margin: 5px;
@@ -169,25 +177,25 @@ const StyledHeroBuild = styled.div`
     color: #ACACAC;
   }
   .Traits {
+    margin: 5px;
     text-align: center;
   }
   .Points {
+    margin: 5px;
     color: #ACACAC;
-    margin-bottom: 10px;
   }
   .TraitTitle {
-    margin: 5px;
     font-weight: 500;
     color: #ACACAC;
   }
   .TraitName {
+    margin: 10px;
     color: #ACACAC;
-    margin: 5px;
   }
   .TraitPic {
+    margin: 10px;
     height: 80px;
     width: auto;
-    margin: 10px;
     border: 1px solid black;
   }
 `;
@@ -204,16 +212,11 @@ function HeroBuild() {
   
   const boxShadowStyle = {
     boxShadow: `inset 0 0 3px 1px ${heroColor}`,
-    margin: '40px'
+    margin: '10px'
   }
 
   const buildShadow = {
-    display: 'flex',
-    flexDirection: 'column',
-    padding: '20px',
-    textAlign: 'center',
     boxShadow: `inset 0 0 3px 1px ${setColor}`,
-    color: '#ACACAC'
   }
 
   return (
@@ -241,7 +244,7 @@ function HeroBuild() {
         </div>
         <div className='ChaserTitle'>Hero Build:</div>
         <div className='BuildWrapper' style={buildShadow}>
-          <span>{build.set}</span>
+          <span className='Armor'>{build.set}</span>
           <div className='AccessoryWrapper'>
             <div>
               <img className='Accessories' src={build.ring} />
@@ -283,7 +286,7 @@ function HeroBuild() {
       <div className='TraitsWrapper' style={boxShadowStyle}>
         <div className='PetWrapper'>
           <div>
-            <span className='PetName'>Pet:</span>
+            <span className='PetTitle'>Pet:</span>
             <span className='PetName'>{build.petName}</span>
           </div>
           <img className='Pet' src={build.pet} />
