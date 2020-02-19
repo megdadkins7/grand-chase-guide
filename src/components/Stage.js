@@ -5,8 +5,9 @@ import styled from 'styled-components'
   .Wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: 5px;
-    padding: 5px;
+    grid-gap: 2px;
+    margin: 3px;
+    padding: 3px;
   }
   .StageNumber {
     padding: 10px;
@@ -24,6 +25,7 @@ import styled from 'styled-components'
     padding: 5px;
   }
   .Title {
+    color: #ACACAC;
     font-weight: 500;
     text-transform: capitalize;
   }

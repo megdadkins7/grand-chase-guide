@@ -15,9 +15,10 @@ const StyledHeroList = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 100%;
+    margin: 20px 150px;
   }
 `;
+
 
 function HeroList() {
   return (
@@ -27,7 +28,6 @@ function HeroList() {
           <Link key={hero.id} to={`/hero/${hero.id}`}>
             <Hero {...hero} />
           </Link>
-
         ))}
       </div>
     </StyledHeroList>

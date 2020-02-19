@@ -4,32 +4,49 @@ import styled from 'styled-components'
 const StyledHero = styled.div`
   display: flex;
   justify-content: center;
-  padding: 10px;
-  margin: 10px;
-  .HeroImage {
+  margin: 2px;
+  .HeroImageWrapper {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
+  .HeroImage {
+    position: relative;
+    width: 75px;
+    height: 310px;
+    overflow: hidden;
+  }
   span {
     display: flex;
     justify-content: center;
-    padding: 15px;
     color: #4a4a4a;
     text-decoration: none;
   }
   img {
-    height: 200px;
-    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 310px;
+    filter: grayscale(1);
+  }
+  img:hover {
+    filter: unset;
   }
 `;
 
-function Hero({ name, pic }) {
+function Hero({ pic, heroColor }) {
+  
+  const backgroundStyle = {
+    backgroundColor: `${heroColor}`
+  }
+
   return (
     <StyledHero>
-      <div className='HeroImage'>
-        <img src={pic} alt='' />
-        <span>{name}</span>
+      <div className='HeroImageWrapper'>
+        <div className='HeroImage' style={backgroundStyle}>
+          <img src={pic} alt='hero' />
+        </div>
       </div>  
     </StyledHero>
   )

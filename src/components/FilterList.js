@@ -8,6 +8,7 @@ const StyledFilterList = styled.div`
   .Title {
     margin: 30px 0px 0px 30px;
     font-weight: 500;
+    color: #ACACAC;
   }
   .Block {
     display: block;
@@ -17,8 +18,6 @@ const StyledFilterList = styled.div`
   .Info {
     margin: 5px;
     color: #7D7D7D;
-  }
-  label {
     text-transform: capitalize;
   }
 `;
