@@ -44,7 +44,7 @@ const StyledNav = styled.div`
 
 const StyledGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 5.5fr;
+  grid-template-columns: 1fr 6fr;
 `;
 
 function App() {
