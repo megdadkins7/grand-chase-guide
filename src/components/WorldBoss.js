@@ -8,8 +8,8 @@ import { worldBossTeams } from '../data'
 import Team from './Team'
 
 const StyledWorldBoss = styled.div`
+  margin-top: 60px;
   width: 900px;
-  margin-top: 100px;
   text-align: center;
 `;
 

@@ -1618,7 +1618,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Amy's Chasm"
   },
   {
     name: 'Dark Hanout',
@@ -1629,7 +1630,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Arme's Chasm"
   },
   {
     name: 'Dark Rasel',
@@ -1640,7 +1642,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Ryan's Chasm"
   },
   {
     name: 'Dark Belial',
@@ -1651,7 +1654,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Ronan's Chasm"
   },
   {
     name: 'Dark Marjoram',
@@ -1662,7 +1666,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Lass's Chasm"
   },
   {
     name: 'Dark Captain Boar',
@@ -1673,7 +1678,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Mari's Chasm"
   },
   {
     name: 'Dark Fennel',
@@ -1684,7 +1690,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Sieghart's Chasm"
   },
   {
     name: 'Dark Balzac',
@@ -1695,7 +1702,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Rufus's Chasm"
   },
   {
     name: 'Dark Dr. Molly',
@@ -1706,7 +1714,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Lire's Chasm"
   },
   {
     name: 'Dark Agios',
@@ -1717,7 +1726,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Jin's Chasm"
   },
   {
     name: 'Dark Flaune',
@@ -1728,7 +1738,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Elesis's Chasm"
   },
   {
     name: 'Dark Charon',
@@ -1739,7 +1750,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Zero's Chasm"
   },
   {
     name: 'Dark Tacoel',
@@ -1750,7 +1762,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Rin's Chasm"
   },
   {
     name: 'Dark Nephilim',
@@ -1761,7 +1774,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Ley's Chasm"
   },
   {
     name: 'Dark Briel',
@@ -1772,7 +1786,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Lime's Chasm"
   },
   {
     name: 'Dark Dullahan',
@@ -1783,7 +1798,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Veigas's Chasm"
   },
   {
     name: 'Dark Fermat',
@@ -1794,7 +1810,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Dio's Chasm"
   },
   {
     name: 'Dark Haggler',
@@ -1805,7 +1822,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Nelia's Chasm"
   },
   {
     name: 'Dark Altair',
@@ -1816,7 +1834,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Kanavan's Chasm"
   },
   {
     name: 'Dark Vega',
@@ -1827,7 +1846,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Edel's Chasm"
   },
   {
     name: 'Dark BF',
@@ -1838,7 +1858,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Serdin's Chasm"
   },
   {
     name: 'Dark Favian',
@@ -1849,7 +1870,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Werner's Chasm"
   },
   {
     name: 'Dark Karp',
@@ -1860,7 +1882,8 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Asin's Chasm"
   },
   {
     name: 'Dark Kyle',
@@ -1871,6 +1894,7 @@ export const dChasm = [
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Grandiel's Chasm"
   }
 ]

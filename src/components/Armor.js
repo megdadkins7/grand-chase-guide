@@ -17,7 +17,7 @@ const StyledArmor = styled.div`
     margin: 20px;
   }
   .Accessories {
-    height: 50px;
+    height: 60px;
     width: auto;
     border: 1px solid black;
   }
@@ -57,7 +57,6 @@ const StyledArmor = styled.div`
   }
   .Sockets {
     margin: 10px;
-    text-align: center;
     color: #ACACAC;
   }
 `;

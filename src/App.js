@@ -54,6 +54,7 @@ function App() {
       <StyledNav>
         <nav>
           <Link className='Nav' to='/'>Home</Link>
+          <Link className='Nav' to='/hero/elesis'>Hero Build</Link>
           <Link className='Nav' to='/stages'>Boss Stages</Link>
           <Link className='Nav' to='/worldboss'>World Boss</Link>
           <Link className='Nav' to='/aot'>AOT Teams</Link>

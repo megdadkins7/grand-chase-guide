@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 
 //data
 import { dualRaid, dChasm } from '../data'
@@ -7,31 +6,20 @@ import { dualRaid, dChasm } from '../data'
 //components
 import DChasm from './DChasm'
 
-const StyledDChasmList = styled.div`
-  max-width: 100%;
-  text-align: center;
-`;
-
-const StyledRankDChasm = styled.div`
-  text-transform: uppercase;
-  text-align: center;
-  color: #ACACAC;
-  font-weight: 500;
-  font-size: 25px;
-`;
+//styles
+import { StyledRaidList } from '../styles/TeamStyle'
+import { StyledCurrentRaid } from '../styles/TeamStyle'
 
 function DualRaidList() {
   return (
     <>
-      <div style={{marginTop: '40px'}}>
-      <StyledRankDChasm>{dualRaid}</StyledRankDChasm>
+      <StyledCurrentRaid>{dualRaid}</StyledCurrentRaid>
       <div style={{display: 'flex', justifyContent: 'center'}}>
-        <StyledDChasmList>
+        <StyledRaidList>
           {dChasm.map(dChasm => (
             <DChasm {...dChasm} />
           ))}
-        </StyledDChasmList>
-      </div>
+        </StyledRaidList>
       </div>
     </>
   )
