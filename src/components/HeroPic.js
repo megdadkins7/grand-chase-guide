@@ -12,6 +12,7 @@ const StyledHeroPic = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
   }
   .RankPic {
     height: 70px;

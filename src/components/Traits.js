@@ -15,7 +15,7 @@ const StyledTraits = styled.div`
     margin: 10px;
     height: 80px;
     width: auto;
-    border: 1px solid black;
+    border: 1px solid #56DE74;
   }
   .PetTitle {
     font-weight: 500;
@@ -55,11 +55,11 @@ function Traits({ build }) {
   return (
     <StyledTraits>
       <div className='PetWrapper'>
+        <img className='Pet' src={build.pet} />
         <div>
           <span className='PetTitle'>Pet:</span>
           <span className='PetName'>{build.petName}</span>
         </div>
-        <img className='Pet' src={build.pet} />
       </div>
       <div className='Traits'>
         <div>

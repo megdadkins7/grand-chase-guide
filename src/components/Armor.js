@@ -11,7 +11,7 @@ const StyledArmor = styled.div`
   }
   .AccessoryWrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     margin: 20px;
@@ -83,6 +83,10 @@ function Armor({ build }) {
         <div>
           <img className='Accessories' src={build.earrings} />
           <div className='AccessoryName'>{build.earringsName}</div>
+        </div>
+        <div>
+          <img className='Accessories' src={build.artifact} />
+          <div className='AccessoryName'>{build.artifactName}</div>
         </div>
       </div>
       <div className='EnchantsWrapper'>

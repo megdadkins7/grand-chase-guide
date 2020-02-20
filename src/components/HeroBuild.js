@@ -15,7 +15,6 @@ import Traits from './Traits'
 const StyledHeroBuild = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin-top: 30px;
 `;
 
 function HeroBuild() {

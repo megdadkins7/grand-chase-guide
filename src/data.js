@@ -230,6 +230,12 @@ import imhr from './assets/traits/ihmr.png'
 import sadi from './assets/traits/sadi.png'
 import sadr from './assets/traits/sadr.png'
 
+import assaulta from './assets/artifacts/assaulta.png'
+import healera from './assets/artifacts/healera.png'
+import magea from './assets/artifacts/magea.png'
+import rangera from './assets/artifacts/rangera.png'
+import tanka from './assets/artifacts/tanka.png'
+
 //export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
@@ -400,7 +406,9 @@ export const heroBuilds= {
     chaser10:'5/5 Divine Protection', 
     chaser15: '5/5 Fate', 
     chaser20: elesischaser, 
-    chaser25:'5/5 Long Life'
+    chaser25:'5/5 Long Life',
+    artifact: assaulta,
+    artifactName: 'Assault'
   },
   lire: {
     id:'lire', 
@@ -438,6 +446,8 @@ export const heroBuilds= {
     chaser15: '5/5 Fate',
     chaser20: lirechaser,
     chaser25: '5/5 Impulse',
+    artifact: rangera,
+    artifactName: 'Ranger'
   },
   arme: {
     id:'arme', 
@@ -475,6 +485,8 @@ export const heroBuilds= {
     chaser15: '5/5 Impulse',
     chaser20: armechaser,
     chaser25: '?',
+    artifact: magea,
+    artifactName: 'Mage'
   },
   lass: {
     id:'lass', 
@@ -512,6 +524,8 @@ export const heroBuilds= {
     chaser15: '5/5 Impulse',
     chaser20: lasschaser,
     chaser25: '?',
+    artifact: assaulta,
+    artifactName: 'Assault'
   },
   ryan: {
     id:'ryan', 
@@ -549,6 +563,8 @@ export const heroBuilds= {
     chaser15: '5/5 Impulse',
     chaser20: ryanchaser,
     chaser25: '?',
+    artifact: tanka,
+    artifactName: 'Tank'
   },
   ronan: {
     id:'ronan', 
@@ -586,6 +602,8 @@ export const heroBuilds= {
     chaser15: '?',
     chaser20: ronanchaser,
     chaser25: '?',
+    artifact: tanka,
+    artifactName: 'Tank'
   },
   amy:{
     id:'amy', 
@@ -623,6 +641,8 @@ export const heroBuilds= {
     chaser15: '5/5 Impulse',
     chaser20: amychaser,
     chaser25: '?',
+    artifact: healera,
+    artifactName: 'Healer'
   },
   jin: {
     id:'jin', 
@@ -660,6 +680,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: tanka,
+    artifactName: 'Tank'
   },
   sieghart: {
     id:'sieghart', 
@@ -697,6 +719,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: assaulta,
+    artifactName: 'Assault'
   },
   mari: {
     id:'mari', 
@@ -714,26 +738,28 @@ export const heroBuilds= {
     limitBreak2: maripass, 
     lb1: 'S1',
     lb2: 'Passive',
-    ring: gale,
-    ringName: 'Gale Ring',
+    ring: solar,
+    ringName: 'Solar Ring',
     necklace: lava,
     necklaceName: 'Lava Necklace',
-    earrings: gust,
-    earringsName: 'Earrings of Gust',
+    earrings: order,
+    earringsName: 'Earrings of Order',
     trait1: crit, 
     tn1: 'Crit',
-    trait2: basi,
-    tn2: 'BASI', 
-    trait3: badi,
-    tn3: 'BADI', 
+    trait2: cdr,
+    tn2: 'CDR', 
+    trait3: sadi,
+    tn3: 'SADI', 
     socket1:'Magic Attack', 
-    socket2:'BASI', 
+    socket2:'Crit/CDR', 
     socket3:'SADI', 
     chaser05:'5/5 Elevated Power',
     chaser10: '5/5 Fate',
     chaser15: '5/5 Impulse',
     chaser20: marichaser,
     chaser25: '5/5 Prayer of Blessing',
+    artifact: magea,
+    artifactName: 'Mage'
   },
   dio: {
     id:'dio', 
@@ -771,6 +797,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: assaulta,
+    artifactName: 'Assault'
   },
   zero: {
     id:'zero', 
@@ -808,6 +836,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: tanka,
+    artifactName: 'Tank'
   },
   ley: {
     id:'ley', 
@@ -845,6 +875,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: magea,
+    artifactName: 'Mage'
   },
   rufus: {
     id:'rufus', 
@@ -882,6 +914,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: rangera,
+    artifactName: 'Ranger'
   },
   rin: {
     id:'rin', 
@@ -919,6 +953,8 @@ export const heroBuilds= {
     chaser15: '5/5 Impulse',
     chaser20: rinchaser,
     chaser25: '?',
+    artifact: healera,
+    artifactName: 'Healer'
   },
   asin: {
     id:'asin', 
@@ -956,6 +992,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: tanka,
+    artifactName: 'Tank'
   },
   lime: {
     id:'lime', 
@@ -993,6 +1031,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: healera,
+    artifactName: 'Healer'
   },
   edel: {
     id:'edel', 
@@ -1030,6 +1070,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: assaulta,
+    artifactName: 'Assault'
   },
   veigas: {
     id:'veigas', 
@@ -1067,6 +1109,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: magea,
+    artifactName: 'Mage'
   },
   serdin: {
     id:'serdin', 
@@ -1077,13 +1121,13 @@ export const heroBuilds= {
     classPic: healer,
     pet: sally,
     petName: 'Sally',
-    set: 'Vows of Violence (green)', 
-    setColor: '#4C9B60',
+    set: 'Power of Anger (blue)', 
+    setColor: '#4E28D0',
     pic: serdin,
-    limitBreak1: serdins1, 
-    limitBreak2: serdins2,
-    lb1: 'S1',
-    lb2: 'S2', 
+    limitBreak1: serdins2, 
+    limitBreak2: serdins1,
+    lb1: 'S2',
+    lb2: 'S1', 
     ring: gale,
     ringName: 'Gale Ring',
     necklace: lava,
@@ -1104,6 +1148,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: healera,
+    artifactName: 'Healer'
   },
   kanavan: {
     id:'kanavan', 
@@ -1141,6 +1187,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: assaulta,
+    artifactName: 'Assault'
   },
   werner: {
     id:'werner', 
@@ -1178,6 +1226,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: rangera,
+    artifactName: 'Ranger'
   },
   grandiel: {
     id:'grandiel', 
@@ -1215,6 +1265,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: healera,
+    artifactName: 'Healer'
   },
   nelia: {
     id:'nelia', 
@@ -1252,6 +1304,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: magea,
+    artifactName: 'Mage'
   },
   io: {
     id:'io',
@@ -1289,6 +1343,8 @@ export const heroBuilds= {
     chaser15: '5/5 Impulse',
     chaser20: iochaser,
     chaser25: '?',
+    artifact: rangera,
+    artifactName: 'Ranger'
   },
   gaian: {
     id:'darkGaian', 
@@ -1326,6 +1382,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: magea,
+    artifactName: 'Mage'
   },
   arsad: {
     id:'arsad', 
@@ -1363,6 +1421,8 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: tanka,
+    artifactName: 'Tank'
   },
 }
 
