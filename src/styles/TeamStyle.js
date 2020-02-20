@@ -25,13 +25,13 @@ export const StyledTeam = styled.div`
     margin: 5px;
     height: 50px;
     width: 50px;
-    border: 1px solid black;
+    border: 1px solid #56DE74;
   }
   .Profile {
     height: 75px;
     width: auto;
     margin: 3px;
-    border: 1px solid black;
+    border: 1px solid #61FFE7;
   }
 `;
 
@@ -51,25 +51,17 @@ export const StyledRaid = styled.div`
     width: 50px;
     border: 1px solid black;
   }
-  .PartySkillThree {
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-  }
   .Pet {
     margin: 5px;
     height: 50px;
     width: 50px;
-    border: 1px solid black;
+    border: 1px solid #56DE74;
   }
   .Profile {
     height: 75px;
     width: auto;
     margin: 10px 3px 3px 3px;
-    border: 1px solid black;
+    border: 1px solid #61FFE7;
   }
 `;
 
