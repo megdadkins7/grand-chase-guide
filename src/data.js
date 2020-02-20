@@ -236,6 +236,19 @@ import magea from './assets/artifacts/magea.png'
 import rangera from './assets/artifacts/rangera.png'
 import tanka from './assets/artifacts/tanka.png'
 
+import breathoflife from './assets/chaser/breathoflife.jpg'
+import divineprotection from './assets/chaser/divineprotection.jpg'
+import elevatedpower from './assets/chaser/elevatedpower.jpg'
+import fate from './assets/chaser/fate.jpg'
+import helper from './assets/chaser/helper.jpg'
+import impulse from './assets/chaser/impulse.jpg'
+import invisiblehand from './assets/chaser/invisiblehand.jpg'
+import longlife from './assets/chaser/longlife.jpg'
+import persistentexecutioner from './assets/chaser/persistentexecutioner.jpg'
+import prayerofblessing from './assets/chaser/prayerofblessing.jpg'
+import pureluck from './assets/chaser/pureluck.jpg'
+import soulhealer from './assets/chaser/soulhealer.jpg'
+
 //export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
@@ -402,11 +415,11 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2: 'Crit', 
     socket3: 'SADI', 
-    chaser05:'5/5 Elevated Power', 
-    chaser10:'5/5 Divine Protection', 
-    chaser15: '5/5 Fate', 
+    chaser05: elevatedpower, 
+    chaser10: divineprotection, 
+    chaser15: fate, 
     chaser20: elesischaser, 
-    chaser25:'5/5 Long Life',
+    chaser25: longlife,
     artifact: assaulta,
     artifactName: 'Assault'
   },
@@ -441,11 +454,11 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2: 'BASI', 
     socket3:'BADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Invisible Hand',
-    chaser15: '5/5 Fate',
+    chaser05: elevatedpower,
+    chaser10: invisiblehand,
+    chaser15: fate,
     chaser20: lirechaser,
-    chaser25: '5/5 Impulse',
+    chaser25: impulse,
     artifact: rangera,
     artifactName: 'Ranger'
   },
@@ -480,11 +493,11 @@ export const heroBuilds= {
     socket1:'Magic Attack', 
     socket2:'Crit/CDR', 
     socket3:'SADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Fate',
-    chaser15: '5/5 Impulse',
+    chaser05: elevatedpower,
+    chaser10: fate,
+    chaser15: impulse,
     chaser20: armechaser,
-    chaser25: '?',
+    chaser25: '',
     artifact: magea,
     artifactName: 'Mage'
   },
@@ -519,11 +532,11 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2:'Crit', 
     socket3:'SADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Fate',
-    chaser15: '5/5 Impulse',
+    chaser05: elevatedpower,
+    chaser10: fate,
+    chaser15: impulse,
     chaser20: lasschaser,
-    chaser25: '?',
+    chaser25: '',
     artifact: assaulta,
     artifactName: 'Assault'
   },
@@ -558,11 +571,11 @@ export const heroBuilds= {
     socket1:'Max Health', 
     socket2:'CDR', 
     socket3:'BADR', 
-    chaser05:'5/5 Long Life',
-    chaser10: '5/5 Prayer of Blessing',
-    chaser15: '5/5 Impulse',
+    chaser05: longlife,
+    chaser10: prayerofblessing,
+    chaser15: impulse,
     chaser20: ryanchaser,
-    chaser25: '?',
+    chaser25: '',
     artifact: tanka,
     artifactName: 'Tank'
   },
@@ -597,11 +610,11 @@ export const heroBuilds= {
     socket1:'Max Health', 
     socket2:'CDR', 
     socket3:'BADR', 
-    chaser05:'?',
-    chaser10: '?',
-    chaser15: '?',
+    chaser05:'',
+    chaser10: '',
+    chaser15: '',
     chaser20: ronanchaser,
-    chaser25: '?',
+    chaser25: '',
     artifact: tanka,
     artifactName: 'Tank'
   },
@@ -636,11 +649,11 @@ export const heroBuilds= {
     socket1:'Magic Attack', 
     socket2:'CDR/BASI', 
     socket3:'SADI', 
-    chaser05:'5/5 Prayer of Blessing',
-    chaser10: '5/5 Invisible Hand',
-    chaser15: '5/5 Impulse',
+    chaser05: prayerofblessing,
+    chaser10: invisiblehand,
+    chaser15: impulse,
     chaser20: amychaser,
-    chaser25: '?',
+    chaser25: '',
     artifact: healera,
     artifactName: 'Healer'
   },
@@ -753,11 +766,11 @@ export const heroBuilds= {
     socket1:'Magic Attack', 
     socket2:'Crit/CDR', 
     socket3:'SADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Fate',
-    chaser15: '5/5 Impulse',
+    chaser05: elevatedpower,
+    chaser10: fate,
+    chaser15: impulse,
     chaser20: marichaser,
-    chaser25: '5/5 Prayer of Blessing',
+    chaser25: prayerofblessing,
     artifact: magea,
     artifactName: 'Mage'
   },
@@ -948,11 +961,11 @@ export const heroBuilds= {
     socket1:'Max Health', 
     socket2:'CDR/Crit', 
     socket3:'SADR/BADR', 
-    chaser05:'5/5 Long Life',
-    chaser10: '5/5 Breath of Life',
-    chaser15: '5/5 Impulse',
+    chaser05: longlife,
+    chaser10: breathoflife,
+    chaser15: impulse,
     chaser20: rinchaser,
-    chaser25: '?',
+    chaser25: '',
     artifact: healera,
     artifactName: 'Healer'
   },
@@ -1338,11 +1351,11 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2:'BASI', 
     socket3:'BADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Fate',
-    chaser15: '5/5 Impulse',
+    chaser05: elevatedpower,
+    chaser10: fate,
+    chaser15: impulse,
     chaser20: iochaser,
-    chaser25: '?',
+    chaser25: '',
     artifact: rangera,
     artifactName: 'Ranger'
   },
