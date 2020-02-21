@@ -6,7 +6,7 @@ import { evos, boss, sUnit, mats, displayUpperCase } from '../data'
 
 const StyledFilterList = styled.div`
   .Title {
-    margin: 30px 0px 0px 30px;
+    margin-left: 10px;
     font-weight: 500;
     color: #ACACAC;
   }
@@ -16,7 +16,7 @@ const StyledFilterList = styled.div`
     list-style-type: none;
   }  
   .Info {
-    margin: 5px;
+    margin: 5px 10px 5px 5px;
     color: #7D7D7D;
     text-transform: capitalize;
   }
