@@ -9,9 +9,10 @@ import { heroes } from '../data'
 import Name from './Name'
 
 const StyledNameList = styled.div`
+  margin-top: 10px;
   direction: rtl;
   overflow: auto;
-  height: 650px;
+  height: 685px;
   width: 200px;
   .HeroContainer {
     direction: ltr;

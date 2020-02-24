@@ -251,6 +251,59 @@ import prayerofblessing from './assets/chaser/prayerofblessing.jpg'
 import pureluck from './assets/chaser/pureluck.jpg'
 import soulhealer from './assets/chaser/soulhealer.jpg'
 
+import amyfluffy from './assets/fluffy/amyfluffy.png'
+import armefluffy from './assets/fluffy/armefluffy.png'
+import arsadfluffy from './assets/fluffy/arsadfluffy.png'
+import asinfluffy from './assets/fluffy/asinfluffy.png'
+import diofluffy from './assets/fluffy/diofluffy.png'
+import edelfluffy from './assets/fluffy/edelfluffy.png'
+import elesisfluffy from './assets/fluffy/elesisfluffy.png'
+import gaianfluffy from './assets/fluffy/gaianfluffy.png'
+import grandielfluffy from './assets/fluffy/grandielfluffy.png'
+import iofluffy from './assets/fluffy/iofluffy.png'
+import jinfluffy from './assets/fluffy/jinfluffy.png'
+import kanavanfluffy from './assets/fluffy/kanavanfluffy.png'
+import lassfluffy from './assets/fluffy/lassfluffy.png'
+import leyfluffy from './assets/fluffy/leyfluffy.png'
+import limefluffy from './assets/fluffy/limefluffy.png'
+import lirefluffy from './assets/fluffy/lirefluffy.png'
+import marifluffy from './assets/fluffy/marifluffy.png'
+import neliafluffy from './assets/fluffy/neliafluffy.png'
+import rinfluffy from './assets/fluffy/rinfluffy.png'
+import ronanfluffy from './assets/fluffy/ronanfluffy.png'
+import rufusfluffy from './assets/fluffy/rufusfluffy.png'
+import ryanfluffy from './assets/fluffy/ryanfluffy.png'
+import serdinfluffy from './assets/fluffy/serdinfluffy.png'
+import sieghartfluffy from './assets/fluffy/sieghartfluffy.png'
+import veigasfluffy from './assets/fluffy/veigasfluffy.png'
+import wernerfluffy from './assets/fluffy/wernerfluffy.png'
+import zerofluffy from './assets/fluffy/zerofluffy.png'
+
+import darkagios from './assets/dchasm/darkagios.png'
+import darkaltair from './assets/dchasm/darkaltair.png'
+import darkbalzac from './assets/dchasm/darkbalzac.png'
+import darkbelial from './assets/dchasm/darkbelial.png'
+import darkbf from './assets/dchasm/darkbf.png'
+import darkbriel from './assets/dchasm/darkbriel.png'
+import darkcaptainboar from './assets/dchasm/darkcaptainboar.png'
+import darkcharon from './assets/dchasm/darkcharon.png'
+import darkdrmolly from './assets/dchasm/darkdrmolly.png'
+import darkdullahan from './assets/dchasm/darkdullahan.png'
+import darkfavian from './assets/dchasm/darkfavian.png'
+import darkfennel from './assets/dchasm/darkfennel.png'
+import darkfermat from './assets/dchasm/darkfermat.png'
+import darkflaune from './assets/dchasm/darkflaune.png'
+import darkhaggler from './assets/dchasm/darkhaggler.png'
+import darkhanout from './assets/dchasm/darkhanout.png'
+import darkkarp from './assets/dchasm/darkkarp.png'
+import darkkyle from './assets/dchasm/darkkyle.png'
+import darkmarjoram from './assets/dchasm/darkmarjoram.png'
+import darknephilim from './assets/dchasm/darknephilim.png'
+import darkposeidon from './assets/dchasm/darkposeidon.png'
+import darkrasel from './assets/dchasm/darkrasel.png'
+import darktacoel from './assets/dchasm/darktacoel.png'
+import darkvega from './assets/dchasm/darkvega.png'
+
 //export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
@@ -423,7 +476,8 @@ export const heroBuilds= {
     chaser20: elesischaser, 
     chaser25: longlife,
     artifact: assaulta,
-    artifactName: 'Assault'
+    artifactName: 'Assault',
+    fluffy: elesisfluffy
   },
   lire: {
     id:'lire', 
@@ -462,7 +516,8 @@ export const heroBuilds= {
     chaser20: lirechaser,
     chaser25: impulse,
     artifact: rangera,
-    artifactName: 'Ranger'
+    artifactName: 'Ranger',
+    fluffy: lirefluffy
   },
   arme: {
     id:'arme', 
@@ -501,7 +556,8 @@ export const heroBuilds= {
     chaser20: armechaser,
     chaser25: pureluck,
     artifact: magea,
-    artifactName: 'Mage'
+    artifactName: 'Mage',
+    fluffy: armefluffy
   },
   lass: {
     id:'lass', 
@@ -540,7 +596,8 @@ export const heroBuilds= {
     chaser20: lasschaser,
     chaser25: pureluck,
     artifact: assaulta,
-    artifactName: 'Assault'
+    artifactName: 'Assault',
+    fluffy: lassfluffy
   },
   ryan: {
     id:'ryan', 
@@ -579,7 +636,8 @@ export const heroBuilds= {
     chaser20: ryanchaser,
     chaser25: divineprotection,
     artifact: tanka,
-    artifactName: 'Tank'
+    artifactName: 'Tank',
+    fluffy: ryanfluffy
   },
   ronan: {
     id:'ronan', 
@@ -618,7 +676,8 @@ export const heroBuilds= {
     chaser20: ronanchaser,
     chaser25: divineprotection,
     artifact: tanka,
-    artifactName: 'Tank'
+    artifactName: 'Tank',
+    fluffy: ronanfluffy
   },
   amy:{
     id:'amy', 
@@ -657,7 +716,8 @@ export const heroBuilds= {
     chaser20: amychaser,
     chaser25: soulhealer,
     artifact: healera,
-    artifactName: 'Healer'
+    artifactName: 'Healer',
+    fluffy: amyfluffy
   },
   jin: {
     id:'jin', 
@@ -696,7 +756,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: tanka,
-    artifactName: 'Tank'
+    artifactName: 'Tank',
+    fluffy: jinfluffy
   },
   sieghart: {
     id:'sieghart', 
@@ -735,7 +796,8 @@ export const heroBuilds= {
     chaser20: sieghartchaser,
     chaser25: persistentexecutioner,
     artifact: assaulta,
-    artifactName: 'Assault'
+    artifactName: 'Assault',
+    fluffy: sieghartfluffy
   },
   mari: {
     id:'mari', 
@@ -774,7 +836,8 @@ export const heroBuilds= {
     chaser20: marichaser,
     chaser25: prayerofblessing,
     artifact: magea,
-    artifactName: 'Mage'
+    artifactName: 'Mage',
+    fluffy: marifluffy
   },
   dio: {
     id:'dio', 
@@ -813,7 +876,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: assaulta,
-    artifactName: 'Assault'
+    artifactName: 'Assault',
+    fluffy: diofluffy
   },
   zero: {
     id:'zero', 
@@ -852,7 +916,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: tanka,
-    artifactName: 'Tank'
+    artifactName: 'Tank',
+    fluffy: zerofluffy
   },
   ley: {
     id:'ley', 
@@ -891,7 +956,8 @@ export const heroBuilds= {
     chaser20: leychaser,
     chaser25: invisiblehand,
     artifact: magea,
-    artifactName: 'Mage'
+    artifactName: 'Mage',
+    fluffy: leyfluffy
   },
   rufus: {
     id:'rufus', 
@@ -930,7 +996,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: rangera,
-    artifactName: 'Ranger'
+    artifactName: 'Ranger',
+    fluffy: rufusfluffy
   },
   rin: {
     id:'rin', 
@@ -969,7 +1036,8 @@ export const heroBuilds= {
     chaser20: rinchaser,
     chaser25: soulhealer,
     artifact: healera,
-    artifactName: 'Healer'
+    artifactName: 'Healer',
+    fluffy: rinfluffy
   },
   asin: {
     id:'asin', 
@@ -1008,7 +1076,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: tanka,
-    artifactName: 'Tank'
+    artifactName: 'Tank',
+    fluffy: asinfluffy
   },
   lime: {
     id:'lime', 
@@ -1047,7 +1116,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: healera,
-    artifactName: 'Healer'
+    artifactName: 'Healer',
+    fluffy: limefluffy
   },
   edel: {
     id:'edel', 
@@ -1086,7 +1156,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: assaulta,
-    artifactName: 'Assault'
+    artifactName: 'Assault',
+    fluffy: edelfluffy
   },
   veigas: {
     id:'veigas', 
@@ -1125,7 +1196,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: magea,
-    artifactName: 'Mage'
+    artifactName: 'Mage',
+    fluffy: veigasfluffy
   },
   serdin: {
     id:'serdin', 
@@ -1164,7 +1236,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: healera,
-    artifactName: 'Healer'
+    artifactName: 'Healer',
+    fluffy: serdinfluffy
   },
   kanavan: {
     id:'kanavan', 
@@ -1203,7 +1276,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: assaulta,
-    artifactName: 'Assault'
+    artifactName: 'Assault',
+    fluffy: kanavanfluffy
   },
   werner: {
     id:'werner', 
@@ -1242,7 +1316,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: rangera,
-    artifactName: 'Ranger'
+    artifactName: 'Ranger',
+    fluffy: wernerfluffy
   },
   grandiel: {
     id:'grandiel', 
@@ -1281,7 +1356,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: healera,
-    artifactName: 'Healer'
+    artifactName: 'Healer',
+    fluffy: grandielfluffy
   },
   nelia: {
     id:'nelia', 
@@ -1320,7 +1396,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: magea,
-    artifactName: 'Mage'
+    artifactName: 'Mage',
+    fluffy: neliafluffy
   },
   io: {
     id:'io',
@@ -1359,7 +1436,8 @@ export const heroBuilds= {
     chaser20: iochaser,
     chaser25: invisiblehand,
     artifact: rangera,
-    artifactName: 'Ranger'
+    artifactName: 'Ranger',
+    fluffy: iofluffy
   },
   gaian: {
     id:'darkGaian', 
@@ -1398,7 +1476,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: magea,
-    artifactName: 'Mage'
+    artifactName: 'Mage',
+    fluffy: gaianfluffy
   },
   arsad: {
     id:'arsad', 
@@ -1437,7 +1516,8 @@ export const heroBuilds= {
     chaser20: '',
     chaser25: '',
     artifact: tanka,
-    artifactName: 'Tank'
+    artifactName: 'Tank',
+    fluffy: arsadfluffy
   },
 }
 
@@ -1694,7 +1774,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Amy's Chasm"
+    specialHero: "Amy's Chasm",
+    chasmImage: darkposeidon
   },
   {
     name: 'Dark Hanout',
@@ -1706,7 +1787,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Arme's Chasm"
+    specialHero: "Arme's Chasm",
+    chasmImage: darkhanout
   },
   {
     name: 'Dark Rasel',
@@ -1718,7 +1800,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Ryan's Chasm"
+    specialHero: "Ryan's Chasm",
+    chasmImage: darkrasel
   },
   {
     name: 'Dark Belial',
@@ -1730,7 +1813,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Ronan's Chasm"
+    specialHero: "Ronan's Chasm",
+    chasmImage: darkbelial
   },
   {
     name: 'Dark Marjoram',
@@ -1742,7 +1826,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Lass's Chasm"
+    specialHero: "Lass's Chasm",
+    chasmImage: darkmarjoram
   },
   {
     name: 'Dark Captain Boar',
@@ -1754,7 +1839,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Mari's Chasm"
+    specialHero: "Mari's Chasm",
+    chasmImage: darkcaptainboar
   },
   {
     name: 'Dark Fennel',
@@ -1766,7 +1852,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Sieghart's Chasm"
+    specialHero: "Sieghart's Chasm",
+    chasmImage: darkfennel
   },
   {
     name: 'Dark Balzac',
@@ -1778,7 +1865,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Rufus's Chasm"
+    specialHero: "Rufus's Chasm",
+    chasmImage: darkbalzac
   },
   {
     name: 'Dark Dr. Molly',
@@ -1790,7 +1878,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Lire's Chasm"
+    specialHero: "Lire's Chasm",
+    chasmImage: darkdrmolly
   },
   {
     name: 'Dark Agios',
@@ -1802,7 +1891,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Jin's Chasm"
+    specialHero: "Jin's Chasm",
+    chasmImage: darkagios
   },
   {
     name: 'Dark Flaune',
@@ -1814,7 +1904,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Elesis's Chasm"
+    specialHero: "Elesis's Chasm",
+    chasmImage: darkflaune
   },
   {
     name: 'Dark Charon',
@@ -1826,7 +1917,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Zero's Chasm"
+    specialHero: "Zero's Chasm",
+    chasmImage: darkcharon
   },
   {
     name: 'Dark Tacoel',
@@ -1838,7 +1930,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Rin's Chasm"
+    specialHero: "Rin's Chasm",
+    chasmImage: darktacoel
   },
   {
     name: 'Dark Nephilim',
@@ -1850,7 +1943,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Ley's Chasm"
+    specialHero: "Ley's Chasm",
+    chasmImage: darknephilim
   },
   {
     name: 'Dark Briel',
@@ -1862,7 +1956,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Lime's Chasm"
+    specialHero: "Lime's Chasm",
+    chasmImage: darkbriel
   },
   {
     name: 'Dark Dullahan',
@@ -1874,7 +1969,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Veigas's Chasm"
+    specialHero: "Veigas's Chasm",
+    chasmImage: darkdullahan
   },
   {
     name: 'Dark Fermat',
@@ -1886,7 +1982,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Dio's Chasm"
+    specialHero: "Dio's Chasm",
+    chasmImage: darkfermat
   },
   {
     name: 'Dark Haggler',
@@ -1898,7 +1995,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Nelia's Chasm"
+    specialHero: "Nelia's Chasm",
+    chasmImage: darkhaggler
   },
   {
     name: 'Dark Altair',
@@ -1910,7 +2008,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Kanavan's Chasm"
+    specialHero: "Kanavan's Chasm",
+    chasmImage: darkaltair
   },
   {
     name: 'Dark Vega',
@@ -1922,7 +2021,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Edel's Chasm"
+    specialHero: "Edel's Chasm",
+    chasmImage: darkvega
   },
   {
     name: 'Dark BF',
@@ -1934,7 +2034,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Serdin's Chasm"
+    specialHero: "Serdin's Chasm",
+    chasmImage: darkbf
   },
   {
     name: 'Dark Favian',
@@ -1946,7 +2047,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Werner's Chasm"
+    specialHero: "Werner's Chasm",
+    chasmImage: darkfavian
   },
   {
     name: 'Dark Karp',
@@ -1958,7 +2060,8 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Asin's Chasm"
+    specialHero: "Asin's Chasm",
+    chasmImage: darkkarp
   },
   {
     name: 'Dark Kyle',
@@ -1970,6 +2073,7 @@ export const dChasm = [
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
-    specialHero: "Grandiel's Chasm"
+    specialHero: "Grandiel's Chasm",
+    chasmImage: darkkyle
   }
 ]

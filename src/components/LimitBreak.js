@@ -7,7 +7,7 @@ const StyledLimitBreak = styled.div`
   justify-content: center;
   align-items: center;
   margin: 10px;
-  padding: 10px;
+  padding: 15px;
   box-shadow: inset 0 0 3px 1px #454545;
   .SkillWrapper {
     display: flex;

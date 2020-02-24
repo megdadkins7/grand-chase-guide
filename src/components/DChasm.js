@@ -3,9 +3,9 @@ import React from 'react'
 //styles
 import { StyledRaid } from '../styles/TeamStyle'
 
-function DualRaid({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree, specialHero }) {
+function DualRaid({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree, specialHero, chasmImage }) {
   return (
-    <StyledRaid>
+    <StyledRaid style={{background: `url(${chasmImage})`}}>
       <div className='Name'>{name}:</div>
       <div>
         <div>
@@ -21,7 +21,7 @@ function DualRaid({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkill
           <img className='PartySkill' src={partySkillThree} alt='party skill' />
         </div>
         <div>
-          <span style={{color: '#ACACAC'}}>{specialHero}</span>
+          <span style={{color: '#E6E6E6'}}>{specialHero}</span>
         </div>
       </div>
     </StyledRaid>

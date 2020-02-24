@@ -43,7 +43,7 @@ export const StyledRaid = styled.div`
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 500;
-    color: #ACACAC;
+    color: #E6E6E6;
   }
   .PartySkill {
     margin: 5px;
@@ -75,7 +75,7 @@ export const StyledCurrentRaid = styled.div`
   margin-bottom: 10px;
   text-transform: uppercase;
   text-align: center;
-  color: #ACACAC;
+  color: #E6E6E6;
   font-weight: 500;
   font-size: 25px;
 `;
