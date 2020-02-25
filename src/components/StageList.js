@@ -9,7 +9,8 @@ import Stage from './Stage'
 import FilterList from './FilterList'
 
 const StyledStageList = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
   margin: 20px 10px;
 `;
 
