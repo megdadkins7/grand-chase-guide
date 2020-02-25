@@ -304,6 +304,26 @@ import darkrasel from './assets/dchasm/darkrasel.png'
 import darktacoel from './assets/dchasm/darktacoel.png'
 import darkvega from './assets/dchasm/darkvega.png'
 
+import bossfight from './assets/diamond/bossfight.png'
+import brawl from './assets/diamond/brawl.png'
+import elite from './assets/diamond/elite.png'
+import relay from './assets/diamond/relay.png'
+
+import fireandice from './assets/diamond/fireandice.png'
+import lastavatar from './assets/diamond/lastavatar.png'
+import newworld from './assets/diamond/newworld.png'
+import calmandpassion from './assets/diamond/calmandpassion.png'
+import contractterminated from './assets/diamond/contractterminated.png'
+import crazyenvoy from './assets/diamond/crazyenvoy.png'
+
+import swayingambition from './assets/diamond/swayingambition.png'
+import illusionofmemory from './assets/diamond/illusionofmemory.png'
+import towermanager from './assets/diamond/towermanager.png'
+import rulersrights from './assets/diamond/rulersrights.png'
+import resurrectionceremony from './assets/diamond/resurrectionceremony.png'
+import castedshadow from './assets/diamond/castedshadow.png'
+import crazyenvoy2 from './assets/diamond/crazyenvoy2.png'
+
 //export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
@@ -1567,7 +1587,9 @@ export const altarOfTime = [
     pet: sebastian, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: relay,
+    color: 'rgba(98,42,101,.5)'
   },
   {
     name: 'Brawl',
@@ -1578,7 +1600,9 @@ export const altarOfTime = [
     pet: nelion, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: brawl,
+    color: 'rgba(87,128,48,.5)'
   },
   {
     name: 'Elite',
@@ -1589,7 +1613,9 @@ export const altarOfTime = [
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: elite,
+    color: 'rgba(69,48,113,.5)'
   },
   {
     name: 'Boss',
@@ -1600,7 +1626,9 @@ export const altarOfTime = [
     pet: reruby, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: bossfight,
+    color: 'rgba(49,42,93,.5)'
   }
 ]
 
@@ -1616,7 +1644,8 @@ export const raidTeam = [
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: swayingambition
   },
   {
     name: 'Illusion of Memory',
@@ -1627,7 +1656,8 @@ export const raidTeam = [
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: illusionofmemory
   }, 
   {
     name: 'Tower Manager',
@@ -1638,7 +1668,8 @@ export const raidTeam = [
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: towermanager
   },
   {
     name: 'Rulers Rights',
@@ -1649,7 +1680,8 @@ export const raidTeam = [
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: rulersrights
   },
   {
     name: 'Resurrection Ceremony',
@@ -1660,7 +1692,8 @@ export const raidTeam = [
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect 
+    partySkillThree: resurrect,
+    fight: resurrectionceremony
   },
   {
     name: 'Casted Shadow of Greed',
@@ -1671,7 +1704,8 @@ export const raidTeam = [
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: castedshadow
   },
   {
     name: 'Crazy Envoy',
@@ -1682,7 +1716,8 @@ export const raidTeam = [
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: crazyenvoy2
   }
 ]
 
@@ -1699,7 +1734,8 @@ export const dualTeams = [
     pet2: holy, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: fireandice
   },
   {
     name: 'The Last Avatar of God',
@@ -1711,7 +1747,8 @@ export const dualTeams = [
     pet2: holy,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: lastavatar
   },
   {
     name: 'New World',
@@ -1723,7 +1760,8 @@ export const dualTeams = [
     pet2: holy,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: newworld
   },
   {
     name: 'Between Calm And Passion',
@@ -1735,7 +1773,8 @@ export const dualTeams = [
     pet2: holy,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: calmandpassion
   },
   {
     name: 'Contract Terminated',
@@ -1747,7 +1786,8 @@ export const dualTeams = [
     pet2: holy,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: contractterminated
   },
   {
     name: 'Crazy Envoy',
@@ -1759,7 +1799,8 @@ export const dualTeams = [
     pet2: holy,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: crazyenvoy
   }
 ]
 

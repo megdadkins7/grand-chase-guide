@@ -1,11 +1,14 @@
 import React from 'react'
 
+//assets
+import worldbossbg from '../assets/diamond/worldbossbg.png'
+
 //styles
 import { StyledTeam } from '../styles/TeamStyle'
 
 function Team({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree }) {
   return (
-    <StyledTeam>
+    <StyledTeam style={{background: `url(${worldbossbg})`}}>
       <div>
         <span>{name}:</span>
       </div>

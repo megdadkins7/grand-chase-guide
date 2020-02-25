@@ -3,9 +3,9 @@ import React from 'react'
 //styles
 import { StyledRaid } from '../styles/TeamStyle'
 
-function DualRaid({ name, slotOne, slotTwo, slotThree, slotFour, pet, pet2, partySkillOne, partySkillTwo, partySkillThree }) {
+function DualRaid({ name, slotOne, slotTwo, slotThree, slotFour, pet, pet2, partySkillOne, partySkillTwo, partySkillThree, fight }) {
   return (
-    <StyledRaid>
+    <StyledRaid style={{background: `url(${fight})`, backgroundPosition: 'center center'}}>
       <div className='Name'>{name}:</div>
       <div>
         <div>

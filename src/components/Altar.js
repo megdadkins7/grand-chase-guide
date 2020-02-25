@@ -3,9 +3,9 @@ import React from 'react'
 //styles
 import { StyledTeam } from '../styles/TeamStyle'
 
-function Altar({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree }) {
+function Altar({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree, fight, color }) {
   return (
-    <StyledTeam>
+    <StyledTeam style={{background: `url(${fight}) no-repeat ${color}`}}>
       <div>
         <span>{name}:</span>
       </div>
