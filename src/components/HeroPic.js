@@ -5,7 +5,7 @@ const StyledHeroPic = styled.div`
   margin: 10px;
   .Hero {
     margin: 20px 20px 0 20px;
-    height: 450px;
+    height: 420px;
     width: auto;
   }
   .HeroInfo {
@@ -16,21 +16,21 @@ const StyledHeroPic = styled.div`
   }
   .RankPic {
     height: 70px;
-    margin: 30px 5px;
+    margin: 20px 5px;
   }
   .TypePic {
     height: 50px;
-    margin: 30px 5px;
+    margin: 20px 5px;
   }
   .Name {
-    margin: 30px 5px; 
+    margin: 20px 5px; 
     text-transform: uppercase;
     color: #e8e8e8
     font-weight: 500;
     font-size: 25px;
   }
   .Fluffy {
-    margin: 30px 5px;
+    margin: 20px 5px;
     height: 100px;
     width: auto;
   }

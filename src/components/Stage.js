@@ -5,9 +5,6 @@ import styled from 'styled-components'
   .Wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    grid-gap: 2px;
     margin: 3px;
     padding: 3px;
   }

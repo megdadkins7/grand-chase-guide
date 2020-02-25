@@ -8,7 +8,7 @@ export const StyledTeam = styled.div`
   margin: 10px;
   padding: 30px;
   box-shadow: inset 0 0 3px 1px #454545;
-  color: #ACACAC;
+  color: #E6E6E6;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 18px;

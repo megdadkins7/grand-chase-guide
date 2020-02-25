@@ -23,6 +23,7 @@ const StyledArmor = styled.div`
   }
   .AccessoryName {
     color: #ACACAC;
+    margin: 3px;
   }
   .EnchantsWrapper {
     display: grid;
