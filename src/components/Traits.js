@@ -6,9 +6,9 @@ const StyledTraits = styled.div`
   justify-content: center;
   align-items: center;
   margin: 10px;
-  padding: 10px;
   box-shadow: inset 0 0 3px 1px #454545;
   .PetWrapper {
+    margin: 20px 0 20px 20px;
     text-align: center;
   }
   .Pet {
@@ -30,7 +30,7 @@ const StyledTraits = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 20px 20px 20px 0;
     text-align: center;
   }
   .Points {

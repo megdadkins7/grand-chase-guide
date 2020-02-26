@@ -8,6 +8,7 @@ const StyledArmor = styled.div`
   .Armor {
     font-weight: 500;
     color: #ACACAC;
+    text-transform: uppercase;
   }
   .AccessoryWrapper {
     display: grid;
