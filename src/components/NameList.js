@@ -12,7 +12,7 @@ const StyledNameList = styled.div`
   margin-top: 10px;
   direction: rtl;
   overflow: auto;
-  height: 685px;
+  height: 672px;
   width: 200px;
   .HeroContainer {
     direction: ltr;
