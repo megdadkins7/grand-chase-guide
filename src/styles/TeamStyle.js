@@ -33,6 +33,16 @@ export const StyledTeam = styled.div`
     margin: 3px;
     border: 1px solid #61FFE7;
   }
+  .StyledStars {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .Stars {
+    width: 80px;
+    height: auto;
+    margin: 0 3px0 3px;
+  }
 `;
 
 export const StyledRaid = styled.div`
@@ -62,6 +72,16 @@ export const StyledRaid = styled.div`
     width: auto;
     margin: 10px 3px 3px 3px;
     border: 1px solid #61FFE7;
+  }
+  .StyledStars {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .Stars {
+    width: 80px;
+    height: auto;
+    margin: 0 3px0 3px;
   }
 `;
 

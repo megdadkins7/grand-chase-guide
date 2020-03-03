@@ -3,11 +3,17 @@ import React from 'react'
 //styles
 import { StyledRaid } from '../styles/TeamStyle'
 
-function DualRaid({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree, specialHero, chasmImage }) {
+function DualRaid({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree, specialHero, oneStars, twoStars, threeStars, fourStars }) {
   return (
-    <StyledRaid style={{background: `url(${chasmImage})`}}>
+    <StyledRaid>
       <div className='Name'>{name}:</div>
       <div>
+        <div className='StyledStars'>
+          <img className='Stars' src={oneStars} />
+          <img className='Stars' src={twoStars} />
+          <img className='Stars' src={threeStars} />
+          <img className='Stars' src={fourStars} />
+        </div>
         <div>
           <img className='Profile'src={slotOne} />
           <img className='Profile'src={slotTwo} />
