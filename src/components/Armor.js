@@ -75,19 +75,19 @@ function Armor({ build }) {
       <span className='Armor'>{build.set}</span>
       <div className='AccessoryWrapper'>
         <div>
-          <img className='Accessories' src={build.ring} />
+          <img className='Accessories' src={build.ring} alt='ring' />
           <div className='AccessoryName'>{build.ringName}</div>
         </div>
         <div>
-          <img className='Accessories' src={build.necklace} />
+          <img className='Accessories' src={build.necklace} alt='necklace' />
           <div className='AccessoryName'>{build.necklaceName}</div>
         </div>
         <div>
-          <img className='Accessories' src={build.earrings} />
+          <img className='Accessories' src={build.earrings} alt='earrings' />
           <div className='AccessoryName'>{build.earringsName}</div>
         </div>
         <div>
-          <img className='Accessories' src={build.artifact} />
+          <img className='Accessories' src={build.artifact} alt='artifact' />
           <div className='AccessoryName'>{build.artifactName}</div>
         </div>
       </div>

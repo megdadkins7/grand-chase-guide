@@ -48,7 +48,7 @@ function HeroPic({ build }) {
         <img className='RankPic' src={build.rank} alt='SR' />
         <img className='TypePic' src={build.classPic} alt='class' />
         <span className='Name'>{build.name}</span>
-        <img className='Fluffy' src={build.fluffy} />
+        <img className='Fluffy' src={build.fluffy} alt='fluffy' />
       </div>
     </StyledHeroPic> 
   )

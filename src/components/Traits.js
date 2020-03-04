@@ -55,7 +55,7 @@ function Traits({ build }) {
   return (
     <StyledTraits>
       <div className='PetWrapper'>
-        <img className='Pet' src={build.pet} />
+        <img className='Pet' src={build.pet} alt='pet' />
         <div>
           <span className='PetTitle'>Pet:</span>
           <span className='PetName'>{build.petName}</span>
@@ -68,15 +68,15 @@ function Traits({ build }) {
           <div className='Points'>in each</div>
         </div>
         <div>
-          <img className='TraitPic' src={build.trait1} />
+          <img className='TraitPic' src={build.trait1} alt='trait' />
           <div className='TraitName'>{build.tn1}</div>
         </div>
         <div>
-          <img className='TraitPic' src={build.trait2} />
+          <img className='TraitPic' src={build.trait2} alt='trait' />
           <div className='TraitName'>{build.tn2}</div>
         </div>
         <div>
-          <img className='TraitPic' src={build.trait3} />
+          <img className='TraitPic' src={build.trait3} alt='trait' />
           <div className='TraitName'>{build.tn3}</div>
         </div>
       </div>

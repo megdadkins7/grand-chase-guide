@@ -324,19 +324,19 @@ import resurrectionceremony from './assets/diamond/resurrectionceremony.png'
 import castedshadow from './assets/diamond/castedshadow.png'
 import crazyenvoy2 from './assets/diamond/crazyenvoy2.png'
 
-import a1 from './assets/diamond/a1.png'
-import a2 from './assets/diamond/a2.png'
-import a3 from './assets/diamond/a3.png'
-import a4 from './assets/diamond/a4.png'
-import a5 from './assets/diamond/a5.png'
-import a6 from './assets/diamond/a6.png'
-import t1 from './assets/diamond/t1.png'
-import t2 from './assets/diamond/t2.png'
+//import a1 from './assets/diamond/a1.png'
+//import a2 from './assets/diamond/a2.png'
+//import a3 from './assets/diamond/a3.png'
+//import a4 from './assets/diamond/a4.png'
+//import a5 from './assets/diamond/a5.png'
+//import a6 from './assets/diamond/a6.png'
+//import t1 from './assets/diamond/t1.png'
+//import t2 from './assets/diamond/t2.png'
 import t3 from './assets/diamond/t3.png'
-import t4 from './assets/diamond/t4.png'
-import t5 from './assets/diamond/t5.png'
+//import t4 from './assets/diamond/t4.png'
+//import t5 from './assets/diamond/t5.png'
 import t6 from './assets/diamond/t6.png'
-import star6 from './assets/diamond/star6.png'
+//import star6 from './assets/diamond/star6.png'
 
 //export const nullToNone = word => null ? word : 'none'
 
@@ -748,7 +748,7 @@ export const heroBuilds= {
     chaser10: invisiblehand,
     chaser15: impulse,
     chaser20: amychaser,
-    chaser25: soulhealer,
+    chaser25: breathoflife,
     artifact: healera,
     artifactName: 'Healer',
     fluffy: amyfluffy
@@ -1625,11 +1625,11 @@ export const altarOfTime = [
     name: 'Brawl',
     slotOne: wbamy, 
     slotTwo: wbnelia, 
-    slotThree: wbarme, 
+    slotThree: wbmari, 
     slotFour: wbzero, 
     oneStars: t3,
     twoStars: t6,
-    threeStars: t3,
+    threeStars: t6,
     fourStars: t6,
     pet: nelion, 
     partySkillOne: stimulation, 

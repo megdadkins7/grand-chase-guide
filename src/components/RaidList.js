@@ -17,8 +17,8 @@ function RaidList() {
       <StyledCurrentRaid>{currentRaid}</StyledCurrentRaid>
       <div style={{display: 'flex', justifyContent: 'center'}}>
         <StyledRaidList>
-          {raidTeam.map(raid => (
-            <Raid {...raid} />
+          {raidTeam.map((raid, i) => (
+            <Raid key={`${raid}${i}`} {...raid} />
           ))}
         </StyledRaidList>
       </div>

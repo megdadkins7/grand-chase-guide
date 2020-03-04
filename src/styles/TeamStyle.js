@@ -35,7 +35,6 @@ export const StyledTeam = styled.div`
   }
   .StyledStars {
     display: flex;
-    margin: 5px 1px 0 1px;
   }
   .Stars {
     width: 80px;
