@@ -35,13 +35,11 @@ export const StyledTeam = styled.div`
   }
   .StyledStars {
     display: flex;
-    justify-content: center;
-    margin-top: 5px;
+    margin: 5px 1px 0 1px;
   }
   .Stars {
     width: 80px;
     height: auto;
-    margin: 0 3px0 3px;
   }
 `;
 
@@ -75,13 +73,12 @@ export const StyledRaid = styled.div`
   }
   .StyledStars {
     display: flex;
-    justify-content: center;
-    margin-top: 5px;
+    margin: 5px 1px 0 1px;
   }
   .Stars {
     width: 80px;
     height: auto;
-    margin: 0 3px0 3px;
+    padding: 1px;
   }
 `;
 
