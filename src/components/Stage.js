@@ -38,16 +38,16 @@ function Stage({ data, filters }) {
   
   const filteredData = data.filter(stage => {
     if (filters.evos.length > 0) {
-      filters.evos.includes(stage.evos)
+      return filters.evos.includes(stage.evos)
     } 
     if (filters.boss.length > 0) {
-      filters.boss.includes(stage.boss)
+      return filters.boss.includes(stage.boss)
     }
     if (filters.sUnit.length > 0) {
-      filters.sUnit.includes(stage.sUnit)
+      return filters.sUnit.includes(stage.sUnit)
     }
     if (filters.mats.length > 0) {
-      filters.mats.some(mat => stage.mats.includes(mat))
+      return filters.mats.some(mat => stage.mats.includes(mat))
     }
     return stage;
   });
