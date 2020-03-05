@@ -171,3 +171,44 @@ function FilterList({ onFiltersChange }) {
 }
 
 export default FilterList
+
+/*
+const [filter, setFilter] = useState([])
+
+useEffect(() => {
+    onFiltersChange({ evos: filter, boss: filter, sUnit: filter, mats: filter })
+  }, [filter])
+
+  const handleOnFilterChange = e => {
+    const nextFilter = e.target.value;
+
+    setFilter(state => {
+      const currentFilterLoc = state.indexOf(nextFilter);
+      if (currentFilterLoc === -1) {
+        return [...filter, nextFilter];
+      } else {
+        return [
+          ...state.slice(0, currentFilterLoc),
+          ...state.slice(currentFilterLoc + 1, state.length),
+        ];
+      }
+    });
+  };
+  <div className='Title'>Material:</div>
+  <ul>
+    { 
+      mats.map(material => (
+        <li className='Block' key={material}>
+          <input 
+            type='checkbox' 
+            value={material}
+            checked={filter.includes(material)}
+            onChange={handleOnFilterChange}
+          />
+          <label className='Info'>{displayUpperCase(material)}</label>
+        </li>
+        )
+      )
+    }
+  </ul>
+*/

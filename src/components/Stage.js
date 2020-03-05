@@ -35,19 +35,19 @@ import styled from 'styled-components'
 `;
 
 function Stage({ data, filters }) {
-
+  
   const filteredData = data.filter(stage => {
     if (filters.evos.length > 0) {
-      return filters.evos.includes(stage.evos)
+      filters.evos.includes(stage.evos)
     } 
     if (filters.boss.length > 0) {
-      return filters.boss.includes(stage.boss)
+      filters.boss.includes(stage.boss)
     }
     if (filters.sUnit.length > 0) {
-      return filters.sUnit.includes(stage.sUnit)
+      filters.sUnit.includes(stage.sUnit)
     }
     if (filters.mats.length > 0) {
-      return filters.mats.some(mat => stage.mats.includes(mat))
+      filters.mats.some(mat => stage.mats.includes(mat))
     }
     return stage;
   });
@@ -82,3 +82,5 @@ function Stage({ data, filters }) {
 }
 
 export default Stage
+
+//https://medium.com/better-programming/creating-a-multi-filter-function-to-filter-out-multiple-attributes-javascript-react-rails-5aad8e272142
