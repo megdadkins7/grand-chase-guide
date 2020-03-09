@@ -351,91 +351,595 @@ export const displayUpperCase = word => {
 }
 
 export const grandChaseData = [
-  {stage: '1-3', boss: ['tank'], mats: ['enchants'], evos: null, sUnit: null},
-  {stage: '1-6', boss: ['healer'], mats: ['enchants'], evos: null, sUnit: null},
-  {stage: '1-9', boss: ['mage'], mats: ['enchants'], evos:null, sUnit: null},
-  {stage: '2-3', boss: ['mage'], mats: ['enchants', 'bov'], evos: null, sUnit: null},
-  {stage: '2-6', boss: ['mage'], mats: ['enchants', 'bov'], evos: null, sUnit: null},
-  {stage: '2-9', boss: ['ranger'], mats: ['enchants', 'bov'], evos: null, sUnit: null},
-  {stage: '3-3', boss: ['mage'], mats: ['enchants', 'bov'], evos: ['healer'], sUnit: null},
-  {stage: '3-6', boss: ['mage'], mats: ['enchants', 'bov'], evos: ['tank'], sUnit: null},
-  {stage: '3-9', boss: ['tank'], mats: ['enchants', 'bov'], evos: ['assault'], sUnit: null},
-  {stage: '4-3', boss: ['tank'], mats: ['enchants', 'bov'], evos: ['mage'], sUnit: null},
-  {stage: '4-6', boss: ['mage'], mats: ['enchants', 'bov'], evos: ['ranger'], sUnit: null},
-  {stage: '4-9', boss: ['assault'], mats: ['enchants', 'bov'], evos: ['healer'], sUnit: null},
-  {stage: '5-3', boss: ['assault'], mats: ['enchants', 'bov'], evos: ['tank'], sUnit: null},
-  {stage: '5-6', boss: ['ranger'], mats: ['enchants', 'bov'], evos: ['assault'], sUnit: null},
-  {stage: '5-9', boss: ['mage'], mats: ['enchants', 'bov'], evos: ['mage'], sUnit: null},
-  {stage: '6-3', boss: ['mage'], mats: ['enchants', 'bov'], evos: ['ranger'], sUnit: null},
-  {stage: '6-6', boss: ['ranger'], mats: ['enchants', 'bov'], evos: ['tank'], sUnit: ['tank']},
-  {stage: '6-9', boss: ['mage'], mats: ['enchants'], evos: ['mage'], sUnit: ['mage']},
-  {stage: '7-3', boss: ['assault'], mats: ['enchants'], evos: ['ranger'], sUnit: ['ranger']},
-  {stage: '7-6', boss: ['mage'], mats: ['enchants'], evos: ['healer'], sUnit: ['healer']},
-  {stage: '7-9', boss: ['assault'], mats: ['enchants'], evos: ['assault'], sUnit: ['assault']},
-  {stage: '8-3', boss: ['assault'], mats: ['enchants', 'bov', 'runes'], evos: ['healer'], sUnit: null},
-  {stage: '8-6', boss: ['ranger'], mats: ['enchants', 'runes'], evos: ['tank'], sUnit: ['tank']},
-  {stage: '8-9', boss: ['mage'], mats: ['enchants', 'runes'], evos: ['mage'], sUnit: 'mage'},
-  {stage: '9-3', boss: ['mage'], mats: ['enchants', 'runes'], evos: ['ranger'], sUnit: ['ranger']},
-  {stage: '9-6', boss: ['healer'], mats: ['enchants', 'runes'], evos: ['healer'], sUnit: ['healer']},
-  {stage: '9-9', boss: ['assault'], mats: ['enchants', 'runes'], evos: ['assault'], sUnit: ['assault']},
-  {stage: '10-3', boss: ['mage'], mats: ['enchants', 'bov', 'runes'], evos: ['tank'], sUnit: null},
-  {stage: '10-6', boss: ['tank'], mats: ['enchants', 'runes'], evos: ['tank'], sUnit: ['tank']},
-  {stage: '10-9', boss: ['assault'], mats: ['enchants', 'runes'], evos: ['mage'], sUnit: ['mage']},
-  {stage: '11-3', boss: ['assault'], mats: ['enchants', 'bov', 'runes'], evos: ['ranger'], sUnit: null},
-  {stage: '11-6', boss: ['tank'], mats: ['enchants', 'runes'], evos: ['ranger'], sUnit: ['ranger']},
-  {stage: '11-9', boss: ['assault'], mats: ['enchants', 'runes'], evos: ['healer'], sUnit: ['healer']},
-  {stage: '12-3', boss: ['mage'], mats: ['enchants', 'runes'], evos: ['assault'], sUnit: ['assault']},
-  {stage: '12-6', boss: ['mage'], mats: ['enchants', 'runes'], evos: ['tank'], sUnit: ['tank']},
-  {stage: '12-9', boss: ['healer'], mats: ['enchants', 'runes'], evos: ['mage'], sUnit: ['mage']},
-  {stage: '13-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes'], evos: ['healer'], sUnit: null},
-  {stage: '13-6', boss: ['ranger'], mats: ['enchants', 'runes'], evos: ['ranger'], sUnit: ['ranger']},
-  {stage: '13-9', boss: ['assault'], mats: ['enchants', 'runes'], evos: ['healer'], sUnit: ['healer']},
-  {stage: '14-3', boss: ['mage'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['mage'], sUnit: null},
-  {stage: '14-6', boss: ['healer'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['assault']},
-  {stage: '14-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['tank']},
-  {stage: '15-3', boss: ['tank'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['mage']},
-  {stage: '15-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['ranger']},
-  {stage: '15-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['healer']},
-  {stage: '16-3', boss: ['assault'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['ranger'], sUnit: null},
-  {stage: '16-6', boss: ['ranger'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['assault']},
-  {stage: '16-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['tank']},
-  {stage: '17-3', boss: ['ranger'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['assault'], sUnit: null},
-  {stage: '17-6', boss: ['healer'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['mage']},
-  {stage: '17-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['ranger']},
-  {stage: '18-3', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['healer']},
-  {stage: '18-6', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['assault']},
-  {stage: '18-9', boss: ['healer'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['tank']},
-  {stage: '19-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['mage'], sUnit: null},
-  {stage: '19-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['mage']},
-  {stage: '19-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['ranger']},
-  {stage: '20-3', boss: ['assault'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['tank'], sUnit: null},
-  {stage: '20-6', boss: ['healer'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['healer']},
-  {stage: '20-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['assault']},
-  {stage: '21-3', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['tank']},
-  {stage: '21-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['mage']},
-  {stage: '21-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['ranger']},
-  {stage: '22-3', boss: ['mage'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['assault'], sUnit: null},
-  {stage: '22-6', boss: ['ranger'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['healer']},
-  {stage: '22-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['assault']},
-  {stage: '23-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['ranger'], sUnit: null},
-  {stage: '23-6', boss: ['ranger'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['tank']},
-  {stage: '23-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['mage']},
-  {stage: '24-3', boss: ['healer'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['assault'], sUnit: null},
-  {stage: '24-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['ranger']},
-  {stage: '24-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['healer']},
-  {stage: '25-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['healer'], sUnit: null},
-  {stage: '25-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['assault']},
-  {stage: '25-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['mage']},
-  {stage: 'Challenge 23-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['mage'], sUnit: null},
-  {stage: 'Challenge 23-6', boss: ['ranger'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['tank']},
-  {stage: 'Challenge 23-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['mage']},
-  {stage: 'Challenge 24-3', boss: ['healer'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['tank'], sUnit: null},
-  {stage: 'Challenge 24-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['ranger']},
-  {stage: 'Challenge 24-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['healer']},
-  {stage: 'Challenge 25-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['ranger'], sUnit: null},
-  {stage: 'Challenge 25-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['assault']},
-  {stage: 'Challenge 26-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['tank']}
-]
+  {
+    stage: "1-3",
+    boss: ["tank"],
+    mats: ["enchants"],
+    evos: null,
+    sUnit: null
+  },
+  {
+    stage: "1-6",
+    boss: ["healer"],
+    mats: ["enchants"],
+    evos: null,
+    sUnit: null
+  },
+  {
+    stage: "1-9",
+    boss: ["mage"],
+    mats: ["enchants"],
+    evos: null,
+    sUnit: null
+  },
+  {
+    stage: "2-3",
+    boss: ["mage"],
+    mats: ["enchants", "bov"],
+    evos: null,
+    sUnit: null
+  },
+  {
+    stage: "2-6",
+    boss: ["mage"],
+    mats: ["enchants", "bov"],
+    evos: null,
+    sUnit: null
+  },
+  {
+    stage: "2-9",
+    boss: ["ranger"],
+    mats: ["enchants", "bov"],
+    evos: null,
+    sUnit: null
+  },
+  {
+    stage: "3-3",
+    boss: ["mage"],
+    mats: ["enchants", "bov"],
+    evos: ["healer"],
+    sUnit: null
+  },
+  {
+    stage: "3-6",
+    boss: ["mage"],
+    mats: ["enchants", "bov"],
+    evos: ["tank"],
+    sUnit: null
+  },
+  {
+    stage: "3-9",
+    boss: ["tank"],
+    mats: ["enchants", "bov"],
+    evos: ["assault"],
+    sUnit: null
+  },
+  {
+    stage: "4-3",
+    boss: ["tank"],
+    mats: ["enchants", "bov"],
+    evos: ["mage"],
+    sUnit: null
+  },
+  {
+    stage: "4-6",
+    boss: ["mage"],
+    mats: ["enchants", "bov"],
+    evos: ["ranger"],
+    sUnit: null
+  },
+  {
+    stage: "4-9",
+    boss: ["assault"],
+    mats: ["enchants", "bov"],
+    evos: ["healer"],
+    sUnit: null
+  },
+  {
+    stage: "5-3",
+    boss: ["assault"],
+    mats: ["enchants", "bov"],
+    evos: ["tank"],
+    sUnit: null
+  },
+  {
+    stage: "5-6",
+    boss: ["ranger"],
+    mats: ["enchants", "bov"],
+    evos: ["assault"],
+    sUnit: null
+  },
+  {
+    stage: "5-9",
+    boss: ["mage"],
+    mats: ["enchants", "bov"],
+    evos: ["mage"],
+    sUnit: null
+  },
+  {
+    stage: "6-3",
+    boss: ["mage"],
+    mats: ["enchants", "bov"],
+    evos: ["ranger"],
+    sUnit: null
+  },
+  {
+    stage: "6-6",
+    boss: ["ranger"],
+    mats: ["enchants", "bov"],
+    evos: ["tank"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "6-9",
+    boss: ["mage"],
+    mats: ["enchants"],
+    evos: ["mage"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "7-3",
+    boss: ["assault"],
+    mats: ["enchants"],
+    evos: ["ranger"],
+    sUnit: ["ranger"]
+  },
+  {
+    stage: "7-6",
+    boss: ["mage"],
+    mats: ["enchants"],
+    evos: ["healer"],
+    sUnit: ["healer"]
+  },
+  {
+    stage: "7-9",
+    boss: ["assault"],
+    mats: ["enchants"],
+    evos: ["assault"],
+    sUnit: ["assault"]
+  },
+  {
+    stage: "8-3",
+    boss: ["assault"],
+    mats: ["enchants", "bov", "runes"],
+    evos: ["healer"],
+    sUnit: null
+  },
+  {
+    stage: "8-6",
+    boss: ["ranger"],
+    mats: ["enchants", "runes"],
+    evos: ["tank"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "8-9",
+    boss: ["mage"],
+    mats: ["enchants", "runes"],
+    evos: ["mage"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "9-3",
+    boss: ["mage"],
+    mats: ["enchants", "runes"],
+    evos: ["ranger"],
+    sUnit: ["ranger"]
+  },
+  {
+    stage: "9-6",
+    boss: ["healer"],
+    mats: ["enchants", "runes"],
+    evos: ["healer"],
+    sUnit: ["healer"]
+  },
+  {
+    stage: "9-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes"],
+    evos: ["assault"],
+    sUnit: ["assault"]
+  },
+  {
+    stage: "10-3",
+    boss: ["mage"],
+    mats: ["enchants", "bov", "runes"],
+    evos: ["tank"],
+    sUnit: null
+  },
+  {
+    stage: "10-6",
+    boss: ["tank"],
+    mats: ["enchants", "runes"],
+    evos: ["tank"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "10-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes"],
+    evos: ["mage"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "11-3",
+    boss: ["assault"],
+    mats: ["enchants", "bov", "runes"],
+    evos: ["ranger"],
+    sUnit: null
+  },
+  {
+    stage: "11-6",
+    boss: ["tank"],
+    mats: ["enchants", "runes"],
+    evos: ["ranger"],
+    sUnit: ["ranger"]
+  },
+  {
+    stage: "11-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes"],
+    evos: ["healer"],
+    sUnit: ["healer"]
+  },
+  {
+    stage: "12-3",
+    boss: ["mage"],
+    mats: ["enchants", "runes"],
+    evos: ["assault"],
+    sUnit: ["assault"]
+  },
+  {
+    stage: "12-6",
+    boss: ["mage"],
+    mats: ["enchants", "runes"],
+    evos: ["tank"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "12-9",
+    boss: ["healer"],
+    mats: ["enchants", "runes"],
+    evos: ["mage"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "13-3",
+    boss: ["tank"],
+    mats: ["enchants", "bov", "runes"],
+    evos: ["healer"],
+    sUnit: null
+  },
+  {
+    stage: "13-6",
+    boss: ["ranger"],
+    mats: ["enchants", "runes"],
+    evos: ["ranger"],
+    sUnit: ["ranger"]
+  },
+  {
+    stage: "13-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes"],
+    evos: ["healer"],
+    sUnit: ["healer"]
+  },
+  {
+    stage: "14-3",
+    boss: ["mage"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["mage"],
+    sUnit: null
+  },
+  {
+    stage: "14-6",
+    boss: ["healer"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["assault"],
+    sUnit: ["assault"]
+  },
+  {
+    stage: "14-9",
+    boss: ["mage"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["tank"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "15-3",
+    boss: ["tank"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["mage"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "15-6",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["ranger"],
+    sUnit: ["ranger"]
+  },
+  {
+    stage: "15-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["healer"],
+    sUnit: ["healer"]
+  },
+  {
+    stage: "16-3",
+    boss: ["assault"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["ranger"],
+    sUnit: null
+  },
+  {
+    stage: "16-6",
+    boss: ["ranger"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["assault"],
+    sUnit: ["assault"]
+  },
+  {
+    stage: "16-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["tank"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "17-3",
+    boss: ["ranger"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["assault"],
+    sUnit: null
+  },
+  {
+    stage: "17-6",
+    boss: ["healer"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["mage"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "17-9",
+    boss: ["mage"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["ranger"],
+    sUnit: ["ranger"]
+  },
+  {
+    stage: "18-3",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["healer"],
+    sUnit: ["healer"]
+  },
+  {
+    stage: "18-6",
+    boss: ["mage"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["assault"],
+    sUnit: ["assault"]
+  },
+  {
+    stage: "18-9",
+    boss: ["healer"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["tank"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "19-3",
+    boss: ["tank"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["mage"],
+    sUnit: null
+  },
+  {
+    stage: "19-6",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["mage"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "19-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["ranger"],
+    sUnit: ["ranger"]
+  },
+  {
+    stage: "20-3",
+    boss: ["assault"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["tank"],
+    sUnit: null
+  },
+  {
+    stage: "20-6",
+    boss: ["healer"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["healer"],
+    sUnit: ["healer"]
+  },
+  {
+    stage: "20-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["assault"],
+    sUnit: ["assault"]
+  },
+  {
+    stage: "21-3",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["tank"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "21-6",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["mage"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "21-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["ranger"],
+    sUnit: ["ranger"]
+  },
+  {
+    stage: "22-3",
+    boss: ["mage"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["assault"],
+    sUnit: null
+  },
+  {
+    stage: "22-6",
+    boss: ["ranger"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["healer"],
+    sUnit: ["healer"]
+  },
+  {
+    stage: "22-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["assault"],
+    sUnit: ["assault"]
+  },
+  {
+    stage: "23-3",
+    boss: ["tank"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["ranger"],
+    sUnit: null
+  },
+  {
+    stage: "23-6",
+    boss: ["ranger"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["healer"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "23-9",
+    boss: ["mage"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["tank"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "24-3",
+    boss: ["healer"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["assault"],
+    sUnit: null
+  },
+  {
+    stage: "24-6",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["mage"],
+    sUnit: ["ranger"]
+  },
+  {
+    stage: "24-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["ranger"],
+    sUnit: ["healer"]
+  },
+  {
+    stage: "25-3",
+    boss: ["tank"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["healer"],
+    sUnit: null
+  },
+  {
+    stage: "25-6",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["tank"],
+    sUnit: ["assault"]
+  },
+  {
+    stage: "25-9",
+    boss: ["mage"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["assault"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "Challenge 23-3",
+    boss: ["tank"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["healer"],
+    sUnit: null
+  },
+  {
+    stage: "Challenge 23-6",
+    boss: ["ranger"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["tank"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "Challenge 23-9",
+    boss: ["mage"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["mage"],
+    sUnit: ["mage"]
+  },
+  {
+    stage: "Challenge 24-3",
+    boss: ["healer"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["ranger"],
+    sUnit: ["ranger"]
+  },
+  {
+    stage: "Challenge 24-6",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["healer"],
+    sUnit: ["healer"]
+  },
+  {
+    stage: "Challenge 24-9",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["assault"],
+    sUnit: ["assault"]
+  },
+  {
+    stage: "Challenge 25-3",
+    boss: ["tank"],
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: ["tank"],
+    sUnit: null
+  },
+  {
+    stage: "Challenge 25-6",
+    boss: ["assault"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["tank"],
+    sUnit: ["tank"]
+  },
+  {
+    stage: "Challenge 26-9",
+    boss: ["mage"],
+    mats: ["enchants", "runes", "aot"],
+    evos: ["mage"],
+    sUnit: ["mage"]
+  }
+];
 
 export const evos = ['assault', 'tank', 'ranger', 'mage', 'healer'];
 export const boss = ['assault', 'tank', 'ranger', 'mage', 'healer'];
