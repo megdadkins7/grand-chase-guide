@@ -51,9 +51,11 @@ function App() {
   return (
     <Router>
       <GlobalStyles />
+      <div className='Content'>
       <StyledNav>
         <nav>
           <Link className='Nav' to='/'>Home</Link>
+          <Link className='Nav' to='/hero/elesis'>Hero Build</Link>
           <Link className='Nav' to='/stages'>Boss Stages</Link>
           <Link className='Nav' to='/worldboss'>World Boss</Link>
           <Link className='Nav' to='/aot'>AOT Teams</Link>
@@ -72,6 +74,7 @@ function App() {
         <Route path="/dualraid" children={<DualRaidList />} />
         <Route path="/" children={<HeroList />} />
       </Switch>
+      </div>
     </Router>
   );
 }

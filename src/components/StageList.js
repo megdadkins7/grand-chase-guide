@@ -9,7 +9,9 @@ import Stage from './Stage'
 import FilterList from './FilterList'
 
 const StyledStageList = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  margin: 20px 10px;
 `;
 
 function StageList() {
@@ -32,7 +34,7 @@ function StageList() {
       <div className='FilterList'>
         <FilterList onFiltersChange={handleOnFiltersChange} />
       </div>
-      <div className='StageList'>
+      <div className='StageList' style={{ boxShadow: 'inset 0 0 3px 1px #454545'}}>
         <Stage data={grandChaseData} filters={activeFilters} />
       </div>
     </StyledStageList>

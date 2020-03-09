@@ -4,8 +4,7 @@ import styled from 'styled-components'
   const StyledStage = styled.div`
   .Wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
     margin: 3px;
     padding: 3px;
   }
@@ -37,27 +36,33 @@ import styled from 'styled-components'
 
 function Stage({ data, filters }) {
 
-  const filteredData = data.filter(stage => {
-    if (filters.evos.length > 0) {
-      return filters.evos.includes(stage.evos)
-    } 
-    if (filters.boss.length > 0) {
-      return filters.boss.includes(stage.boss)
-    }
-    if (filters.sUnit.length > 0) {
-      return filters.sUnit.includes(stage.sUnit)
-    }
-    if (filters.mats.length > 0) {
-      return filters.mats.some(mat => stage.mats.includes(mat))
-    }
-    return stage;
-  });
+  const getActiveFilterCount = filters => {
+    return Object.keys(filters).reduce((total, filterKey) => {
+      return filters[filterKey].length > 0 ? total + 1 : total;
+    }, 0);
+  }
 
+  const getFilteredList = (list, filters) => {
+    const activeFilterCount = getActiveFilterCount(filters);
+
+    if(activeFilterCount === 0) {
+      return data
+    }
+    return list.filter(stage => {
+      const matchCount = Object.keys(filters).reduce((total, filterKey) => {
+        return filters[filterKey].includes(stage[filterKey]) ? total + 1 : total;
+      }, 0);
+      return matchCount === activeFilterCount
+    });
+  };
+
+  const visibleStages = getFilteredList(data, filters)
+  
   return (
     <StyledStage>
       <ul className='Stages'>
         {
-          filteredData.map(stage => (
+          visibleStages.map(stage => (
             <div key={stage.stage} className='Wrapper'>
               <div className='StageNumber'>
                 <span className='Title'>Stage: </span><span className='Info'>{stage.stage}</span>
@@ -83,3 +88,22 @@ function Stage({ data, filters }) {
 }
 
 export default Stage
+
+/*
+const filteredData = data.filter(stage => {
+  let keep = true;
+    if (filters.evos.length > 0) {
+      keep = filters.evos.includes(stage.evos)
+    } 
+    if (filters.boss.length > 0) {
+      keep = filters.boss.includes(stage.boss)
+    }
+    if (filters.sUnit.length > 0) {
+      keep = filters.sUnit.includes(stage.sUnit)
+    }
+    if (filters.mats.length > 0) {
+      keep = filters.mats.some(mat => stage.mats.includes(mat))
+    }
+    return keep;
+  });
+*/

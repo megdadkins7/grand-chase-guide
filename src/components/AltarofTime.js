@@ -9,7 +9,7 @@ import Altar from './Altar'
 
 const StyledAltarOfTime = styled.div`
   width: 900px;
-  margin-top: 50px;
+  margin: 10px 0;
   text-align: center;
 `;
 

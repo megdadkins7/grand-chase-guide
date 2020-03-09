@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         font-weight: 400;
-        background: linear-gradient(135deg, rgba(59,58,58,1) 0%, rgba(10,10,10,1) 100%);
+        background: linear-gradient(135deg, rgba(58,58,58,1) 0%, rgba(10,10,10,1) 100%);
         background-attachment: fixed;
         -webkit-font-smoothing: antialiased; 
         -moz-osx-font-smoothing: grayscale; 
@@ -27,3 +27,6 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 export default GlobalStyles;
+
+//url('http://cdn26.us1.fansshare.com/photo/wallpaperbackground/dark-pattern-wallpaper-background-hd-wallpaper-pattern-background-752531240.jpg');
+// backdrop-filter: blur(4px);

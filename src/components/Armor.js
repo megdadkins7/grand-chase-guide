@@ -8,21 +8,23 @@ const StyledArmor = styled.div`
   .Armor {
     font-weight: 500;
     color: #ACACAC;
+    text-transform: uppercase;
   }
   .AccessoryWrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     margin: 20px;
   }
   .Accessories {
-    height: 50px;
+    height: 60px;
     width: auto;
     border: 1px solid black;
   }
   .AccessoryName {
     color: #ACACAC;
+    margin: 3px;
   }
   .EnchantsWrapper {
     display: grid;
@@ -57,7 +59,6 @@ const StyledArmor = styled.div`
   }
   .Sockets {
     margin: 10px;
-    text-align: center;
     color: #ACACAC;
   }
 `;
@@ -74,16 +75,20 @@ function Armor({ build }) {
       <span className='Armor'>{build.set}</span>
       <div className='AccessoryWrapper'>
         <div>
-          <img className='Accessories' src={build.ring} />
+          <img className='Accessories' src={build.ring} alt='ring' />
           <div className='AccessoryName'>{build.ringName}</div>
         </div>
         <div>
-          <img className='Accessories' src={build.necklace} />
+          <img className='Accessories' src={build.necklace} alt='necklace' />
           <div className='AccessoryName'>{build.necklaceName}</div>
         </div>
         <div>
-          <img className='Accessories' src={build.earrings} />
+          <img className='Accessories' src={build.earrings} alt='earrings' />
           <div className='AccessoryName'>{build.earringsName}</div>
+        </div>
+        <div>
+          <img className='Accessories' src={build.artifact} alt='artifact' />
+          <div className='AccessoryName'>{build.artifactName}</div>
         </div>
       </div>
       <div className='EnchantsWrapper'>

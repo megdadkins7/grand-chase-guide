@@ -1,65 +1,36 @@
 import React from 'react'
-import styled from 'styled-components'
 
-const StyledDualRaid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  padding: 20px;
-  color: #ACACAC;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 18px;
-  span {
-    margin: 10px;
-  }
-  .PartySkill {
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-  }
-  .PartySkillThree {
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-  }
-  .Pet {
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-  }
-  .Profile {
-    height: 75px;
-    width: auto;
-    margin: 3px;
-    border: 1px solid black;
-  }
-`;
+//styles
+import { StyledRaid } from '../styles/TeamStyle'
 
-function DualRaid({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree }) {
+function DualRaid({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree, specialHero, oneStars, twoStars, threeStars, fourStars }) {
   return (
-    <StyledDualRaid>
+    <StyledRaid>
+      <div className='Name'>{name}:</div>
       <div>
-        <span>{name}:</span>
+        <div className='StyledStars'>
+          <img className='Stars' src={oneStars} alt='Stars' />
+          <img className='Stars' src={twoStars} alt='Stars' />
+          <img className='Stars' src={threeStars} alt='Stars' />
+          <img className='Stars' src={fourStars} alt='Stars' />
+        </div>
+        <div>
+          <img className='Profile'src={slotOne} alt='hero' />
+          <img className='Profile'src={slotTwo} alt='hero' />
+          <img className='Profile'src={slotThree} alt='hero' />
+          <img className='Profile'src={slotFour} alt='hero' />
+        </div>
+        <div>
+          <img className='Pet' src={pet} alt='pet' />
+          <img className='PartySkill' src={partySkillOne} alt='party skill' />
+          <img className='PartySkill' src={partySkillTwo} alt='party skill' />
+          <img className='PartySkill' src={partySkillThree} alt='party skill' />
+        </div>
+        <div>
+          <span style={{color: '#E6E6E6'}}>{specialHero}</span>
+        </div>
       </div>
-      <div>
-      <img className='Profile'src={slotOne} />
-      <img className='Profile'src={slotTwo} />
-      <img className='Profile'src={slotThree} />
-      <img className='Profile'src={slotFour} />
-      <img className='Pet' src={pet} />
-      <img className='PartySkill' src={partySkillOne} alt='party skill' />
-      <img className='PartySkill' src={partySkillTwo} alt='party skill' />
-      <img className='PartySkillThree' src={partySkillThree} alt='party skill' />
-      </div>
-    </StyledDualRaid>
+    </StyledRaid>
   )
 }
 

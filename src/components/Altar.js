@@ -1,66 +1,34 @@
 import React from 'react'
-import styled from 'styled-components'
 
-const StyledAltar = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  padding: 20px;
-  color: #ACACAC;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 18px;
-  span {
-    margin: 10px;
-  }
-  .PartySkill {
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-  }
-  .PartySkillThree {
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-  }
-  .Pet {
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-  }
-  .Profile {
-    height: 75px;
-    width: auto;
-    margin: 3px;
-    border: 1px solid black;
-  }
-`;
+//styles
+import { StyledTeam } from '../styles/TeamStyle'
 
-function Altar({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree }) {
+function Altar({ name, slotOne, slotTwo, slotThree, slotFour, pet, partySkillOne, partySkillTwo, partySkillThree, oneStars, twoStars, threeStars, fourStars }) {
   return (
-    <StyledAltar>
+    <StyledTeam>
       <div>
         <span>{name}:</span>
       </div>
       <div>
-      <img className='Profile'src={slotOne} />
-      <img className='Profile'src={slotTwo} />
-      <img className='Profile'src={slotThree} />
-      <img className='Profile'src={slotFour} />
-      <img className='Pet' src={pet} />
-      <img className='PartySkill' src={partySkillOne} alt='party skill' />
-      <img className='PartySkill' src={partySkillTwo} alt='party skill' />
-      <img className='PartySkillThree' src={partySkillThree} alt='party skill' />
+        <div style={{display: 'flex', justifyContent: 'flex-start', margin: '0 0 3px 23px'}}>
+          <img className='Stars' src={oneStars} alt='stars' />
+          <img className='Stars' src={twoStars} alt='stars' />
+          <img className='Stars' src={threeStars} alt='stars' />
+          <img className='Stars' src={fourStars} alt='stars' />
+        </div>
+        <img className='Profile'src={slotOne} alt='hero' />
+        <img className='Profile'src={slotTwo} alt='hero' />
+        <img className='Profile'src={slotThree} alt='hero' />
+        <img className='Profile'src={slotFour} alt='hero' />
+        <img className='Pet' src={pet} alt='pet' />
+        <img className='PartySkill' src={partySkillOne} alt='party skill' />
+        <img className='PartySkill' src={partySkillTwo} alt='party skill' />
+        <img className='PartySkill' src={partySkillThree} alt='party skill' />
       </div>
-    </StyledAltar>
+    </StyledTeam>
   )
 }
 
 export default Altar
+
+//style={{background: `url(${fight}) no-repeat ${color}`}}

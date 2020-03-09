@@ -186,6 +186,7 @@ import kanavans2 from './assets/skills/kanavans2.png'
 import lasschaser from './assets/skills/lasschaser.png'
 import lasss1 from './assets/skills/lasss1.png'
 import lasss2 from './assets/skills/lasss2.png'
+import leychaser from './assets/skills/leychaser.png'
 import leypass from './assets/skills/leypass.png'
 import leys2 from './assets/skills/leys2.png'
 import limepass from './assets/skills/limepass.png'
@@ -211,6 +212,7 @@ import ryanpass from './assets/skills/ryanpass.png'
 import ryans1 from './assets/skills/ryans1.png'
 import serdins1 from './assets/skills/serdins1.png'
 import serdins2 from './assets/skills/serdins2.png'
+import sieghartchaser from './assets/skills/sieghartchaser.png'
 import sieghartpass from './assets/skills/sieghartpass.png'
 import siegharts1 from './assets/skills/siegharts1.png'
 import veigaspass from './assets/skills/veigaspass.png'
@@ -230,6 +232,112 @@ import imhr from './assets/traits/ihmr.png'
 import sadi from './assets/traits/sadi.png'
 import sadr from './assets/traits/sadr.png'
 
+import assaulta from './assets/artifacts/assaulta.png'
+import healera from './assets/artifacts/healera.png'
+import magea from './assets/artifacts/magea.png'
+import rangera from './assets/artifacts/rangera.png'
+import tanka from './assets/artifacts/tanka.png'
+
+import breathoflife from './assets/chaser/breathoflife.jpg'
+import divineprotection from './assets/chaser/divineprotection.jpg'
+import elevatedpower from './assets/chaser/elevatedpower.jpg'
+import fate from './assets/chaser/fate.jpg'
+import helper from './assets/chaser/helper.jpg'
+import impulse from './assets/chaser/impulse.jpg'
+import invisiblehand from './assets/chaser/invisiblehand.jpg'
+import longlife from './assets/chaser/longlife.jpg'
+import persistentexecutioner from './assets/chaser/persistentexecutioner.jpg'
+import prayerofblessing from './assets/chaser/prayerofblessing.jpg'
+import pureluck from './assets/chaser/pureluck.jpg'
+import soulhealer from './assets/chaser/soulhealer.jpg'
+
+import amyfluffy from './assets/fluffy/amyfluffy.png'
+import armefluffy from './assets/fluffy/armefluffy.png'
+import arsadfluffy from './assets/fluffy/arsadfluffy.png'
+import asinfluffy from './assets/fluffy/asinfluffy.png'
+import diofluffy from './assets/fluffy/diofluffy.png'
+import edelfluffy from './assets/fluffy/edelfluffy.png'
+import elesisfluffy from './assets/fluffy/elesisfluffy.png'
+import gaianfluffy from './assets/fluffy/gaianfluffy.png'
+import grandielfluffy from './assets/fluffy/grandielfluffy.png'
+import iofluffy from './assets/fluffy/iofluffy.png'
+import jinfluffy from './assets/fluffy/jinfluffy.png'
+import kanavanfluffy from './assets/fluffy/kanavanfluffy.png'
+import lassfluffy from './assets/fluffy/lassfluffy.png'
+import leyfluffy from './assets/fluffy/leyfluffy.png'
+import limefluffy from './assets/fluffy/limefluffy.png'
+import lirefluffy from './assets/fluffy/lirefluffy.png'
+import marifluffy from './assets/fluffy/marifluffy.png'
+import neliafluffy from './assets/fluffy/neliafluffy.png'
+import rinfluffy from './assets/fluffy/rinfluffy.png'
+import ronanfluffy from './assets/fluffy/ronanfluffy.png'
+import rufusfluffy from './assets/fluffy/rufusfluffy.png'
+import ryanfluffy from './assets/fluffy/ryanfluffy.png'
+import serdinfluffy from './assets/fluffy/serdinfluffy.png'
+import sieghartfluffy from './assets/fluffy/sieghartfluffy.png'
+import veigasfluffy from './assets/fluffy/veigasfluffy.png'
+import wernerfluffy from './assets/fluffy/wernerfluffy.png'
+import zerofluffy from './assets/fluffy/zerofluffy.png'
+
+import darkagios from './assets/dchasm/darkagios.png'
+import darkaltair from './assets/dchasm/darkaltair.png'
+import darkbalzac from './assets/dchasm/darkbalzac.png'
+import darkbelial from './assets/dchasm/darkbelial.png'
+import darkbf from './assets/dchasm/darkbf.png'
+import darkbriel from './assets/dchasm/darkbriel.png'
+import darkcaptainboar from './assets/dchasm/darkcaptainboar.png'
+import darkcharon from './assets/dchasm/darkcharon.png'
+import darkdrmolly from './assets/dchasm/darkdrmolly.png'
+import darkdullahan from './assets/dchasm/darkdullahan.png'
+import darkfavian from './assets/dchasm/darkfavian.png'
+import darkfennel from './assets/dchasm/darkfennel.png'
+import darkfermat from './assets/dchasm/darkfermat.png'
+import darkflaune from './assets/dchasm/darkflaune.png'
+import darkhaggler from './assets/dchasm/darkhaggler.png'
+import darkhanout from './assets/dchasm/darkhanout.png'
+import darkkarp from './assets/dchasm/darkkarp.png'
+import darkkyle from './assets/dchasm/darkkyle.png'
+import darkmarjoram from './assets/dchasm/darkmarjoram.png'
+import darknephilim from './assets/dchasm/darknephilim.png'
+import darkposeidon from './assets/dchasm/darkposeidon.png'
+import darkrasel from './assets/dchasm/darkrasel.png'
+import darktacoel from './assets/dchasm/darktacoel.png'
+import darkvega from './assets/dchasm/darkvega.png'
+
+import bossfight from './assets/diamond/bossfight.png'
+import brawl from './assets/diamond/brawl.png'
+import elite from './assets/diamond/elite.png'
+import relay from './assets/diamond/relay.png'
+
+import fireandice from './assets/diamond/fireandice.png'
+import lastavatar from './assets/diamond/lastavatar.png'
+import newworld from './assets/diamond/newworld.png'
+import calmandpassion from './assets/diamond/calmandpassion.png'
+import contractterminated from './assets/diamond/contractterminated.png'
+import crazyenvoy from './assets/diamond/crazyenvoy.png'
+
+import swayingambition from './assets/diamond/swayingambition.png'
+import illusionofmemory from './assets/diamond/illusionofmemory.png'
+import towermanager from './assets/diamond/towermanager.png'
+import rulersrights from './assets/diamond/rulersrights.png'
+import resurrectionceremony from './assets/diamond/resurrectionceremony.png'
+import castedshadow from './assets/diamond/castedshadow.png'
+import crazyenvoy2 from './assets/diamond/crazyenvoy2.png'
+
+//import a1 from './assets/diamond/a1.png'
+//import a2 from './assets/diamond/a2.png'
+//import a3 from './assets/diamond/a3.png'
+//import a4 from './assets/diamond/a4.png'
+//import a5 from './assets/diamond/a5.png'
+//import a6 from './assets/diamond/a6.png'
+//import t1 from './assets/diamond/t1.png'
+//import t2 from './assets/diamond/t2.png'
+import t3 from './assets/diamond/t3.png'
+//import t4 from './assets/diamond/t4.png'
+//import t5 from './assets/diamond/t5.png'
+import t6 from './assets/diamond/t6.png'
+//import star6 from './assets/diamond/star6.png'
+
 //export const nullToNone = word => null ? word : 'none'
 
 export const displayUpperCase = word => {
@@ -243,90 +351,90 @@ export const displayUpperCase = word => {
 }
 
 export const grandChaseData = [
-  {stage: '1-3', boss: 'tank', mats: ['enchants'], evos: null, sUnit: null},
-  {stage: '1-6', boss: 'healer', mats: ['enchants'], evos: null, sUnit: null},
-  {stage: '1-9', boss: 'mage', mats: ['enchants'], evos:null, sUnit: null},
-  {stage: '2-3', boss: 'mage', mats: ['enchants', 'bov'], evos: null, sUnit: null},
-  {stage: '2-6', boss: 'mage', mats: ['enchants', 'bov'], evos: null, sUnit: null},
-  {stage: '2-9', boss: 'ranger', mats: ['enchants', 'bov'], evos: null, sUnit: null},
-  {stage: '3-3', boss: 'mage', mats: ['enchants', 'bov'], evos: 'healer', sUnit: null},
-  {stage: '3-6', boss: 'mage', mats: ['enchants', 'bov'], evos: 'tank', sUnit: null},
-  {stage: '3-9', boss: 'tank', mats: ['enchants', 'bov'], evos: 'assault', sUnit: null},
-  {stage: '4-3', boss: 'tank', mats: ['enchants', 'bov'], evos: 'mage', sUnit: null},
-  {stage: '4-6', boss: 'mage', mats: ['enchants', 'bov'], evos: 'ranger', sUnit: null},
-  {stage: '4-9', boss: 'assault', mats: ['enchants', 'bov'], evos: 'healer', sUnit: null},
-  {stage: '5-3', boss: 'assault', mats: ['enchants', 'bov'], evos: 'tank', sUnit: null},
-  {stage: '5-6', boss: 'ranger', mats: ['enchants', 'bov'], evos: 'assault', sUnit: null},
-  {stage: '5-9', boss: 'mage', mats: ['enchants', 'bov'], evos: 'mage', sUnit: null},
-  {stage: '6-3', boss: 'mage', mats: ['enchants', 'bov'], evos: 'ranger', sUnit: null},
-  {stage: '6-6', boss: 'ranger', mats: ['enchants', 'bov'], evos: 'tank', sUnit: 'tank'},
-  {stage: '6-9', boss: 'mage', mats: ['enchants'], evos: 'mage', sUnit: 'mage'},
-  {stage: '7-3', boss: 'assault', mats: ['enchants'], evos: 'ranger', sUnit: 'ranger'},
-  {stage: '7-6', boss: 'mage', mats: ['enchants'], evos: 'healer', sUnit: 'healer'},
-  {stage: '7-9', boss: 'assault', mats: ['enchants'], evos: 'assault', sUnit: 'assault'},
-  {stage: '8-3', boss: 'assault', mats: ['enchants', 'bov', 'runes'], evos: 'healer', sUnit: null},
-  {stage: '8-6', boss: 'ranger', mats: ['enchants', 'runes'], evos: 'tank', sUnit: 'tank'},
-  {stage: '8-9', boss: 'mage', mats: ['enchants', 'runes'], evos: 'mage', sUnit: 'mage'},
-  {stage: '9-3', boss: 'mage', mats: ['enchants', 'runes'], evos: 'ranger', sUnit: 'ranger'},
-  {stage: '9-6', boss: 'healer', mats: ['enchants', 'runes'], evos: 'healer', sUnit: 'healer'},
-  {stage: '9-9', boss: 'assault', mats: ['enchants', 'runes'], evos: 'assault', sUnit: 'assault'},
-  {stage: '10-3', boss: 'mage', mats: ['enchants', 'bov', 'runes'], evos: 'tank', sUnit: null},
-  {stage: '10-6', boss: 'tank', mats: ['enchants', 'runes'], evos: 'tank', sUnit: 'tank'},
-  {stage: '10-9', boss: 'assault', mats: ['enchants', 'runes'], evos: 'mage', sUnit: 'mage'},
-  {stage: '11-3', boss: 'assault', mats: ['enchants', 'bov', 'runes'], evos: 'ranger', sUnit: null},
-  {stage: '11-6', boss: 'tank', mats: ['enchants', 'runes'], evos: 'ranger', sUnit: 'ranger'},
-  {stage: '11-9', boss: 'assault', mats: ['enchants', 'runes'], evos: 'healer', sUnit: 'healer'},
-  {stage: '12-3', boss: 'mage', mats: ['enchants', 'runes'], evos: 'assault', sUnit: 'assault'},
-  {stage: '12-6', boss:'mage', mats: ['enchants', 'runes'], evos: 'tank', sUnit: 'tank'},
-  {stage: '12-9', boss: 'healer', mats: ['enchants', 'runes'], evos: 'mage', sUnit: 'mage'},
-  {stage: '13-3', boss: 'tank', mats: ['enchants', 'bov', 'runes'], evos: 'healer', sUnit: null},
-  {stage: '13-6', boss: 'ranger', mats: ['enchants', 'runes'], evos: 'ranger', sUnit: 'ranger'},
-  {stage: '13-9', boss: 'assault', mats: ['enchants', 'runes'], evos: 'healer', sUnit: 'healer'},
-  {stage: '14-3', boss: 'mage', mats: ['enchants', 'bov', 'runes', 'aot'], evos: 'mage', sUnit: null},
-  {stage: '14-6', boss: 'healer', mats: ['enchants', 'runes', 'aot'], evos: 'assault', sUnit: 'assault'},
-  {stage: '14-9', boss: 'mage', mats: ['enchants', 'runes', 'aot'], evos: 'tank', sUnit: 'tank'},
-  {stage: '15-3', boss: 'tank', mats: ['enchants', 'runes', 'aot'], evos: 'mage', sUnit: 'mage'},
-  {stage: '15-6', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'ranger', sUnit: 'ranger'},
-  {stage: '15-9', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'healer', sUnit: 'healer'},
-  {stage: '16-3', boss: 'assault', mats: ['enchants', 'bov', 'runes', 'aot'], evos:'ranger', sUnit: null},
-  {stage: '16-6', boss: 'ranger', mats: ['enchants', 'runes', 'aot'], evos: 'assault', sUnit: 'assault'},
-  {stage: '16-9', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'tank', sUnit: 'tank'},
-  {stage: '17-3', boss: 'ranger', mats: ['enchants', 'bov', 'runes', 'aot'], evos: 'assault', sUnit: null},
-  {stage: '17-6', boss: 'healer', mats: ['enchants', 'runes', 'aot'], evos: 'mage', sUnit: 'mage'},
-  {stage: '17-9', boss: 'mage', mats: ['enchants', 'runes', 'aot'], evos: 'ranger', sUnit: 'ranger'},
-  {stage: '18-3', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'healer', sUnit: 'healer'},
-  {stage: '18-6', boss: 'mage', mats: ['enchants', 'runes', 'aot'], evos: 'assault', sUnit: 'assault'},
-  {stage: '18-9', boss: 'healer', mats: ['enchants', 'runes', 'aot'], evos: 'tank', sUnit: 'tank'},
-  {stage: '19-3', boss: 'tank', mats: ['enchants', 'bov', 'runes', 'aot'], evos: 'mage', sUnit: null},
-  {stage: '19-6', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'mage', sUnit: 'mage'},
-  {stage: '19-9', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'ranger', sUnit: 'ranger'},
-  {stage: '20-3', boss: 'assault', mats: ['enchants', 'bov', 'runes', 'aot'], evos: 'tank', sUnit: null},
-  {stage: '20-6', boss: 'healer', mats: ['enchants', 'runes', 'aot'], evos: 'healer', sUnit: 'healer'},
-  {stage: '20-9', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'assault', sUnit: 'assault'},
-  {stage: '21-3', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'tank', sUnit: 'tank'},
-  {stage: '21-6', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'mage', sUnit: 'mage'},
-  {stage: '21-9', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'ranger', sUnit: 'ranger'},
-  {stage: '22-3', boss: 'mage', mats: ['enchants', 'bov', 'runes', 'aot'], evos: 'assault', sUnit: null},
-  {stage: '22-6', boss: 'ranger', mats: ['enchants', 'runes', 'aot'], evos: 'healer', sUnit: 'healer'},
-  {stage: '22-9', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'assault', sUnit: 'assault'},
-  {stage: '23-3', boss: 'tank', mats: ['enchants', 'bov', 'runes', 'aot'], evos: 'ranger', sUnit: null},
-  {stage: '23-6', boss: 'ranger', mats: ['enchants', 'runes', 'aot'], evos: 'healer', sUnit: 'tank'},
-  {stage: '23-9', boss: 'mage', mats: ['enchants', 'runes', 'aot'], evos: 'tank', sUnit: 'mage'},
-  {stage: '24-3', boss: 'healer', mats: ['enchants', 'bov', 'runes', 'aot'], evos: 'assault', sUnit: null},
-  {stage: '24-6', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'mage', sUnit: 'ranger'},
-  {stage: '24-9', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'ranger', sUnit: 'healer'},
-  {stage: '25-3', boss: 'tank', mats: ['enchants', 'bov', 'runes', 'aot'], evos: 'healer', sUnit: null},
-  {stage: '25-6', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'tank', sUnit: 'assault'},
-  {stage: '25-9', boss: 'mage', mats: ['enchants', 'runes', 'aot'], evos: 'assault', sUnit: 'mage'},
-  {stage: 'Challenge 23-3', boss: 'tank', mats: ['enchants', 'bov', 'runes', 'aot'], evos: 'healer', sUnit: null},
-  {stage: 'Challenge 23-6', boss: 'ranger', mats: ['enchants', 'runes', 'aot'], evos: 'tank', sUnit: 'tank'},
-  {stage: 'Challenge 23-9', boss: 'mage', mats: ['enchants', 'runes', 'aot'], evos: 'mage', sUnit: 'mage'},
-  {stage: 'Challenge 24-3', boss: 'healer', mats: ['enchants', 'runes', 'aot'], evos: 'ranger', sUnit: 'ranger'},
-  {stage: 'Challenge 24-6', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'healer', sUnit: 'healer'},
-  {stage: 'Challenge 24-9', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'assault', sUnit: 'assault'},
-  {stage: 'Challenge 25-3', boss: 'tank', mats: ['enchants', 'bov', 'runes', 'aot'], evos: 'tank', sUnit: null},
-  {stage: 'Challenge 25-6', boss: 'assault', mats: ['enchants', 'runes', 'aot'], evos: 'tank', sUnit: 'tank'},
-  {stage: 'Challenge 26-9', boss: 'mage', mats: ['enchants', 'runes', 'aot'], evos: 'mage', sUnit: 'mage'}
+  {stage: '1-3', boss: ['tank'], mats: ['enchants'], evos: null, sUnit: null},
+  {stage: '1-6', boss: ['healer'], mats: ['enchants'], evos: null, sUnit: null},
+  {stage: '1-9', boss: ['mage'], mats: ['enchants'], evos:null, sUnit: null},
+  {stage: '2-3', boss: ['mage'], mats: ['enchants', 'bov'], evos: null, sUnit: null},
+  {stage: '2-6', boss: ['mage'], mats: ['enchants', 'bov'], evos: null, sUnit: null},
+  {stage: '2-9', boss: ['ranger'], mats: ['enchants', 'bov'], evos: null, sUnit: null},
+  {stage: '3-3', boss: ['mage'], mats: ['enchants', 'bov'], evos: ['healer'], sUnit: null},
+  {stage: '3-6', boss: ['mage'], mats: ['enchants', 'bov'], evos: ['tank'], sUnit: null},
+  {stage: '3-9', boss: ['tank'], mats: ['enchants', 'bov'], evos: ['assault'], sUnit: null},
+  {stage: '4-3', boss: ['tank'], mats: ['enchants', 'bov'], evos: ['mage'], sUnit: null},
+  {stage: '4-6', boss: ['mage'], mats: ['enchants', 'bov'], evos: ['ranger'], sUnit: null},
+  {stage: '4-9', boss: ['assault'], mats: ['enchants', 'bov'], evos: ['healer'], sUnit: null},
+  {stage: '5-3', boss: ['assault'], mats: ['enchants', 'bov'], evos: ['tank'], sUnit: null},
+  {stage: '5-6', boss: ['ranger'], mats: ['enchants', 'bov'], evos: ['assault'], sUnit: null},
+  {stage: '5-9', boss: ['mage'], mats: ['enchants', 'bov'], evos: ['mage'], sUnit: null},
+  {stage: '6-3', boss: ['mage'], mats: ['enchants', 'bov'], evos: ['ranger'], sUnit: null},
+  {stage: '6-6', boss: ['ranger'], mats: ['enchants', 'bov'], evos: ['tank'], sUnit: ['tank']},
+  {stage: '6-9', boss: ['mage'], mats: ['enchants'], evos: ['mage'], sUnit: ['mage']},
+  {stage: '7-3', boss: ['assault'], mats: ['enchants'], evos: ['ranger'], sUnit: ['ranger']},
+  {stage: '7-6', boss: ['mage'], mats: ['enchants'], evos: ['healer'], sUnit: ['healer']},
+  {stage: '7-9', boss: ['assault'], mats: ['enchants'], evos: ['assault'], sUnit: ['assault']},
+  {stage: '8-3', boss: ['assault'], mats: ['enchants', 'bov', 'runes'], evos: ['healer'], sUnit: null},
+  {stage: '8-6', boss: ['ranger'], mats: ['enchants', 'runes'], evos: ['tank'], sUnit: ['tank']},
+  {stage: '8-9', boss: ['mage'], mats: ['enchants', 'runes'], evos: ['mage'], sUnit: 'mage'},
+  {stage: '9-3', boss: ['mage'], mats: ['enchants', 'runes'], evos: ['ranger'], sUnit: ['ranger']},
+  {stage: '9-6', boss: ['healer'], mats: ['enchants', 'runes'], evos: ['healer'], sUnit: ['healer']},
+  {stage: '9-9', boss: ['assault'], mats: ['enchants', 'runes'], evos: ['assault'], sUnit: ['assault']},
+  {stage: '10-3', boss: ['mage'], mats: ['enchants', 'bov', 'runes'], evos: ['tank'], sUnit: null},
+  {stage: '10-6', boss: ['tank'], mats: ['enchants', 'runes'], evos: ['tank'], sUnit: ['tank']},
+  {stage: '10-9', boss: ['assault'], mats: ['enchants', 'runes'], evos: ['mage'], sUnit: ['mage']},
+  {stage: '11-3', boss: ['assault'], mats: ['enchants', 'bov', 'runes'], evos: ['ranger'], sUnit: null},
+  {stage: '11-6', boss: ['tank'], mats: ['enchants', 'runes'], evos: ['ranger'], sUnit: ['ranger']},
+  {stage: '11-9', boss: ['assault'], mats: ['enchants', 'runes'], evos: ['healer'], sUnit: ['healer']},
+  {stage: '12-3', boss: ['mage'], mats: ['enchants', 'runes'], evos: ['assault'], sUnit: ['assault']},
+  {stage: '12-6', boss: ['mage'], mats: ['enchants', 'runes'], evos: ['tank'], sUnit: ['tank']},
+  {stage: '12-9', boss: ['healer'], mats: ['enchants', 'runes'], evos: ['mage'], sUnit: ['mage']},
+  {stage: '13-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes'], evos: ['healer'], sUnit: null},
+  {stage: '13-6', boss: ['ranger'], mats: ['enchants', 'runes'], evos: ['ranger'], sUnit: ['ranger']},
+  {stage: '13-9', boss: ['assault'], mats: ['enchants', 'runes'], evos: ['healer'], sUnit: ['healer']},
+  {stage: '14-3', boss: ['mage'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['mage'], sUnit: null},
+  {stage: '14-6', boss: ['healer'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['assault']},
+  {stage: '14-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['tank']},
+  {stage: '15-3', boss: ['tank'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['mage']},
+  {stage: '15-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['ranger']},
+  {stage: '15-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['healer']},
+  {stage: '16-3', boss: ['assault'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['ranger'], sUnit: null},
+  {stage: '16-6', boss: ['ranger'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['assault']},
+  {stage: '16-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['tank']},
+  {stage: '17-3', boss: ['ranger'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['assault'], sUnit: null},
+  {stage: '17-6', boss: ['healer'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['mage']},
+  {stage: '17-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['ranger']},
+  {stage: '18-3', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['healer']},
+  {stage: '18-6', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['assault']},
+  {stage: '18-9', boss: ['healer'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['tank']},
+  {stage: '19-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['mage'], sUnit: null},
+  {stage: '19-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['mage']},
+  {stage: '19-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['ranger']},
+  {stage: '20-3', boss: ['assault'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['tank'], sUnit: null},
+  {stage: '20-6', boss: ['healer'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['healer']},
+  {stage: '20-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['assault']},
+  {stage: '21-3', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['tank']},
+  {stage: '21-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['mage']},
+  {stage: '21-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['ranger']},
+  {stage: '22-3', boss: ['mage'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['assault'], sUnit: null},
+  {stage: '22-6', boss: ['ranger'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['healer']},
+  {stage: '22-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['assault']},
+  {stage: '23-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['ranger'], sUnit: null},
+  {stage: '23-6', boss: ['ranger'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['tank']},
+  {stage: '23-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['mage']},
+  {stage: '24-3', boss: ['healer'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['assault'], sUnit: null},
+  {stage: '24-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['ranger']},
+  {stage: '24-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['healer']},
+  {stage: '25-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['healer'], sUnit: null},
+  {stage: '25-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['assault']},
+  {stage: '25-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['mage']},
+  {stage: 'Challenge 23-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['mage'], sUnit: null},
+  {stage: 'Challenge 23-6', boss: ['ranger'], mats: ['enchants', 'runes', 'aot'], evos: ['ranger'], sUnit: ['tank']},
+  {stage: 'Challenge 23-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['mage']},
+  {stage: 'Challenge 24-3', boss: ['healer'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['tank'], sUnit: null},
+  {stage: 'Challenge 24-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['assault'], sUnit: ['ranger']},
+  {stage: 'Challenge 24-9', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['mage'], sUnit: ['healer']},
+  {stage: 'Challenge 25-3', boss: ['tank'], mats: ['enchants', 'bov', 'runes', 'aot'], evos: ['ranger'], sUnit: null},
+  {stage: 'Challenge 25-6', boss: ['assault'], mats: ['enchants', 'runes', 'aot'], evos: ['healer'], sUnit: ['assault']},
+  {stage: 'Challenge 26-9', boss: ['mage'], mats: ['enchants', 'runes', 'aot'], evos: ['tank'], sUnit: ['tank']}
 ]
 
 export const evos = ['assault', 'tank', 'ranger', 'mage', 'healer'];
@@ -396,11 +504,14 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2: 'Crit', 
     socket3: 'SADI', 
-    chaser05:'5/5 Elevated Power', 
-    chaser10:'5/5 Divine Protection', 
-    chaser15: '5/5 Fate', 
+    chaser05: prayerofblessing, 
+    chaser10: pureluck, 
+    chaser15: impulse, 
     chaser20: elesischaser, 
-    chaser25:'5/5 Long Life'
+    chaser25: fate,
+    artifact: assaulta,
+    artifactName: 'Assault',
+    fluffy: elesisfluffy
   },
   lire: {
     id:'lire', 
@@ -433,11 +544,14 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2: 'BASI', 
     socket3:'BADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Invisible Hand',
-    chaser15: '5/5 Fate',
+    chaser05: elevatedpower,
+    chaser10: invisiblehand,
+    chaser15: fate,
     chaser20: lirechaser,
-    chaser25: '5/5 Impulse',
+    chaser25: impulse,
+    artifact: rangera,
+    artifactName: 'Ranger',
+    fluffy: lirefluffy
   },
   arme: {
     id:'arme', 
@@ -470,11 +584,14 @@ export const heroBuilds= {
     socket1:'Magic Attack', 
     socket2:'Crit/CDR', 
     socket3:'SADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Fate',
-    chaser15: '5/5 Impulse',
+    chaser05: elevatedpower,
+    chaser10: fate,
+    chaser15: impulse,
     chaser20: armechaser,
-    chaser25: '?',
+    chaser25: pureluck,
+    artifact: magea,
+    artifactName: 'Mage',
+    fluffy: armefluffy
   },
   lass: {
     id:'lass', 
@@ -507,11 +624,14 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2:'Crit', 
     socket3:'SADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Fate',
-    chaser15: '5/5 Impulse',
+    chaser05: elevatedpower,
+    chaser10: fate,
+    chaser15: impulse,
     chaser20: lasschaser,
-    chaser25: '?',
+    chaser25: pureluck,
+    artifact: assaulta,
+    artifactName: 'Assault',
+    fluffy: lassfluffy
   },
   ryan: {
     id:'ryan', 
@@ -544,11 +664,14 @@ export const heroBuilds= {
     socket1:'Max Health', 
     socket2:'CDR', 
     socket3:'BADR', 
-    chaser05:'5/5 Long Life',
-    chaser10: '5/5 Prayer of Blessing',
-    chaser15: '5/5 Impulse',
+    chaser05: longlife,
+    chaser10: prayerofblessing,
+    chaser15: impulse,
     chaser20: ryanchaser,
-    chaser25: '?',
+    chaser25: divineprotection,
+    artifact: tanka,
+    artifactName: 'Tank',
+    fluffy: ryanfluffy
   },
   ronan: {
     id:'ronan', 
@@ -581,11 +704,14 @@ export const heroBuilds= {
     socket1:'Max Health', 
     socket2:'CDR', 
     socket3:'BADR', 
-    chaser05:'?',
-    chaser10: '?',
-    chaser15: '?',
+    chaser05: prayerofblessing,
+    chaser10: divineprotection,
+    chaser15: impulse,
     chaser20: ronanchaser,
-    chaser25: '?',
+    chaser25: longlife,
+    artifact: tanka,
+    artifactName: 'Tank',
+    fluffy: ronanfluffy
   },
   amy:{
     id:'amy', 
@@ -618,11 +744,14 @@ export const heroBuilds= {
     socket1:'Magic Attack', 
     socket2:'CDR/BASI', 
     socket3:'SADI', 
-    chaser05:'5/5 Prayer of Blessing',
-    chaser10: '5/5 Invisible Hand',
-    chaser15: '5/5 Impulse',
+    chaser05: helper,
+    chaser10: invisiblehand,
+    chaser15: impulse,
     chaser20: amychaser,
-    chaser25: '?',
+    chaser25: breathoflife,
+    artifact: healera,
+    artifactName: 'Healer',
+    fluffy: amyfluffy
   },
   jin: {
     id:'jin', 
@@ -660,6 +789,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: tanka,
+    artifactName: 'Tank',
+    fluffy: jinfluffy
   },
   sieghart: {
     id:'sieghart', 
@@ -692,11 +824,14 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2:'CDR', 
     socket3:'SADI', 
-    chaser05:'',
-    chaser10: '',
-    chaser15: '',
-    chaser20: '',
-    chaser25: '',
+    chaser05: prayerofblessing,
+    chaser10: fate,
+    chaser15: impulse,
+    chaser20: sieghartchaser,
+    chaser25: persistentexecutioner,
+    artifact: assaulta,
+    artifactName: 'Assault',
+    fluffy: sieghartfluffy
   },
   mari: {
     id:'mari', 
@@ -714,26 +849,29 @@ export const heroBuilds= {
     limitBreak2: maripass, 
     lb1: 'S1',
     lb2: 'Passive',
-    ring: gale,
-    ringName: 'Gale Ring',
+    ring: solar,
+    ringName: 'Solar Ring',
     necklace: lava,
     necklaceName: 'Lava Necklace',
-    earrings: gust,
-    earringsName: 'Earrings of Gust',
+    earrings: order,
+    earringsName: 'Earrings of Order',
     trait1: crit, 
     tn1: 'Crit',
-    trait2: basi,
-    tn2: 'BASI', 
-    trait3: badi,
-    tn3: 'BADI', 
+    trait2: cdr,
+    tn2: 'CDR', 
+    trait3: sadi,
+    tn3: 'SADI', 
     socket1:'Magic Attack', 
-    socket2:'BASI', 
+    socket2:'Crit/CDR', 
     socket3:'SADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Fate',
-    chaser15: '5/5 Impulse',
+    chaser05: elevatedpower,
+    chaser10: fate,
+    chaser15: impulse,
     chaser20: marichaser,
-    chaser25: '5/5 Prayer of Blessing',
+    chaser25: invisiblehand,
+    artifact: magea,
+    artifactName: 'Mage',
+    fluffy: marifluffy
   },
   dio: {
     id:'dio', 
@@ -771,6 +909,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: assaulta,
+    artifactName: 'Assault',
+    fluffy: diofluffy
   },
   zero: {
     id:'zero', 
@@ -808,6 +949,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: tanka,
+    artifactName: 'Tank',
+    fluffy: zerofluffy
   },
   ley: {
     id:'ley', 
@@ -840,11 +984,14 @@ export const heroBuilds= {
     socket1:'Magic Attack', 
     socket2:'BASI', 
     socket3:'BADI', 
-    chaser05:'',
-    chaser10: '',
-    chaser15: '',
-    chaser20: '',
-    chaser25: '',
+    chaser05: elevatedpower,
+    chaser10: fate,
+    chaser15: impulse,
+    chaser20: leychaser,
+    chaser25: invisiblehand,
+    artifact: magea,
+    artifactName: 'Mage',
+    fluffy: leyfluffy
   },
   rufus: {
     id:'rufus', 
@@ -882,6 +1029,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: rangera,
+    artifactName: 'Ranger',
+    fluffy: rufusfluffy
   },
   rin: {
     id:'rin', 
@@ -914,11 +1064,14 @@ export const heroBuilds= {
     socket1:'Max Health', 
     socket2:'CDR/Crit', 
     socket3:'SADR/BADR', 
-    chaser05:'5/5 Long Life',
-    chaser10: '5/5 Breath of Life',
-    chaser15: '5/5 Impulse',
+    chaser05: prayerofblessing,
+    chaser10: longlife,
+    chaser15: impulse,
     chaser20: rinchaser,
-    chaser25: '?',
+    chaser25: soulhealer,
+    artifact: healera,
+    artifactName: 'Healer',
+    fluffy: rinfluffy
   },
   asin: {
     id:'asin', 
@@ -928,7 +1081,7 @@ export const heroBuilds= {
     color: '#0C9AFF',
     classPic: tank,
     pet: shin,
-    petName: 'Shin',
+    petName: 'Sinn',
     set: 'Power of Anger (blue)', 
     setColor: '#4E28D0',
     pic: asin,
@@ -956,6 +1109,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: tanka,
+    artifactName: 'Tank',
+    fluffy: asinfluffy
   },
   lime: {
     id:'lime', 
@@ -993,6 +1149,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: healera,
+    artifactName: 'Healer',
+    fluffy: limefluffy
   },
   edel: {
     id:'edel', 
@@ -1030,6 +1189,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: assaulta,
+    artifactName: 'Assault',
+    fluffy: edelfluffy
   },
   veigas: {
     id:'veigas', 
@@ -1067,6 +1229,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: magea,
+    artifactName: 'Mage',
+    fluffy: veigasfluffy
   },
   serdin: {
     id:'serdin', 
@@ -1077,13 +1242,13 @@ export const heroBuilds= {
     classPic: healer,
     pet: sally,
     petName: 'Sally',
-    set: 'Vows of Violence (green)', 
-    setColor: '#4C9B60',
+    set: 'Power of Anger (blue)', 
+    setColor: '#4E28D0',
     pic: serdin,
-    limitBreak1: serdins1, 
-    limitBreak2: serdins2,
-    lb1: 'S1',
-    lb2: 'S2', 
+    limitBreak1: serdins2, 
+    limitBreak2: serdins1,
+    lb1: 'S2',
+    lb2: 'S1', 
     ring: gale,
     ringName: 'Gale Ring',
     necklace: lava,
@@ -1104,6 +1269,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: healera,
+    artifactName: 'Healer',
+    fluffy: serdinfluffy
   },
   kanavan: {
     id:'kanavan', 
@@ -1141,6 +1309,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: assaulta,
+    artifactName: 'Assault',
+    fluffy: kanavanfluffy
   },
   werner: {
     id:'werner', 
@@ -1178,6 +1349,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: rangera,
+    artifactName: 'Ranger',
+    fluffy: wernerfluffy
   },
   grandiel: {
     id:'grandiel', 
@@ -1215,6 +1389,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: healera,
+    artifactName: 'Healer',
+    fluffy: grandielfluffy
   },
   nelia: {
     id:'nelia', 
@@ -1252,6 +1429,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: magea,
+    artifactName: 'Mage',
+    fluffy: neliafluffy
   },
   io: {
     id:'io',
@@ -1262,8 +1442,8 @@ export const heroBuilds= {
     classPic: ranger,
     pet: luri,
     petName: 'Luri',
-    set: 'Power of Anger (blue) or Vows of Violence (green)',
-    setColor: '#4E28D0',
+    set: 'Vows of Violence (green) or Power of Anger (blue)',
+    setColor: '#4C9B60',
     pic: io,
     limitBreak1: ios1, 
     limitBreak2: iopass, 
@@ -1284,11 +1464,14 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2:'BASI', 
     socket3:'BADI', 
-    chaser05:'5/5 Elevated Power',
-    chaser10: '5/5 Fate',
-    chaser15: '5/5 Impulse',
+    chaser05: elevatedpower,
+    chaser10: fate,
+    chaser15: impulse,
     chaser20: iochaser,
-    chaser25: '?',
+    chaser25: invisiblehand,
+    artifact: rangera,
+    artifactName: 'Ranger',
+    fluffy: iofluffy
   },
   gaian: {
     id:'darkGaian', 
@@ -1326,6 +1509,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: magea,
+    artifactName: 'Mage',
+    fluffy: gaianfluffy
   },
   arsad: {
     id:'arsad', 
@@ -1363,6 +1549,9 @@ export const heroBuilds= {
     chaser15: '',
     chaser20: '',
     chaser25: '',
+    artifact: tanka,
+    artifactName: 'Tank',
+    fluffy: arsadfluffy
   },
 }
 
@@ -1373,6 +1562,10 @@ export const worldBossTeams = [
     slotTwo: wbkanavan, 
     slotThree: wblire, 
     slotFour: wbserdin, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: reruby, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
@@ -1384,6 +1577,10 @@ export const worldBossTeams = [
     slotTwo: wbedel, 
     slotThree: wbarme, 
     slotFour: wbamy, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t3,
+    fourStars: t3,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
@@ -1395,6 +1592,10 @@ export const worldBossTeams = [
     slotTwo: wbmari, 
     slotThree: wbnelia, 
     slotFour: wbley, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: sebastian, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
@@ -1409,21 +1610,33 @@ export const altarOfTime = [
     slotTwo: wbrufus, 
     slotThree: wblass, 
     slotFour: wbserdin, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t3,
+    fourStars: t3,
     pet: sebastian, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: relay,
+    color: 'rgba(98,42,101,.5)'
   },
   {
     name: 'Brawl',
     slotOne: wbamy, 
     slotTwo: wbnelia, 
-    slotThree: wbarme, 
+    slotThree: wbmari, 
     slotFour: wbzero, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t6,
     pet: nelion, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: brawl,
+    color: 'rgba(87,128,48,.5)'
   },
   {
     name: 'Elite',
@@ -1431,10 +1644,16 @@ export const altarOfTime = [
     slotTwo: wbkanavan, 
     slotThree: wbwerner, 
     slotFour: wbrin, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: elite,
+    color: 'rgba(69,48,113,.5)'
   },
   {
     name: 'Boss',
@@ -1442,10 +1661,16 @@ export const altarOfTime = [
     slotTwo: wbley, 
     slotThree: wblire, 
     slotFour: wblime, 
+    oneStars: t3,
+    twoStars: t3,
+    threeStars: t6,
+    fourStars: t3,
     pet: reruby, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: bossfight,
+    color: 'rgba(49,42,93,.5)'
   }
 ]
 
@@ -1458,10 +1683,15 @@ export const raidTeam = [
     slotTwo: wbzero, 
     slotThree: wblire, 
     slotFour: wbserdin, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: swayingambition
   },
   {
     name: 'Illusion of Memory',
@@ -1469,10 +1699,15 @@ export const raidTeam = [
     slotTwo: wbasin, 
     slotThree: wbrufus, 
     slotFour: wbserdin, 
+    oneStars: t6,
+    twoStars: t3,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: illusionofmemory
   }, 
   {
     name: 'Tower Manager',
@@ -1480,10 +1715,15 @@ export const raidTeam = [
     slotTwo: wbjin, 
     slotThree: wbkanavan, 
     slotFour: wbserdin, 
+    oneStars: t6,
+    twoStars: t3,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: towermanager
   },
   {
     name: 'Rulers Rights',
@@ -1491,10 +1731,15 @@ export const raidTeam = [
     slotTwo: wbrufus, 
     slotThree: wblass, 
     slotFour: wbserdin, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t3,
+    fourStars: t3,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: rulersrights
   },
   {
     name: 'Resurrection Ceremony',
@@ -1502,10 +1747,15 @@ export const raidTeam = [
     slotTwo: wbronan, 
     slotThree: wblire, 
     slotFour: wbserdin, 
+    oneStars: t6,
+    twoStars: t3,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect 
+    partySkillThree: resurrect,
+    fight: resurrectionceremony
   },
   {
     name: 'Casted Shadow of Greed',
@@ -1513,10 +1763,15 @@ export const raidTeam = [
     slotTwo: wbasin, 
     slotThree: wblire, 
     slotFour: wblime, 
+    oneStars: t6,
+    twoStars: t3,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: castedshadow
   },
   {
     name: 'Crazy Envoy',
@@ -1524,10 +1779,15 @@ export const raidTeam = [
     slotTwo: wbley, 
     slotThree: wblire, 
     slotFour: wbserdin, 
+    oneStars: t6,
+    twoStars: t3,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: crazyenvoy2
   }
 ]
 
@@ -1540,11 +1800,16 @@ export const dualTeams = [
     slotTwo: wbnelia, 
     slotThree: wblire, 
     slotFour: wbgrandiel, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     pet2: holy, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: fireandice
   },
   {
     name: 'The Last Avatar of God',
@@ -1552,11 +1817,16 @@ export const dualTeams = [
     slotTwo: wbnelia, 
     slotThree: wblire, 
     slotFour: wblime, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse, 
     pet2: holy,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: lastavatar
   },
   {
     name: 'New World',
@@ -1564,11 +1834,16 @@ export const dualTeams = [
     slotTwo: wbnelia, 
     slotThree: wbasin, 
     slotFour: wbserdin, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t3,
+    fourStars: t3,
     pet: muse, 
     pet2: holy,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: newworld
   },
   {
     name: 'Between Calm And Passion',
@@ -1576,11 +1851,16 @@ export const dualTeams = [
     slotTwo: wbzero, 
     slotThree: wblire, 
     slotFour: wbserdin, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse, 
     pet2: holy,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: calmandpassion
   },
   {
     name: 'Contract Terminated',
@@ -1588,23 +1868,33 @@ export const dualTeams = [
     slotTwo: wbasin, 
     slotThree: wblire, 
     slotFour: wbgrandiel, 
+    oneStars: t6,
+    twoStars: t3,
+    threeStars: t6,
+    fourStars: t3,
     pet: reruby, 
     pet2: holy,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: contractterminated
   },
   {
     name: 'Crazy Envoy',
-    slotOne: wbelesis, 
+    slotOne: wbasin, 
     slotTwo: wbnelia, 
     slotThree: wblire, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse, 
     pet2: holy,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    fight: crazyenvoy
   }
 ]
 
@@ -1615,21 +1905,33 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbelesis, 
     slotFour: wbnelia, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t6,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Amy's Chasm",
+    chasmImage: darkposeidon
   },
   {
     name: 'Dark Hanout',
     slotOne: wbarme, 
-    slotTwo: wbelesis, 
+    slotTwo: wbzero, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Arme's Chasm",
+    chasmImage: darkhanout
   },
   {
     name: 'Dark Rasel',
@@ -1637,10 +1939,16 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Ryan's Chasm",
+    chasmImage: darkrasel
   },
   {
     name: 'Dark Belial',
@@ -1648,10 +1956,16 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Ronan's Chasm",
+    chasmImage: darkbelial
   },
   {
     name: 'Dark Marjoram',
@@ -1659,10 +1973,16 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Lass's Chasm",
+    chasmImage: darkmarjoram
   },
   {
     name: 'Dark Captain Boar',
@@ -1670,10 +1990,16 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Mari's Chasm",
+    chasmImage: darkcaptainboar
   },
   {
     name: 'Dark Fennel',
@@ -1681,10 +2007,16 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Sieghart's Chasm",
+    chasmImage: darkfennel
   },
   {
     name: 'Dark Balzac',
@@ -1692,10 +2024,16 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Rufus's Chasm",
+    chasmImage: darkbalzac
   },
   {
     name: 'Dark Dr. Molly',
@@ -1703,65 +2041,101 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbasin, 
     slotFour: wbgrandiel, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t3,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Lire's Chasm",
+    chasmImage: darkdrmolly
   },
   {
     name: 'Dark Agios',
     slotOne: wbjin, 
-    slotTwo: wbelesis, 
+    slotTwo: wbzero, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Jin's Chasm",
+    chasmImage: darkagios
   },
   {
     name: 'Dark Flaune',
     slotOne: wbelesis, 
     slotTwo: wbzero, 
     slotThree: wbnelia, 
-    slotFour: wbgrandiel, 
+    slotFour: wbgrandiel,
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3, 
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Elesis's Chasm",
+    chasmImage: darkflaune
   },
   {
     name: 'Dark Charon',
     slotOne: wbzero, 
-    slotTwo: wbelesis, 
+    slotTwo: wbasin, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t6,
+    twoStars: t3,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Zero's Chasm",
+    chasmImage: darkcharon
   },
   {
     name: 'Dark Tacoel',
     slotOne: wbrin, 
-    slotTwo: wbelesis, 
+    slotTwo: wbgrandiel, 
     slotThree: wbnelia, 
     slotFour: wbzero, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Rin's Chasm",
+    chasmImage: darktacoel
   },
   {
     name: 'Dark Nephilim',
     slotOne: wbley, 
     slotTwo: wbzero, 
-    slotThree: wbelesis, 
+    slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Ley's Chasm",
+    chasmImage: darknephilim
   },
   {
     name: 'Dark Briel',
@@ -1769,10 +2143,16 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbelesis, 
     slotFour: wbnelia, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t6,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Lime's Chasm",
+    chasmImage: darkbriel
   },
   {
     name: 'Dark Dullahan',
@@ -1780,43 +2160,67 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Veigas's Chasm",
+    chasmImage: darkdullahan
   },
   {
     name: 'Dark Fermat',
     slotOne: wbdio, 
-    slotTwo: wblime, 
+    slotTwo: wbgrandiel, 
     slotThree: wbzero, 
     slotFour: wbnelia, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t6,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Dio's Chasm",
+    chasmImage: darkfermat
   },
   {
     name: 'Dark Haggler',
     slotOne: wbnelia, 
     slotTwo: wbzero, 
-    slotThree: wbasin, 
+    slotThree: wbronan, 
     slotFour: wbgrandiel, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t3,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Nelia's Chasm",
+    chasmImage: darkhaggler
   },
   {
     name: 'Dark Altair',
     slotOne: wbkanavan, 
-    slotTwo: wbelesis, 
+    slotTwo: wbasin, 
     slotThree: wbzero, 
-    slotFour: wbserdin, 
+    slotFour: wbgrandiel, 
+    oneStars: t6,
+    twoStars: t3,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Kanavan's Chasm",
+    chasmImage: darkaltair
   },
   {
     name: 'Dark Vega',
@@ -1824,32 +2228,50 @@ export const dChasm = [
     slotTwo: wbelesis, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t6,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Edel's Chasm",
+    chasmImage: darkvega
   },
   {
     name: 'Dark BF',
     slotOne: wbserdin , 
-    slotTwo: wbasin, 
+    slotTwo: wblire, 
     slotThree: wbzero, 
-    slotFour: wbnelia, 
+    slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Serdin's Chasm",
+    chasmImage: darkbf
   },
   {
     name: 'Dark Favian',
     slotOne: wbwerner, 
     slotTwo: wbzero, 
-    slotThree: wbnelia, 
+    slotThree: wbasin, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t3,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Werner's Chasm",
+    chasmImage: darkfavian
   },
   {
     name: 'Dark Karp',
@@ -1857,10 +2279,16 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbnelia, 
     slotFour: wbgrandiel, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t6,
+    fourStars: t3,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Asin's Chasm",
+    chasmImage: darkkarp
   },
   {
     name: 'Dark Kyle',
@@ -1868,9 +2296,15 @@ export const dChasm = [
     slotTwo: wbzero, 
     slotThree: wbasin, 
     slotFour: wbnelia, 
+    oneStars: t3,
+    twoStars: t6,
+    threeStars: t3,
+    fourStars: t6,
     pet: muse,
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
-    partySkillThree: resurrect
+    partySkillThree: resurrect,
+    specialHero: "Grandiel's Chasm",
+    chasmImage: darkkyle
   }
 ]

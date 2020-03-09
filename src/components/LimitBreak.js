@@ -7,7 +7,7 @@ const StyledLimitBreak = styled.div`
   justify-content: center;
   align-items: center;
   margin: 10px;
-  padding: 10px;
+  padding: 15px;
   box-shadow: inset 0 0 3px 1px #454545;
   .SkillWrapper {
     display: flex;
@@ -52,12 +52,12 @@ function LimitBreak({ build }) {
       </div>
       <div className='SkillWrapper'>
         <div>
-          <img className='LBSkill' src={build.limitBreak1} />
+          <img className='LBSkill' src={build.limitBreak1} alt='LBSkill1' />
           <span className='LBName'>{build.lb1}</span>
         </div>
         <span className='Arrow'>&rarr;</span>
         <div>
-        <img className='LBSkill' src={build.limitBreak2} />
+        <img className='LBSkill' src={build.limitBreak2} alt='LBSkill2' />
         <span className='LBName'>{build.lb2}</span>
         </div>
       </div>

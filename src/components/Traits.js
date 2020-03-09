@@ -6,16 +6,16 @@ const StyledTraits = styled.div`
   justify-content: center;
   align-items: center;
   margin: 10px;
-  padding: 10px;
   box-shadow: inset 0 0 3px 1px #454545;
   .PetWrapper {
+    margin: 20px 0 20px 20px;
     text-align: center;
   }
   .Pet {
     margin: 10px;
     height: 80px;
     width: auto;
-    border: 1px solid black;
+    border: 1px solid #56DE74;
   }
   .PetTitle {
     font-weight: 500;
@@ -30,7 +30,7 @@ const StyledTraits = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 20px 20px 20px 0;
     text-align: center;
   }
   .Points {
@@ -55,11 +55,11 @@ function Traits({ build }) {
   return (
     <StyledTraits>
       <div className='PetWrapper'>
+        <img className='Pet' src={build.pet} alt='pet' />
         <div>
           <span className='PetTitle'>Pet:</span>
           <span className='PetName'>{build.petName}</span>
         </div>
-        <img className='Pet' src={build.pet} />
       </div>
       <div className='Traits'>
         <div>
@@ -68,15 +68,15 @@ function Traits({ build }) {
           <div className='Points'>in each</div>
         </div>
         <div>
-          <img className='TraitPic' src={build.trait1} />
+          <img className='TraitPic' src={build.trait1} alt='trait' />
           <div className='TraitName'>{build.tn1}</div>
         </div>
         <div>
-          <img className='TraitPic' src={build.trait2} />
+          <img className='TraitPic' src={build.trait2} alt='trait' />
           <div className='TraitName'>{build.tn2}</div>
         </div>
         <div>
-          <img className='TraitPic' src={build.trait3} />
+          <img className='TraitPic' src={build.trait3} alt='trait' />
           <div className='TraitName'>{build.tn3}</div>
         </div>
       </div>
