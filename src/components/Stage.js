@@ -91,18 +91,19 @@ export default Stage
 
 /*
 const filteredData = data.filter(stage => {
+  let keep = true;
     if (filters.evos.length > 0) {
-      return filters.evos.includes(stage.evos)
+      keep = filters.evos.includes(stage.evos)
     } 
     if (filters.boss.length > 0) {
-      return filters.boss.includes(stage.boss)
+      keep = filters.boss.includes(stage.boss)
     }
     if (filters.sUnit.length > 0) {
-      return filters.sUnit.includes(stage.sUnit)
+      keep = filters.sUnit.includes(stage.sUnit)
     }
     if (filters.mats.length > 0) {
-      return filters.mats.some(mat => stage.mats.includes(mat))
+      keep = filters.mats.some(mat => stage.mats.includes(mat))
     }
-    return stage;
+    return keep;
   });
 */
