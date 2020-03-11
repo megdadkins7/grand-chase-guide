@@ -3345,63 +3345,63 @@ export const grandChaseData = [
     stage: "Challenge 23-3",
     boss: "tank",
     mats: ["enchants", "bov", "runes", "aot"],
-    evos: "healer",
+    evos: "mage",
     sUnit: null
   },
   {
     stage: "Challenge 23-6",
     boss: "ranger",
     mats: ["enchants", "runes", "aot"],
-    evos: "tank",
+    evos: "ranger",
     sUnit: "tank"
   },
   {
     stage: "Challenge 23-9",
     boss: "mage",
     mats: ["enchants", "runes", "aot"],
-    evos: "mage",
+    evos: "healer",
     sUnit: "mage"
   },
   {
     stage: "Challenge 24-3",
     boss: "healer",
-    mats: ["enchants", "runes", "aot"],
-    evos: "ranger",
-    sUnit: "ranger"
+    mats: ["enchants", "bov", "runes", "aot"],
+    evos: "tank",
+    sUnit: null
   },
   {
     stage: "Challenge 24-6",
     boss: "assault",
     mats: ["enchants", "runes", "aot"],
-    evos: "healer",
-    sUnit: "healer"
+    evos: "assault",
+    sUnit: "ranger"
   },
   {
     stage: "Challenge 24-9",
     boss: "assault",
     mats: ["enchants", "runes", "aot"],
-    evos: "assault",
-    sUnit: "assault"
+    evos: "mage",
+    sUnit: "healer"
   },
   {
     stage: "Challenge 25-3",
     boss: "tank",
     mats: ["enchants", "bov", "runes", "aot"],
-    evos: "tank",
+    evos: "ranger",
     sUnit: null
   },
   {
     stage: "Challenge 25-6",
     boss: "assault",
     mats: ["enchants", "runes", "aot"],
-    evos: "tank",
-    sUnit: "tank"
+    evos: "healer",
+    sUnit: "assault"
   },
   {
     stage: "Challenge 26-9",
     boss: "mage",
     mats: ["enchants", "runes", "aot"],
-    evos: "mage",
+    evos: "tank",
     sUnit: "mage"
   }
 ];
