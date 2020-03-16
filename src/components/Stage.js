@@ -50,7 +50,13 @@ function Stage({ data, filters }) {
     }
     return list.filter(stage => {
       const matchCount = Object.keys(filters).reduce((total, filterKey) => {
-        return filters[filterKey].includes(stage[filterKey]) ? total + 1 : total;
+        //if(filters === matFilter) { haveMatch = filters[filterKey].every(r => stage[filterKey] === null ? false : stage[filterKey].includes(r))}
+        const haveMatch = filters[filterKey].some(r => stage[filterKey] === null ? false : stage[filterKey].includes(r));
+        if(haveMatch) {
+          return total + 1
+        } else {
+          return total
+        }
       }, 0);
       return matchCount === activeFilterCount
     });
