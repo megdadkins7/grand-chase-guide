@@ -17,8 +17,8 @@ function WorldBoss() {
   return (
     <div style={{display: 'flex', justifyContent: 'center'}}>
       <StyledWorldBoss>
-        {worldBossTeams.map(team => (
-          <Team {...team} />
+        {worldBossTeams.map((team, i) => (
+          <Team key={`${team}${i}`} {...team} />
         ))}
       </StyledWorldBoss>
     </div>

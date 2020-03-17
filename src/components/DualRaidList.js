@@ -16,8 +16,8 @@ function DualRaidList() {
       <StyledCurrentRaid>{dualRaid}</StyledCurrentRaid>
       <div style={{display: 'flex', justifyContent: 'center'}}>
         <StyledRaidList>
-          {dualTeams.map(dualRaid => (
-            <DualRaid {...dualRaid} />
+          {dualTeams.map((dualRaid, i) => (
+            <DualRaid key={`${dualRaid}${i}`} {...dualRaid} />
           ))}
         </StyledRaidList>
       </div>

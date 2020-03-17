@@ -17,8 +17,8 @@ function AltarOfTime() {
   return (
     <div style={{display: 'flex', justifyContent: 'center'}}>
       <StyledAltarOfTime>
-        {altarOfTime.map(altar => (
-          <Altar {...altar} />
+        {altarOfTime.map((altar, i) => (
+          <Altar key={`${altar}${i}`} {...altar} />
         ))}
       </StyledAltarOfTime>
     </div>  

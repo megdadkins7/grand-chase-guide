@@ -16,8 +16,8 @@ function DualRaidList() {
       <StyledCurrentRaid>{dualRaid}</StyledCurrentRaid>
       <div style={{display: 'flex', justifyContent: 'center'}}>
         <StyledRaidList>
-          {dChasm.map(dChasm => (
-            <DChasm {...dChasm} />
+          {dChasm.map((dChasm, i) => (
+            <DChasm key={`${dChasm}${i}`} {...dChasm} />
           ))}
         </StyledRaidList>
       </div>
