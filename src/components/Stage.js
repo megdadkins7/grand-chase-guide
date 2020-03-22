@@ -50,7 +50,16 @@ function Stage({ data, filters }) {
     }
     return list.filter(stage => {
       const matchCount = Object.keys(filters).reduce((total, filterKey) => {
-        return filters[filterKey].includes(stage[filterKey]) ? total + 1 : total;
+        //const myVariable = condition? 'True' : 'False';
+        const haveMatch = 
+        filterKey === 'mats' ?
+        filters[filterKey].every(r => stage[filterKey] === null ? false : stage[filterKey].includes(r)) :
+        filters[filterKey].some(r => stage[filterKey] === null ? false : stage[filterKey].includes(r));
+        if(haveMatch) {
+          return total + 1
+        } else {
+          return total
+        }
       }, 0);
       return matchCount === activeFilterCount
     });
@@ -88,22 +97,3 @@ function Stage({ data, filters }) {
 }
 
 export default Stage
-
-/*
-const filteredData = data.filter(stage => {
-  let keep = true;
-    if (filters.evos.length > 0) {
-      keep = filters.evos.includes(stage.evos)
-    } 
-    if (filters.boss.length > 0) {
-      keep = filters.boss.includes(stage.boss)
-    }
-    if (filters.sUnit.length > 0) {
-      keep = filters.sUnit.includes(stage.sUnit)
-    }
-    if (filters.mats.length > 0) {
-      keep = filters.mats.some(mat => stage.mats.includes(mat))
-    }
-    return keep;
-  });
-*/
