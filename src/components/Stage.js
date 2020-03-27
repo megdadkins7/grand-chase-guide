@@ -50,7 +50,6 @@ function Stage({ data, filters }) {
     }
     return list.filter(stage => {
       const matchCount = Object.keys(filters).reduce((total, filterKey) => {
-        //const myVariable = condition? 'True' : 'False';
         const haveMatch = 
         //filterKey === 'mats' ?
         //filters[filterKey].every(r => stage[filterKey] === null ? false : stage[filterKey].includes(r)) :
