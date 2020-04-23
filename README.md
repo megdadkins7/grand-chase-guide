@@ -1,6 +1,6 @@
 # Grand Chase Guide
 
-A companion app, for the mobile game Grand Chase, that formats in-game data as a searchable archive of game resources, optimal chracter builds, and team compositions. The player community is constantly asking for builds, team compositions, and where to gather specific resources. None of this information existed in one consistent space.
+A companion app, for the mobile game Grand Chase, that formats in-game data as a searchable archive of game resources, offers optimal character builds and recommended team compositions all in one consistent place.
 
 ![Hero Build Screenshot](gcHeroBuild.png)
 
