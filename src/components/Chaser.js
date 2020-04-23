@@ -30,23 +30,23 @@ function Chaser({ build }) {
     <StyledChaser>
       <div className='ChaserWrapper'>
         <div className='Title'>CL 05:</div>
-        <img className='ChaserImage' src={build.chaser05} alt='chaser-skill' />
+        <img className='ChaserImage' src={build.chaser05} />
       </div>
       <div className='ChaserWrapper'>
         <div className='Title'>CL 10:</div>
-        <img className='ChaserImage' src={build.chaser10} alt='chaser-skill' />
+        <img className='ChaserImage' src={build.chaser10} />
       </div>
       <div className='ChaserWrapper'>
         <div className='Title'>CL 15:</div>
-        <img className='ChaserImage' src={build.chaser15} alt='chaser-skill' />
+        <img className='ChaserImage' src={build.chaser15} />
       </div>
       <div className='ChaserWrapper'>
         <div className='Title'>CL 20:</div>
-        <img className='ChaserImage' src={build.chaser20} alt='chaser-skill' />
+        <img className='ChaserImage' src={build.chaser20} />
       </div>
       <div className='ChaserWrapper'>
         <div className='Title'>CL 25:</div>
-        <img className='ChaserImage' src={build.chaser25} alt='chaser-skill' />
+        <img className='ChaserImage' src={build.chaser25} />
       </div>
     </StyledChaser>
   )
