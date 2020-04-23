@@ -19,7 +19,6 @@ function StageList() {
     evos: [],
     boss: [],
     sUnit: [],
-    mats: []
   })
 
   const handleOnFiltersChange = partialFilters => {

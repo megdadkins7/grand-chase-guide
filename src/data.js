@@ -25,6 +25,7 @@ import edel from './assets/heroes/edel.png'
 import elesis from './assets/heroes/elesis.png'
 import gaian from './assets/heroes/gaian.png'
 import grandiel from './assets/heroes/grandiel.png'
+import hwarin from './assets/heroes/hwarin.png'
 import io from './assets/heroes/io.png'
 import jin from './assets/heroes/jin.png'
 import kanavan from './assets/heroes/kanavan.png'
@@ -44,6 +45,7 @@ import veigas from './assets/heroes/veigas.png'
 import werner from './assets/heroes/werner.png'
 import zero from './assets/heroes/zero.png'
 
+import hwarin2 from './assets/landinghero/hwarin2.png'
 import io2 from './assets/landinghero/io2.png'
 import zero2 from './assets/landinghero/zero2.png'
 import werner2 from './assets/landinghero/werner2.png'
@@ -99,6 +101,7 @@ import wernerv from'./assets/profiles/wernerv.png'
 import grandielv from'./assets/profiles/grandielv.png'
 import neliav from'./assets/profiles/neliav.png'
 import iov from'./assets/profiles/iov.png'
+import hwarinv from'./assets/profiles/hwarinv.png'
 import gaianv from'./assets/profiles/gaianv.png'
 import arsadv from'./assets/profiles/arsadv.png'
 
@@ -112,6 +115,7 @@ import goldporkcard from './assets/pets/goldporkcard.png'
 import holy from './assets/pets/holy.png'
 import hoya from './assets/pets/hoya.png'
 import hunt from './assets/pets/hunt.png'
+import hwarang from './assets/pets/hwarang.png'
 import luce from './assets/pets/luce.png'
 import luri from './assets/pets/luri.png'
 import manbo from './assets/pets/manbo.png'
@@ -157,6 +161,7 @@ import wbjin from './assets/worldboss/wbjin.png'
 import wbronan from './assets/worldboss/wbronan.png'
 import wbveigas from './assets/worldboss/wbveigas.png'
 import wbdio from './assets/worldboss/wbdio.png'
+import wbio from './assets/worldboss/wbio.png'
 import wbsieghart from './assets/worldboss/wbsieghart.png'
 
 import amychaser from './assets/skills/amychaser.png'
@@ -171,16 +176,21 @@ import diopass from './assets/skills/diopass.png'
 import dios1 from './assets/skills/dios1.png'
 import edelpass from './assets/skills/edelpass.png'
 import edels2 from './assets/skills/edels2.png'
+import edelchaser from './assets/skills/edelchaser.png'
 import elesischaser from './assets/skills/elesischaser.png'
 import elesispass from './assets/skills/elesispass.png'
 import elesiss2 from './assets/skills/elesiss2.png'
 import grandiels1 from './assets/skills/grandiels1.png'
 import grandiels2 from './assets/skills/grandiels2.png'
+import hwarins2 from './assets/skills/hwarins2.png'
+import hwarinpass from './assets/skills/hwarinpass.png'
+import hwarinchaser from './assets/skills/hwarinchaser.png'
 import iochaser from './assets/skills/iochaser.png'
 import iopass from './assets/skills/iopass.png'
 import ios1 from './assets/skills/ios1.png'
 import jins1 from './assets/skills/jins1.png'
 import jins2 from './assets/skills/jins2.png'
+import jinchaser from './assets/skills/jinchaser.png'
 import kanavans1 from './assets/skills/kanavans1.png'
 import kanavans2 from './assets/skills/kanavans2.png'
 import lasschaser from './assets/skills/lasschaser.png'
@@ -933,7 +943,7 @@ export const grandChaseData = [
     sUnit: ["tank"]
   },
   {
-    stage: "Challenge 26-9",
+    stage: "Challenge 25-9",
     boss: ["mage"],
     mats: ["enchants", "runes", "aot"],
     evos: ["mage"],
@@ -944,7 +954,6 @@ export const grandChaseData = [
 export const evos = ['assault', 'tank', 'ranger', 'mage', 'healer'];
 export const boss = ['assault', 'tank', 'ranger', 'mage', 'healer'];
 export const sUnit = ['assault', 'tank', 'ranger', 'mage', 'healer'];
-export const mats = ['bov', 'enchants', 'runes', 'aot']
 
 export const heroes = [
   { id: "elesis", name: "Elesis", pic: elesis2, heroColor: '#FDB9B7', profilePic: elesisv},
@@ -972,6 +981,7 @@ export const heroes = [
   { id: "grandiel", name: "Grandiel", pic: grandiel2, heroColor: '#A0D6E8', profilePic: grandielv},
   { id: "nelia", name: "Nelia", pic: nelia2, heroColor: '#E38699', profilePic: neliav},
   { id: "io", name: "Io", pic: io2, heroColor: '#4CCFFF', profilePic: iov},
+  { id: "hwarin", name: "Hwarin", pic: hwarin2, heroColor: '#FCCFEC', profilePic: hwarinv},
   { id: "gaian", name: "Gaian", pic: gaian2, heroColor: '#E3DFF4', profilePic: gaianv},
   { id: "arsad", name: "Arsad", pic: arsad2, heroColor: '#FFEE9D', profilePic: arsadv}
 ]
@@ -1288,11 +1298,11 @@ export const heroBuilds= {
     socket1:'Max Health', 
     socket2:'CDR/Crit', 
     socket3:'SADI', 
-    chaser05:'',
-    chaser10: '',
-    chaser15: '',
-    chaser20: '',
-    chaser25: '',
+    chaser05: prayerofblessing,
+    chaser10: impulse,
+    chaser15: fate,
+    chaser20: jinchaser,
+    chaser25: divineprotection,
     artifact: tanka,
     artifactName: 'Tank',
     fluffy: jinfluffy
@@ -1688,11 +1698,11 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2:'BASI', 
     socket3:'BADI', 
-    chaser05:'',
-    chaser10: '',
-    chaser15: '',
-    chaser20: '',
-    chaser25: '',
+    chaser05: prayerofblessing,
+    chaser10: impulse,
+    chaser15: fate,
+    chaser20: edelchaser,
+    chaser25: invisiblehand,
     artifact: assaulta,
     artifactName: 'Assault',
     fluffy: edelfluffy
@@ -1977,6 +1987,45 @@ export const heroBuilds= {
     artifactName: 'Ranger',
     fluffy: iofluffy
   },
+  hwarin: {
+    id:'hwarin', 
+    name: 'Hwarin', 
+    rank: sr,
+    type: 'healer',
+    color: '#FFE228',
+    classPic: healer,
+    pet: hwarang,
+    petName: 'Hwarang',
+    set: 'Power of Anger (blue)', 
+    setColor: '#4E28D0',
+    pic: hwarin,
+    limitBreak1: hwarins2, 
+    limitBreak2: hwarinpass, 
+    lb1: 'S2',
+    lb2: 'Passive',
+    ring: solar,
+    ringName: 'Solar Ring',
+    necklace: lava,
+    necklaceName: 'Lava Necklace',
+    earrings: order,
+    earringsName: 'Earrings of Order',
+    trait1: cdr, 
+    tn1: 'CDR',
+    trait2: crit, 
+    tn2: 'Crit',
+    trait3: sadi, 
+    tn3: 'SADI',
+    socket1:'Magic Attack', 
+    socket2: 'CDR/Crit', 
+    socket3: 'SADI', 
+    chaser05: longlife, 
+    chaser10: prayerofblessing, 
+    chaser15: impulse, 
+    chaser20: hwarinchaser, 
+    chaser25: soulhealer,
+    artifact: healera,
+    artifactName: 'Healer',
+  },
   gaian: {
     id:'darkGaian', 
     name: 'Dark Gaian', 
@@ -2063,7 +2112,7 @@ export const worldBossTeams = [
   {
     name: 'Meeting Harkion',
     slotOne: wbelesis, 
-    slotTwo: wbkanavan, 
+    slotTwo: wblass, 
     slotThree: wblire, 
     slotFour: wbserdin, 
     oneStars: t6,
@@ -2077,7 +2126,7 @@ export const worldBossTeams = [
   },
   {
     name: 'Duel With Harkion',
-    slotOne: wbwerner, 
+    slotOne: wbio, 
     slotTwo: wbedel, 
     slotThree: wbarme, 
     slotFour: wbamy, 
@@ -2118,7 +2167,7 @@ export const altarOfTime = [
     twoStars: t6,
     threeStars: t3,
     fourStars: t3,
-    pet: sebastian, 
+    pet: rupe, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
@@ -2127,14 +2176,14 @@ export const altarOfTime = [
   },
   {
     name: 'Brawl',
-    slotOne: wbamy, 
+    slotOne: wbgrandiel, 
     slotTwo: wbnelia, 
     slotThree: wbmari, 
-    slotFour: wbzero, 
+    slotFour: wbarme, 
     oneStars: t3,
     twoStars: t6,
     threeStars: t6,
-    fourStars: t6,
+    fourStars: t3,
     pet: nelion, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
@@ -2144,15 +2193,15 @@ export const altarOfTime = [
   },
   {
     name: 'Elite',
-    slotOne: wbryan, 
+    slotOne: wbzero, 
     slotTwo: wbkanavan, 
-    slotThree: wbwerner, 
+    slotThree: wbedel, 
     slotFour: wbrin, 
-    oneStars: t3,
+    oneStars: t6,
     twoStars: t6,
-    threeStars: t6,
+    threeStars: t3,
     fourStars: t3,
-    pet: muse, 
+    pet: elion, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
@@ -2178,31 +2227,31 @@ export const altarOfTime = [
   }
 ]
 
-export const currentRaid = 'Tower of Memory';
+export const currentRaid = 'Tower of Disappearance';
 
 export const raidTeam = [
   {
-    name: 'Swaying Ambition',
-    slotOne: wbelesis, 
-    slotTwo: wbzero, 
+    name: 'Seal In Illusion',
+    slotOne: wbzero, 
+    slotTwo: wbasin, 
     slotThree: wblire, 
     slotFour: wbserdin, 
     oneStars: t6,
-    twoStars: t6,
+    twoStars: t3,
     threeStars: t6,
     fourStars: t3,
-    pet: muse, 
+    pet: reruby, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,
     fight: swayingambition
   },
   {
-    name: 'Illusion of Memory',
-    slotOne: wbelesis, 
+    name: 'To The Shadow of Corruption',
+    slotOne: wbzero, 
     slotTwo: wbasin, 
-    slotThree: wbrufus, 
-    slotFour: wbserdin, 
+    slotThree: wbnelia, 
+    slotFour: wbgrandiel, 
     oneStars: t6,
     twoStars: t3,
     threeStars: t6,
@@ -2214,15 +2263,15 @@ export const raidTeam = [
     fight: illusionofmemory
   }, 
   {
-    name: 'Tower Manager',
+    name: 'Tower Gatekeeper',
     slotOne: wbelesis, 
-    slotTwo: wbjin, 
-    slotThree: wbkanavan, 
-    slotFour: wbserdin, 
+    slotTwo: wbronan, 
+    slotThree: wblire, 
+    slotFour: wbamy, 
     oneStars: t6,
     twoStars: t3,
     threeStars: t6,
-    fourStars: t3,
+    fourStars: t6,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
@@ -2230,15 +2279,15 @@ export const raidTeam = [
     fight: towermanager
   },
   {
-    name: 'Rulers Rights',
+    name: 'Identical',
     slotOne: wbelesis, 
-    slotTwo: wbrufus, 
-    slotThree: wblass, 
-    slotFour: wbserdin, 
+    slotTwo: wbasin, 
+    slotThree: wbnelia, 
+    slotFour: wblire, 
     oneStars: t6,
-    twoStars: t6,
-    threeStars: t3,
-    fourStars: t3,
+    twoStars: t3,
+    threeStars: t6,
+    fourStars: t6,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
@@ -2246,15 +2295,15 @@ export const raidTeam = [
     fight: rulersrights
   },
   {
-    name: 'Resurrection Ceremony',
+    name: 'Power Beyond Dimension',
     slotOne: wbelesis, 
-    slotTwo: wbronan, 
-    slotThree: wblire, 
-    slotFour: wbserdin, 
+    slotTwo: wbasin, 
+    slotThree: wbnelia, 
+    slotFour: wblire, 
     oneStars: t6,
     twoStars: t3,
     threeStars: t6,
-    fourStars: t3,
+    fourStars: t6,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
@@ -2262,15 +2311,15 @@ export const raidTeam = [
     fight: resurrectionceremony
   },
   {
-    name: 'Casted Shadow of Greed',
-    slotOne: wbelesis, 
+    name: 'Uninvited Guest',
+    slotOne: wbzero, 
     slotTwo: wbasin, 
-    slotThree: wblire, 
-    slotFour: wblime, 
+    slotThree: wbnelia, 
+    slotFour: wblire, 
     oneStars: t6,
     twoStars: t3,
     threeStars: t6,
-    fourStars: t3,
+    fourStars: t6,
     pet: muse, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
@@ -2278,16 +2327,16 @@ export const raidTeam = [
     fight: castedshadow
   },
   {
-    name: 'Crazy Envoy',
+    name: 'Dream of a Butterfly',
     slotOne: wbelesis, 
-    slotTwo: wbley, 
+    slotTwo: wbasin, 
     slotThree: wblire, 
-    slotFour: wbserdin, 
+    slotFour: wbgrandiel, 
     oneStars: t6,
     twoStars: t3,
     threeStars: t6,
     fourStars: t3,
-    pet: muse, 
+    pet: shin, 
     partySkillOne: stimulation, 
     partySkillTwo: acceleration, 
     partySkillThree: resurrect,

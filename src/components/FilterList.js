@@ -26,11 +26,10 @@ function FilterList({ onFiltersChange }) {
   const [evoFilter, setEvoFilter] = useState([]);
   const [bossFilter, setBossFilter] = useState([]);
   const [sUnitFilter, setSUnitFilter] = useState([]);
-  const [matFilter, setMatFilter] = useState([]);
 
   useEffect(() => {
-    onFiltersChange({ evos: evoFilter, boss: bossFilter, sUnit: sUnitFilter, mats: matFilter })
-  }, [evoFilter, bossFilter, sUnitFilter, matFilter])
+    onFiltersChange({ evos: evoFilter, boss: bossFilter, sUnit: sUnitFilter })
+  }, [evoFilter, bossFilter, sUnitFilter])
 
   const handleOnEvoChange = e => {
     const nextEvoFilter = e.target.value;
@@ -71,22 +70,6 @@ function FilterList({ onFiltersChange }) {
       const currentFilterLoc = state.indexOf(nextSUnitFilter);
       if (currentFilterLoc === -1) {
         return [...sUnitFilter, nextSUnitFilter];
-      } else {
-        return [
-          ...state.slice(0, currentFilterLoc),
-          ...state.slice(currentFilterLoc + 1, state.length),
-        ];
-      }
-    });
-  };
-
-  const handleOnMatChange = e => {
-    const nextMatFilter = e.target.value;
-
-    setMatFilter(state => {
-      const currentFilterLoc = state.indexOf(nextMatFilter);
-      if (currentFilterLoc === -1) {
-        return [...matFilter, nextMatFilter];
       } else {
         return [
           ...state.slice(0, currentFilterLoc),
@@ -149,66 +132,8 @@ function FilterList({ onFiltersChange }) {
           ) 
         }
       </ul>
-      <div className='Title'>Material:</div>
-      <ul>
-        { 
-          mats.map(material => (
-            <li className='Block' key={material}>
-              <input 
-                type='checkbox' 
-                value={material}
-                checked={matFilter.includes(material)}
-                onChange={handleOnMatChange}
-              />
-              <label className='Info'>{displayUpperCase(material)}</label>
-            </li>
-            )
-          )
-        }
-      </ul>
     </StyledFilterList>
   )
 }
 
 export default FilterList
-
-/*
-const [filter, setFilter] = useState([])
-
-useEffect(() => {
-    onFiltersChange({ evos: filter, boss: filter, sUnit: filter, mats: filter })
-  }, [filter])
-
-  const handleOnFilterChange = e => {
-    const nextFilter = e.target.value;
-
-    setFilter(state => {
-      const currentFilterLoc = state.indexOf(nextFilter);
-      if (currentFilterLoc === -1) {
-        return [...filter, nextFilter];
-      } else {
-        return [
-          ...state.slice(0, currentFilterLoc),
-          ...state.slice(currentFilterLoc + 1, state.length),
-        ];
-      }
-    });
-  };
-  <div className='Title'>Material:</div>
-  <ul>
-    { 
-      mats.map(material => (
-        <li className='Block' key={material}>
-          <input 
-            type='checkbox' 
-            value={material}
-            checked={filter.includes(material)}
-            onChange={handleOnFilterChange}
-          />
-          <label className='Info'>{displayUpperCase(material)}</label>
-        </li>
-        )
-      )
-    }
-  </ul>
-*/
