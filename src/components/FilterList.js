@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import styled from 'styled-components'
 
 //data
-import { evos, boss, sUnit, mats, displayUpperCase } from '../data'
+import { evos, boss, sUnit } from '../data'
 
 const StyledFilterList = styled.div`
   .Title {
