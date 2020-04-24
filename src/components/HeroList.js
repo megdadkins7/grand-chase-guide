@@ -17,6 +17,21 @@ const StyledHeroList = styled.div`
     flex-wrap: wrap;
     margin: 20px 150px;
   }
+  @media (max-width: 1024px){
+    .HeroContainer {
+      margin: 20px 100px;
+    }
+  }
+  @media (max-width: 514px) {
+    .HeroContainer {
+      margin: 20px 80px;
+    }
+  }
+  @media (max-width: 414px) {
+    .HeroContainer {
+      margin: 20px 20px;
+    }
+  }
 `;
 
 
