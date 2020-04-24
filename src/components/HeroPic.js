@@ -1,13 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import HeroImage from './HeroImage'
+
 const StyledHeroPic = styled.div`
   margin: 10px;
-  .Hero {
-    margin: 30px 20px 0 20px;
-    height: 420px;
-    width: auto;
-  }
   .HeroInfo {
     display: flex;
     justify-content: center;
@@ -43,7 +40,7 @@ function HeroPic({ build }) {
   }
   return (
     <StyledHeroPic style={boxShadowStyle}>
-      <img className='Hero' src={build.pic} alt='' />
+      <HeroImage build={build} />
       <div className='HeroInfo'>
         <img className='RankPic' src={build.rank} alt='SR' />
         <img className='TypePic' src={build.classPic} alt='class' />
@@ -55,3 +52,12 @@ function HeroPic({ build }) {
 }
 
 export default HeroPic
+
+//<img className='Hero' src={build.pic} alt='' />
+/*
+.Hero {
+    margin: 30px 20px 0 20px;
+    height: 420px;
+    width: auto;
+  }
+*/

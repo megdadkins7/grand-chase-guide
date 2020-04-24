@@ -35,3 +35,8 @@ function HeroList() {
 }
 
 export default HeroList
+
+/*
+media query sizes:
+
+*/
