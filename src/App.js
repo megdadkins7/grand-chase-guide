@@ -40,6 +40,9 @@ const StyledNav = styled.div`
   .Nav:hover {
     color: #fff;
   }
+  @media (max-width: 414px) {
+    margin-bottom: 0;
+  }
 `
 
 const StyledGrid = styled.div`
