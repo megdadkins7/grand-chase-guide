@@ -32,6 +32,16 @@ import styled from 'styled-components'
     color: #7D7D7D;
     text-transform: capitalize;
   }
+  @media (max-width: 1050px) {
+    .Wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      margin: 3px 3px 3px 0;
+    }
+    .Stages {
+      padding-left: 5px;
+    }
+  }
 `;
 
 function Stage({ data, filters }) {
