@@ -48,6 +48,10 @@ const StyledNav = styled.div`
 const StyledGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 6fr;
+  @media (max-width: 750px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 `;
 
 function App() {

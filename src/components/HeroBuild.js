@@ -15,7 +15,10 @@ import Traits from './Traits'
 const StyledHeroBuild = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr;
-  
+  @media (max-width: 1200px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 `;
 
 function HeroBuild() {

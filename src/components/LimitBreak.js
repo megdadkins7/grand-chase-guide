@@ -41,6 +41,11 @@ const StyledLimitBreak = styled.div`
     font-size: 30px;
     color: #ACACAC;
   }
+  @media (max-width: 550px) {
+    .LBTitleWrapper {
+      margin: 10px 10px 10px 50px;
+    }
+  }
 `;
 
 function LimitBreak({ build }) {

@@ -31,6 +31,23 @@ const StyledHeroPic = styled.div`
     height: 100px;
     width: auto;
   }
+  @media (max-width: 550px) {
+    .HeroInfo {
+      margin-top: 25px;
+    }
+    .RankPic {
+      margin: 5px 2.5px;
+    }
+    .TypePic {
+      margin: 5px 2.5px;
+    }
+    .Name {
+      margin: 5px 2.5px;
+    }
+    .Fluffy {
+      margin: 5px 2.5px;
+    }
+  }
 `
 
 function HeroPic({ build }) {
