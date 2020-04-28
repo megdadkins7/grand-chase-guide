@@ -34,9 +34,8 @@ const StyledListName = styled.div`
   display: flex;
   align-items: center;
   border-right: 1px solid rgb(18,18,18);
-  div:hover {
-    color: #fff
-    font-size: 17px;
+  span:hover {
+    color: #fff;
   }
 `;
 

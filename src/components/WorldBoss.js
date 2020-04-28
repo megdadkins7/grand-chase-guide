@@ -7,6 +7,9 @@ import { worldBossTeams } from '../data'
 //components
 import Team from './Team'
 
+//styles
+import { StyledContainer } from '../styles/TeamStyle'
+
 const StyledWorldBoss = styled.div`
   margin-top: 60px;
   width: 900px;
@@ -15,13 +18,13 @@ const StyledWorldBoss = styled.div`
 
 function WorldBoss() {
   return (
-    <div style={{display: 'flex', justifyContent: 'center'}}>
+    <StyledContainer>
       <StyledWorldBoss>
         {worldBossTeams.map((team, i) => (
           <Team key={`${team}${i}`} {...team} />
         ))}
       </StyledWorldBoss>
-    </div>
+    </StyledContainer>
   )
 }
 

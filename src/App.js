@@ -40,11 +40,18 @@ const StyledNav = styled.div`
   .Nav:hover {
     color: #fff;
   }
+  @media (max-width: 414px) {
+    margin-bottom: 0;
+  }
 `
 
 const StyledGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 6fr;
+  @media (max-width: 750px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 `;
 
 function App() {

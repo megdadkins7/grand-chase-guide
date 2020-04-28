@@ -17,6 +17,10 @@ const StyledNameList = styled.div`
   .HeroContainer {
     direction: ltr;
   }
+  @media (max-width: 750px) {
+    margin-top: 10px;
+    height: 0;
+  }
 `;
 
 function NameList() {

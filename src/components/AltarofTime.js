@@ -7,6 +7,9 @@ import { altarOfTime } from '../data'
 //components
 import Altar from './Altar'
 
+//styles
+import { StyledContainer } from '../styles/TeamStyle'
+
 const StyledAltarOfTime = styled.div`
   width: 900px;
   margin: 10px 0;
@@ -15,13 +18,13 @@ const StyledAltarOfTime = styled.div`
 
 function AltarOfTime() {
   return (
-    <div style={{display: 'flex', justifyContent: 'center'}}>
+    <StyledContainer>
       <StyledAltarOfTime>
         {altarOfTime.map((altar, i) => (
           <Altar key={`${altar}${i}`} {...altar} />
         ))}
       </StyledAltarOfTime>
-    </div>  
+    </StyledContainer>  
   )
 }
 

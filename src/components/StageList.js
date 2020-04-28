@@ -12,6 +12,11 @@ const StyledStageList = styled.div`
   display: grid;
   grid-template-columns: 1fr 7fr;
   margin: 20px 10px;
+  @media (max-width: 1050px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5px;
+  }
 `;
 
 function StageList() {

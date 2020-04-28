@@ -20,6 +20,15 @@ const StyledFilterList = styled.div`
     color: #7D7D7D;
     text-transform: capitalize;
   }
+  @media (max-width: 1050px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    ul {
+      padding-left: 5px;
+    }
+  }
+  }
 `;
 
 function FilterList({ onFiltersChange }) {
@@ -81,6 +90,7 @@ function FilterList({ onFiltersChange }) {
 
   return (
     <StyledFilterList>
+      <div>
       <div className='Title'>Evos:</div>
       <ul>
         { 
@@ -98,6 +108,8 @@ function FilterList({ onFiltersChange }) {
           ) 
         }
       </ul>
+      </div>
+      <div>
       <div className='Title'>Boss:</div>
       <ul>
         { 
@@ -115,6 +127,8 @@ function FilterList({ onFiltersChange }) {
           ) 
         }
       </ul>
+      </div>
+      <div>
       <div className='Title'>S Unit:</div>
       <ul>
         { 
@@ -132,6 +146,7 @@ function FilterList({ onFiltersChange }) {
           ) 
         }
       </ul>
+      </div>
     </StyledFilterList>
   )
 }

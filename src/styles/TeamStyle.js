@@ -40,6 +40,11 @@ export const StyledTeam = styled.div`
     width: 80px;
     height: auto;
   }
+  @media (max-width: 414px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px; 
+  }
 `;
 
 export const StyledRaid = styled.div`
@@ -79,12 +84,29 @@ export const StyledRaid = styled.div`
     height: auto;
     padding: 1px;
   }
+  @media (max-width: 414px) {
+    padding: 0;
+  }
 `;
 
 export const StyledRaidList = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
+  @media (max-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  display: grid;
+    @media (max-width: 414px) {
+    grid-template-columns: 1fr;
+    padding: 0; 
+  }
+  @media (max-width: 823px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0; 
+  }
 `;
 
 export const StyledCurrentRaid = styled.div`
@@ -95,3 +117,8 @@ export const StyledCurrentRaid = styled.div`
   font-weight: 500;
   font-size: 25px;
 `;
+
+export const StyledContainer = styled.div`
+  display: flex; 
+  justify-content: center;
+`
