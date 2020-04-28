@@ -35,7 +35,7 @@ const StyledListName = styled.div`
   align-items: center;
   border-right: 1px solid rgb(18,18,18);
   span:hover {
-    color: #47D6D4
+    color: #fff;
   }
 `;
 
