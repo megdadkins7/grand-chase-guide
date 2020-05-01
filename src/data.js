@@ -169,7 +169,7 @@ import amypass from './assets/skills/amypass.png'
 import amys1 from './assets/skills/amys1.png'
 import armechaser from './assets/skills/armechaser.png'
 import armepass from './assets/skills/armepass.png'
-import armes2 from './assets/skills/armes2.png'
+import armes1 from './assets/skills/armes1.png'
 import asins1 from './assets/skills/asins1.png'
 import asins2 from './assets/skills/asins2.png'
 import diopass from './assets/skills/diopass.png'
@@ -1080,9 +1080,9 @@ export const heroBuilds= {
     setColor: '#DF7B0E',
     pic: arme,
     limitBreak1: armepass, 
-    limitBreak2: armes2,
+    limitBreak2: armes1,
     lb1: 'Passive',
-    lb2: 'S2', 
+    lb2: 'S1', 
     ring: solar,
     ringName:'Solar Ring',
     necklace: lava,
