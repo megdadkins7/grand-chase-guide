@@ -217,6 +217,7 @@ import ronanpass from './assets/skills/ronanpass.png'
 import ronans2 from './assets/skills/ronans2.png'
 import rufuss1 from './assets/skills/rufuss1.png'
 import rufuss2 from './assets/skills/rufuss2.png'
+import rufuschaser from './assets/skills/rufuschaser.png'
 import ryanchaser from './assets/skills/ryanchaser.png'
 import ryanpass from './assets/skills/ryanpass.png'
 import ryans1 from './assets/skills/ryans1.png'
@@ -1538,11 +1539,11 @@ export const heroBuilds= {
     socket1:'Physical Attack', 
     socket2: 'BASI/Crit', 
     socket3:'BADI', 
-    chaser05:'',
-    chaser10: '',
-    chaser15: '',
-    chaser20: '',
-    chaser25: '',
+    chaser05: elevatedpower,
+    chaser10: prayerofblessing,
+    chaser15: impulse,
+    chaser20: rufuschaser,
+    chaser25: fate,
     artifact: rangera,
     artifactName: 'Ranger',
     fluffy: rufusfluffy
