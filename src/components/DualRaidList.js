@@ -14,8 +14,8 @@ function DualRaidList() {
   return (
     <>
       <StyledCurrentRaid>{dualRaid}</StyledCurrentRaid>
-      <div style={{display: 'flex', justifyContent: 'center'}}>
-        <StyledRaidList>
+      <div>
+        <StyledRaidList style={{ display: 'flex', justifyContent: 'center' }}>
           {dualTeams.map((dualRaid, i) => (
             <DualRaid key={`${dualRaid}${i}`} {...dualRaid} />
           ))}
