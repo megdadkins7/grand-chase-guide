@@ -1,27 +1,25 @@
 import React from 'react'
 
 //data
-import { dualRaid, dualTeams } from '../data'
+import { dualTeams } from '../data'
 
 //components
 import DualRaid from './DualRaid'
 
 //styles
 import { StyledRaidList } from '../styles/TeamStyle'
-import { StyledCurrentRaid } from '../styles/TeamStyle'
 
 function DualRaidList() {
   return (
-    <>
-      <StyledCurrentRaid>{dualRaid}</StyledCurrentRaid>
-      <div>
-        <StyledRaidList style={{ display: 'flex', justifyContent: 'center' }}>
-          {dualTeams.map((dualRaid, i) => (
-            <DualRaid key={`${dualRaid}${i}`} {...dualRaid} />
-          ))}
-        </StyledRaidList>
-      </div>
-    </>
+    <div
+      style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}
+    >
+      <StyledRaidList>
+        {dualTeams.map((dualRaid, i) => (
+          <DualRaid key={`${dualRaid}${i}`} {...dualRaid} />
+        ))}
+      </StyledRaidList>
+    </div>
   )
 }
 
