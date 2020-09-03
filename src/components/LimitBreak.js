@@ -22,7 +22,7 @@ const StyledLimitBreak = styled.div`
   .LBTitle {
     font-size: 20px;
     font-weight: 500;
-    color: #ACACAC;
+    color: #acacac;
   }
   .LBSkill {
     height: 80px;
@@ -33,41 +33,41 @@ const StyledLimitBreak = styled.div`
     display: block;
     text-align: center;
     font-weight: 500;
-    color: #ACACAC;
+    color: #acacac;
   }
   .Arrow {
     margin: 0 10px 25px 10px;
     font-weight: 500;
     font-size: 30px;
-    color: #ACACAC;
+    color: #acacac;
   }
   @media (max-width: 550px) {
     .LBTitleWrapper {
       margin: 10px 10px 10px 50px;
     }
   }
-`;
+`
 
 function LimitBreak({ build }) {
   return (
     <StyledLimitBreak>
-      <div className='LBTitleWrapper'>
-        <div className='LBTitle'>Limit</div>
-        <div className='LBTitle'>Break</div>
+      <div className="LBTitleWrapper">
+        <div className="LBTitle">Limit</div>
+        <div className="LBTitle">Break</div>
       </div>
-      <div className='SkillWrapper'>
+      <div className="SkillWrapper">
         <div>
-          <img className='LBSkill' src={build.limitBreak1} />
-          <span className='LBName'>{build.lb1}</span>
+          <img className="LBSkill" src={build.limitBreak1} alt="" />
+          <span className="LBName">{build.lb1}</span>
         </div>
-        <span className='Arrow'>&rarr;</span>
+        <span className="Arrow">&rarr;</span>
         <div>
-        <img className='LBSkill' src={build.limitBreak2} />
-        <span className='LBName'>{build.lb2}</span>
+          <img className="LBSkill" src={build.limitBreak2} alt="" />
+          <span className="LBName">{build.lb2}</span>
         </div>
       </div>
     </StyledLimitBreak>
   )
 }
 
-export default LimitBreak;
+export default LimitBreak

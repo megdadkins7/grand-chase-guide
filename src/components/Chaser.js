@@ -15,7 +15,7 @@ const StyledChaser = styled.div`
   }
   .Title {
     margin-top: 10px;
-    color: #ACACAC;
+    color: #acacac;
   }
   .ChaserImage {
     margin: 15px 20px;
@@ -23,30 +23,30 @@ const StyledChaser = styled.div`
     width: auto;
     border: 1px solid black;
   }
-`;
+`
 
 function Chaser({ build }) {
   return (
     <StyledChaser>
-      <div className='ChaserWrapper'>
-        <div className='Title'>CL 05:</div>
-        <img className='ChaserImage' src={build.chaser05} />
+      <div className="ChaserWrapper">
+        <div className="Title">CL 05:</div>
+        <img className="ChaserImage" src={build.chaser05} alt="" />
       </div>
-      <div className='ChaserWrapper'>
-        <div className='Title'>CL 10:</div>
-        <img className='ChaserImage' src={build.chaser10} />
+      <div className="ChaserWrapper">
+        <div className="Title">CL 10:</div>
+        <img className="ChaserImage" src={build.chaser10} alt="" />
       </div>
-      <div className='ChaserWrapper'>
-        <div className='Title'>CL 15:</div>
-        <img className='ChaserImage' src={build.chaser15} />
+      <div className="ChaserWrapper">
+        <div className="Title">CL 15:</div>
+        <img className="ChaserImage" src={build.chaser15} alt="" />
       </div>
-      <div className='ChaserWrapper'>
-        <div className='Title'>CL 20:</div>
-        <img className='ChaserImage' src={build.chaser20} />
+      <div className="ChaserWrapper">
+        <div className="Title">CL 20:</div>
+        <img className="ChaserImage" src={build.chaser20} alt="" />
       </div>
-      <div className='ChaserWrapper'>
-        <div className='Title'>CL 25:</div>
-        <img className='ChaserImage' src={build.chaser25} />
+      <div className="ChaserWrapper">
+        <div className="Title">CL 25:</div>
+        <img className="ChaserImage" src={build.chaser25} alt="" />
       </div>
     </StyledChaser>
   )

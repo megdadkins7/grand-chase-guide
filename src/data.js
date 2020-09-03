@@ -167,7 +167,6 @@ import wbveigas from './assets/worldboss/wbveigas.png'
 import wbdio from './assets/worldboss/wbdio.png'
 import wbio from './assets/worldboss/wbio.png'
 import wbsieghart from './assets/worldboss/wbsieghart.png'
-import wbeuropa from './assets/worldboss/wbeuropa.png'
 import wbhwarin from './assets/worldboss/wbhwarin.png'
 
 import asinchaser from './assets/skills/asinchaser.png'
@@ -189,7 +188,6 @@ import amys1 from './assets/skills/amys1.png'
 import armechaser from './assets/skills/armechaser.png'
 import armepass from './assets/skills/armepass.png'
 import armes1 from './assets/skills/armes1.png'
-import asins1 from './assets/skills/asins1.png'
 import asins2 from './assets/skills/asins2.png'
 import diopass from './assets/skills/diopass.png'
 import dios1 from './assets/skills/dios1.png'
@@ -214,7 +212,6 @@ import kanavans1 from './assets/skills/kanavans1.png'
 import kanavans2 from './assets/skills/kanavans2.png'
 import kanavanchaser from './assets/skills/kanavanchaser.png'
 import lasschaser from './assets/skills/lasschaser.png'
-import lasss1 from './assets/skills/lasss1.png'
 import lasss2 from './assets/skills/lasss2.png'
 import leychaser from './assets/skills/leychaser.png'
 import leypass from './assets/skills/leypass.png'
@@ -236,10 +233,8 @@ import ronanchaser from './assets/skills/ronanchaser.png'
 import ronanpass from './assets/skills/ronanpass.png'
 import ronans2 from './assets/skills/ronans2.png'
 import rufuss1 from './assets/skills/rufuss1.png'
-import rufuss2 from './assets/skills/rufuss2.png'
 import rufuschaser from './assets/skills/rufuschaser.png'
 import ryanchaser from './assets/skills/ryanchaser.png'
-import ryanpass from './assets/skills/ryanpass.png'
 import ryans1 from './assets/skills/ryans1.png'
 import serdins1 from './assets/skills/serdins1.png'
 import serdins2 from './assets/skills/serdins2.png'
@@ -260,7 +255,6 @@ import basi from './assets/traits/basi.png'
 import cdr from './assets/traits/cdr.png'
 import crit from './assets/traits/crit.png'
 import csr from './assets/traits/csr.png'
-import imhr from './assets/traits/ihmr.png'
 import sadi from './assets/traits/sadi.png'
 import sadr from './assets/traits/sadr.png'
 
@@ -281,7 +275,6 @@ import longlife from './assets/chaser/longlife.jpg'
 import persistentexecutioner from './assets/chaser/persistentexecutioner.jpg'
 import prayerofblessing from './assets/chaser/prayerofblessing.jpg'
 import pureluck from './assets/chaser/pureluck.jpg'
-import soulhealer from './assets/chaser/soulhealer.jpg'
 
 import amyfluffy from './assets/fluffy/amyfluffy.png'
 import armefluffy from './assets/fluffy/armefluffy.png'
@@ -341,11 +334,6 @@ import brawl from './assets/diamond/brawl.png'
 import elite from './assets/diamond/elite.png'
 import relay from './assets/diamond/relay.png'
 
-import fireandice from './assets/diamond/fireandice.png'
-import lastavatar from './assets/diamond/lastavatar.png'
-import newworld from './assets/diamond/newworld.png'
-import calmandpassion from './assets/diamond/calmandpassion.png'
-import contractterminated from './assets/diamond/contractterminated.png'
 import crazyenvoy from './assets/diamond/crazyenvoy.png'
 
 import swayingambition from './assets/diamond/swayingambition.png'
@@ -498,7 +486,7 @@ export const grandChaseData = [
   {
     stage: '6-6',
     boss: ['ranger'],
-    mats: ['enchants', 'bov'],
+    mats: ['enchants'],
     evos: ['tank'],
     sUnit: ['tank'],
   },
@@ -533,126 +521,126 @@ export const grandChaseData = [
   {
     stage: '8-3',
     boss: ['assault'],
-    mats: ['enchants', 'bov', 'runes'],
+    mats: ['enchants', 'bov', 'runes', 'aot'],
     evos: ['healer'],
     sUnit: null,
   },
   {
     stage: '8-6',
     boss: ['ranger'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['tank'],
     sUnit: ['tank'],
   },
   {
     stage: '8-9',
     boss: ['mage'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['mage'],
     sUnit: ['mage'],
   },
   {
     stage: '9-3',
     boss: ['mage'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['ranger'],
     sUnit: ['ranger'],
   },
   {
     stage: '9-6',
     boss: ['healer'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['healer'],
     sUnit: ['healer'],
   },
   {
     stage: '9-9',
     boss: ['assault'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['assault'],
     sUnit: ['assault'],
   },
   {
     stage: '10-3',
     boss: ['mage'],
-    mats: ['enchants', 'bov', 'runes'],
+    mats: ['enchants', 'bov', 'runes', 'aot'],
     evos: ['tank'],
     sUnit: null,
   },
   {
     stage: '10-6',
     boss: ['tank'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['tank'],
     sUnit: ['tank'],
   },
   {
     stage: '10-9',
     boss: ['assault'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['mage'],
     sUnit: ['mage'],
   },
   {
     stage: '11-3',
     boss: ['assault'],
-    mats: ['enchants', 'bov', 'runes'],
+    mats: ['enchants', 'bov', 'runes', 'aot'],
     evos: ['ranger'],
     sUnit: null,
   },
   {
     stage: '11-6',
     boss: ['tank'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['ranger'],
     sUnit: ['ranger'],
   },
   {
     stage: '11-9',
     boss: ['assault'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['healer'],
     sUnit: ['healer'],
   },
   {
     stage: '12-3',
     boss: ['mage'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['assault'],
     sUnit: ['assault'],
   },
   {
     stage: '12-6',
     boss: ['mage'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['tank'],
     sUnit: ['tank'],
   },
   {
     stage: '12-9',
     boss: ['healer'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['mage'],
     sUnit: ['mage'],
   },
   {
     stage: '13-3',
     boss: ['tank'],
-    mats: ['enchants', 'bov', 'runes'],
+    mats: ['enchants', 'bov', 'runes', 'aot'],
     evos: ['healer'],
     sUnit: null,
   },
   {
     stage: '13-6',
     boss: ['ranger'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['ranger'],
     sUnit: ['ranger'],
   },
   {
     stage: '13-9',
     boss: ['assault'],
-    mats: ['enchants', 'runes'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['healer'],
     sUnit: ['healer'],
   },
@@ -849,127 +837,127 @@ export const grandChaseData = [
     stage: '23-3',
     boss: ['tank'],
     mats: ['enchants', 'bov', 'runes', 'aot'],
-    evos: ['ranger'],
+    evos: ['healer'],
     sUnit: null,
   },
   {
     stage: '23-6',
     boss: ['ranger'],
     mats: ['enchants', 'runes', 'aot'],
-    evos: ['healer'],
-    sUnit: ['tank'],
+    evos: ['ranger'],
+    sUnit: ['ranger'],
   },
   {
     stage: '23-9',
     boss: ['mage'],
     mats: ['enchants', 'runes', 'aot'],
-    evos: ['tank'],
-    sUnit: ['mage'],
+    evos: ['healer'],
+    sUnit: ['healer'],
   },
   {
     stage: '24-3',
     boss: ['healer'],
-    mats: ['enchants', 'bov', 'runes', 'aot'],
+    mats: ['enchants', 'runes', 'aot'],
     evos: ['assault'],
-    sUnit: null,
+    sUnit: ['assault'],
   },
   {
     stage: '24-6',
     boss: ['assault'],
     mats: ['enchants', 'runes', 'aot'],
-    evos: ['mage'],
-    sUnit: ['ranger'],
+    evos: ['tank'],
+    sUnit: ['tank'],
   },
   {
     stage: '24-9',
     boss: ['assault'],
     mats: ['enchants', 'runes', 'aot'],
-    evos: ['ranger'],
-    sUnit: ['healer'],
+    evos: ['mage'],
+    sUnit: ['mage'],
   },
   {
     stage: '25-3',
     boss: ['tank'],
     mats: ['enchants', 'bov', 'runes', 'aot'],
-    evos: ['healer'],
+    evos: ['tank'],
     sUnit: null,
   },
   {
     stage: '25-6',
     boss: ['assault'],
     mats: ['enchants', 'runes', 'aot'],
-    evos: ['tank'],
-    sUnit: ['assault'],
+    evos: ['ranger'],
+    sUnit: ['ranger'],
   },
   {
     stage: '25-9',
     boss: ['mage'],
     mats: ['enchants', 'runes', 'aot'],
-    evos: ['assault'],
-    sUnit: ['mage'],
+    evos: ['healer'],
+    sUnit: ['healer'],
   },
   {
-    stage: 'Challenge 23-3',
-    boss: ['tank'],
+    stage: '26-3',
+    boss: ['assault'],
     mats: ['enchants', 'bov', 'runes', 'aot'],
-    evos: ['healer'],
+    evos: ['ranger'],
     sUnit: null,
   },
   {
-    stage: 'Challenge 23-6',
+    stage: '26-6',
     boss: ['ranger'],
-    mats: ['enchants', 'runes', 'aot'],
-    evos: ['tank'],
-    sUnit: ['tank'],
-  },
-  {
-    stage: 'Challenge 23-9',
-    boss: ['mage'],
     mats: ['enchants', 'runes', 'aot'],
     evos: ['mage'],
     sUnit: ['mage'],
   },
   {
-    stage: 'Challenge 24-3',
-    boss: ['healer'],
+    stage: '26-9',
+    boss: ['assault'],
     mats: ['enchants', 'runes', 'aot'],
     evos: ['ranger'],
     sUnit: ['ranger'],
   },
   {
-    stage: 'Challenge 24-6',
+    stage: '27-3',
     boss: ['assault'],
     mats: ['enchants', 'runes', 'aot'],
     evos: ['healer'],
     sUnit: ['healer'],
   },
   {
-    stage: 'Challenge 24-9',
-    boss: ['assault'],
+    stage: '27-6',
+    boss: ['healer'],
     mats: ['enchants', 'runes', 'aot'],
     evos: ['assault'],
     sUnit: ['assault'],
   },
   {
-    stage: 'Challenge 25-3',
-    boss: ['tank'],
-    mats: ['enchants', 'bov', 'runes', 'aot'],
-    evos: ['tank'],
-    sUnit: null,
-  },
-  {
-    stage: 'Challenge 25-6',
-    boss: ['assault'],
+    stage: '27-9',
+    boss: ['mage'],
     mats: ['enchants', 'runes', 'aot'],
     evos: ['tank'],
     sUnit: ['tank'],
   },
   {
-    stage: 'Challenge 25-9',
-    boss: ['mage'],
+    stage: '28-3',
+    boss: ['tank'],
+    mats: ['enchants', 'bov', 'runes', 'aot'],
+    evos: ['assault'],
+    sUnit: null,
+  },
+  {
+    stage: '28-6',
+    boss: ['assault'],
     mats: ['enchants', 'runes', 'aot'],
     evos: ['mage'],
     sUnit: ['mage'],
+  },
+  {
+    stage: '28-9',
+    boss: ['mage'],
+    mats: ['enchants', 'runes', 'aot'],
+    evos: ['ranger'],
+    sUnit: ['ranger'],
   },
 ]
 
