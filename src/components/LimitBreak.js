@@ -25,6 +25,7 @@ const StyledLimitBreak = styled.div`
     color: #acacac;
   }
   .LBSkill {
+    margin: 0 50px;
     height: 80px;
     width: auto;
     border: 1px solid black;
@@ -34,6 +35,7 @@ const StyledLimitBreak = styled.div`
     text-align: center;
     font-weight: 500;
     color: #acacac;
+    margin-top: 10px;
   }
   .Arrow {
     margin: 0 10px 25px 10px;

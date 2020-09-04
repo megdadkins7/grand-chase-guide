@@ -15,15 +15,15 @@ const StyledTraits = styled.div`
     margin: 10px;
     height: 80px;
     width: auto;
-    border: 1px solid #56DE74;
+    border: 1px solid #56de74;
   }
   .PetTitle {
     font-weight: 500;
-    color: #ACACAC;
+    color: #acacac;
   }
   .PetName {
     margin-left: 5px;
-    color: #ACACAC;
+    color: #acacac;
   }
   .Traits {
     display: grid;
@@ -34,50 +34,50 @@ const StyledTraits = styled.div`
     text-align: center;
   }
   .Points {
-    color: #ACACAC;
+    color: #acacac;
   }
   .TraitTitle {
     font-weight: 500;
-    color: #ACACAC;
+    color: #acacac;
   }
   .TraitName {
-    color: #ACACAC;
+    color: #acacac;
   }
   .TraitPic {
-    margin: 10px;
+    margin: 10px 40px;
     height: 80px;
     width: auto;
     border: 1px solid black;
   }
-`;
+`
 
 function Traits({ build }) {
   return (
     <StyledTraits>
-      <div className='PetWrapper'>
-        <img className='Pet' src={build.pet} alt='pet' />
+      <div className="PetWrapper">
+        <img className="Pet" src={build.pet} alt="pet" />
         <div>
-          <span className='PetTitle'>Pet:</span>
-          <span className='PetName'>{build.petName}</span>
+          <span className="PetTitle">Pet:</span>
+          <span className="PetName">{build.petName}</span>
         </div>
       </div>
-      <div className='Traits'>
+      <div className="Traits">
         <div>
-          <div className='TraitTitle'>Traits:</div>
-          <div className='Points'>4 points</div>
-          <div className='Points'>in each</div>
+          <div className="TraitTitle">Traits:</div>
+          <div className="Points">4 points</div>
+          <div className="Points">in each</div>
         </div>
         <div>
-          <img className='TraitPic' src={build.trait1} alt='trait' />
-          <div className='TraitName'>{build.tn1}</div>
+          <img className="TraitPic" src={build.trait1} alt="trait" />
+          <div className="TraitName">{build.tn1}</div>
         </div>
         <div>
-          <img className='TraitPic' src={build.trait2} alt='trait' />
-          <div className='TraitName'>{build.tn2}</div>
+          <img className="TraitPic" src={build.trait2} alt="trait" />
+          <div className="TraitName">{build.tn2}</div>
         </div>
         <div>
-          <img className='TraitPic' src={build.trait3} alt='trait' />
-          <div className='TraitName'>{build.tn3}</div>
+          <img className="TraitPic" src={build.trait3} alt="trait" />
+          <div className="TraitName">{build.tn3}</div>
         </div>
       </div>
     </StyledTraits>

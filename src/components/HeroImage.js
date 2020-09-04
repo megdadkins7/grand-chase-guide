@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import styled from 'styled-components'
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/opacity.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/opacity.css'
 
 const StyledHeroImage = styled.div`
   display: flex;
@@ -16,17 +16,16 @@ const StyledHeroImage = styled.div`
       height: 380px;
     }
   }
-}
-`;
+`
 
 function HeroImage({ build }) {
   return (
     <StyledHeroImage>
       <LazyLoadImage
-        className='Hero'
+        className="Hero"
         src={build.pic}
-        alt='Hero'
-        effect='opacity'
+        alt="Hero"
+        effect="opacity"
       />
     </StyledHeroImage>
   )

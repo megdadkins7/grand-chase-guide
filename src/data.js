@@ -180,6 +180,7 @@ import neliachaser from './assets/skills/neliachaser.png'
 import serdinchaser from './assets/skills/serdinchaser.png'
 import veigaschaser from './assets/skills/veigaschaser.png'
 import wernerchaser from './assets/skills/wernerchaser.png'
+import diochaser from './assets/skills/diochaser.png'
 import asinpass from './assets/skills/asinpass.png'
 import rufuspass from './assets/skills/rufuspass.png'
 import ryans2 from './assets/skills/ryans2.png'
@@ -1569,11 +1570,11 @@ export const heroBuilds = {
     socket1: 'Physical Attack',
     socket2: 'CDR',
     socket3: 'SADI',
-    chaser05: '',
-    chaser10: '',
-    chaser15: '',
-    chaser20: '',
-    chaser25: '',
+    chaser05: prayerofblessing,
+    chaser10: impulse,
+    chaser15: persistentexecutioner,
+    chaser20: diochaser,
+    chaser25: longlife,
     artifact: assaulta,
     artifactName: 'Assault',
     fluffy: diofluffy,
