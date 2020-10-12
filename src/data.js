@@ -42,10 +42,12 @@ import rufus from './assets/heroes/rufus.png'
 import ryan from './assets/heroes/ryan.png'
 import serdin from './assets/heroes/serdin.png'
 import sieghart from './assets/heroes/sieghart.png'
+import tia from './assets/heroes/tia.png'
 import veigas from './assets/heroes/veigas.png'
 import werner from './assets/heroes/werner.png'
 import zero from './assets/heroes/zero.png'
 
+import tia2 from './assets/landinghero/tia2.png'
 import hwarin2 from './assets/landinghero/hwarin2.png'
 import europa2 from './assets/landinghero/europa2.png'
 import io2 from './assets/landinghero/io2.png'
@@ -78,6 +80,7 @@ import arsad2 from './assets/landinghero/arsad2.png'
 
 import sr from './assets/diamond/sr.png'
 
+import tiav from './assets/profiles/tiav.png'
 import elesisv from './assets/profiles/elesisv.png'
 import lirev from './assets/profiles/lirev.png'
 import armev from './assets/profiles/armev.png'
@@ -108,6 +111,7 @@ import europav from './assets/profiles/europav.png'
 import gaianv from './assets/profiles/gaianv.png'
 import arsadv from './assets/profiles/arsadv.png'
 
+import pion from './assets/pets/pion.png'
 import almong from './assets/pets/almong.png'
 import crocell from './assets/pets/crocell.png'
 import dangel from './assets/pets/dangel.png'
@@ -146,6 +150,7 @@ import stimulation from './assets/partyskill/stimulation.jpg'
 import wbelesis from './assets/worldboss/wbelesis.png'
 //import wbkanavan from './assets/worldboss/wbkanavan.png'
 //import wbeuropa from './assets/worldboss/wbeuropa.png'
+//import wbtia from './assets/worldboss/wbtia.png'
 import wblire from './assets/worldboss/wblire.png'
 import wbserdin from './assets/worldboss/wbserdin.png'
 //import wbwerner from './assets/worldboss/wbwerner.png'
@@ -171,6 +176,10 @@ import wbio from './assets/worldboss/wbio.png'
 //import wbsieghart from './assets/worldboss/wbsieghart.png'
 import wbhwarin from './assets/worldboss/wbhwarin.png'
 
+import grandielchaser from './assets/skills/grandielchaser.png'
+import tiachaser from './assets/skills/tiachaser.png'
+import tias2 from './assets/skills/tias2.png'
+import tiapassive from './assets/skills/tiapassive.png'
 import asinchaser from './assets/skills/asinchaser.png'
 import europachaser from './assets/skills/europachaser.png'
 import europapassive from './assets/skills/europapassive.png'
@@ -1123,6 +1132,13 @@ export const heroes = [
     profilePic: europav,
   },
   {
+    id: 'tia',
+    name: 'Tia',
+    pic: tia2,
+    heroColor: '#AEC5FD',
+    profilePic: tiav,
+  },
+  {
     id: 'gaian',
     name: 'Gaian',
     pic: gaian2,
@@ -2050,11 +2066,11 @@ export const heroBuilds = {
     socket1: 'Magic Attack',
     socket2: 'CDR',
     socket3: 'SADR',
-    chaser05: '',
-    chaser10: '',
-    chaser15: '',
-    chaser20: '',
-    chaser25: '',
+    chaser05: longlife,
+    chaser10: prayerofblessing,
+    chaser15: impulse,
+    chaser20: grandielchaser,
+    chaser25: breathoflife,
     artifact: healera,
     artifactName: 'Healer',
     fluffy: grandielfluffy,
@@ -2216,6 +2232,45 @@ export const heroBuilds = {
     chaser25: persistentexecutioner,
     artifact: assaulta,
     artifactName: 'Assault',
+  },
+  tia: {
+    id: 'tia',
+    name: 'Tia',
+    rank: sr,
+    type: 'tank',
+    color: '#0C9AFF',
+    classPic: tank,
+    pet: pion,
+    petName: 'Pion',
+    set: 'Dagger of Passion (orange)',
+    setColor: '#DF7B0E',
+    pic: tia,
+    limitBreak1: tias2,
+    limitBreak2: tiapassive,
+    lb1: 'S2',
+    lb2: 'Passive',
+    ring: glacial,
+    ringName: 'Glacial Ring',
+    necklace: chasm,
+    necklaceName: 'Chasm Necklace',
+    earrings: order,
+    earringsName: 'Earrings of Order',
+    trait1: cdr,
+    tn1: 'CDR',
+    trait2: sadr,
+    tn2: 'SADR',
+    trait3: badr,
+    tn3: 'BADR',
+    socket1: 'Max Health',
+    socket2: 'CDR',
+    socket3: 'SADR/BADR',
+    chaser05: prayerofblessing,
+    chaser10: divineprotection,
+    chaser15: impulse,
+    chaser20: tiachaser,
+    chaser25: longlife,
+    artifact: tanka,
+    artifactName: 'Tank',
   },
   gaian: {
     id: 'darkGaian',
