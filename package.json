@@ -2,6 +2,7 @@
   "name": "grand-chase",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ecencio.github.io/grand-chase-guide",
   "dependencies": {
     "prettier": "^1.18.2",
     "react": "^16.9.0",
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +38,7 @@
   "devDependencies": {
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.2"
+    "eslint-plugin-react": "^7.14.2",
+    "gh-pages": "^3.1.0"
   }
 }
