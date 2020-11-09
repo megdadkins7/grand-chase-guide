@@ -976,6 +976,7 @@ export const grandChaseData = [
 export const evos = ['assault', 'tank', 'ranger', 'mage', 'healer']
 export const boss = ['assault', 'tank', 'ranger', 'mage', 'healer']
 export const sUnit = ['assault', 'tank', 'ranger', 'mage', 'healer']
+export const mats = ['enchants', 'runes', 'bov', 'aot']
 
 export const heroes = [
   {

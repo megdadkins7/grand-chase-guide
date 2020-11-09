@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 
 //data
-import { evos, boss, sUnit } from '../data'
+import { evos, boss, sUnit, mats } from '../data'
 
 const StyledFilterList = styled.div`
   .Title {
@@ -34,10 +34,11 @@ function FilterList({ onFiltersChange }) {
   const [evoFilter, setEvoFilter] = useState([])
   const [bossFilter, setBossFilter] = useState([])
   const [sUnitFilter, setSUnitFilter] = useState([])
+  const [materialFilter, setMaterialFilter] = useState([])
 
   useEffect(() => {
-    onFiltersChange({ evos: evoFilter, boss: bossFilter, sUnit: sUnitFilter })
-  }, [evoFilter, bossFilter, sUnitFilter])
+    onFiltersChange({ evos: evoFilter, boss: bossFilter, sUnit: sUnitFilter, mats: materialFilter })
+  }, [evoFilter, bossFilter, sUnitFilter, materialFilter])
 
   const handleOnEvoChange = e => {
     const nextEvoFilter = e.target.value
@@ -78,6 +79,22 @@ function FilterList({ onFiltersChange }) {
       const currentFilterLoc = state.indexOf(nextSUnitFilter)
       if (currentFilterLoc === -1) {
         return [...sUnitFilter, nextSUnitFilter]
+      } else {
+        return [
+          ...state.slice(0, currentFilterLoc),
+          ...state.slice(currentFilterLoc + 1, state.length),
+        ]
+      }
+    })
+  }
+
+  const handleOnMaterialChange = e => {
+    const nextMaterialFilter = e.target.value
+
+    setMaterialFilter(state => {
+      const currentFilterLoc = state.indexOf(nextMaterialFilter)
+      if (currentFilterLoc === -1) {
+        return [...materialFilter, nextMaterialFilter]
       } else {
         return [
           ...state.slice(0, currentFilterLoc),
@@ -133,6 +150,22 @@ function FilterList({ onFiltersChange }) {
                 onChange={handleOnSUnitChange}
               />
               <label className="Info">{sUnit}</label>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <div className="Title">Materials:</div>
+        <ul>
+          {mats.map(material => (
+            <li className="Block" key={material}>
+              <input
+                type="checkbox"
+                value={material}
+                checked={materialFilter.includes(material)}
+                onChange={handleOnMaterialChange}
+              />
+              <label className="Info">{material}</label>
             </li>
           ))}
         </ul>
